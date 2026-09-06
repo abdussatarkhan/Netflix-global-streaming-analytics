@@ -1,0 +1,5 @@
+region_id,region_code,region_name,hq_location,currency_code
+1,UCAN,United States and Canada,"Los Gatos, CA",USD
+2,EMEA,"Europe, Middle East and Africa","Amsterdam, Netherlands",EUR
+3,LATAM,Latin America,"Sao Paulo, Brazil",BRL
+4,APAC,Asia Pacific,Singapore,USD

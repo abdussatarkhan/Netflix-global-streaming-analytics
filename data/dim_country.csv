@@ -1,0 +1,25 @@
+country_id,region_id,country_code,country_name,tier,broadband_penetration_pct,sub_base_weight,avg_arpu_base
+1,1,US,United States,Tier 1,92.5,0.32,16.5
+2,1,CA,Canada,Tier 1,91.0,0.05,14.8
+3,2,GB,United Kingdom,Tier 1,95.0,0.07,12.8
+4,2,DE,Germany,Tier 1,90.0,0.06,12.2
+5,2,FR,France,Tier 1,88.0,0.05,12.0
+6,2,ES,Spain,Tier 2,87.0,0.03,10.9
+7,2,IT,Italy,Tier 2,82.0,0.03,10.5
+8,2,NL,Netherlands,Tier 1,97.0,0.02,13.1
+9,2,PL,Poland,Tier 2,84.0,0.02,8.5
+10,2,SA,Saudi Arabia,Tier 2,98.0,0.015,11.5
+11,2,AE,United Arab Emirates,Tier 1,99.0,0.01,12.5
+12,2,ZA,South Africa,Tier 3,68.0,0.01,6.8
+13,3,BR,Brazil,Tier 2,81.0,0.08,7.8
+14,3,MX,Mexico,Tier 2,76.0,0.06,8.2
+15,3,AR,Argentina,Tier 3,80.0,0.02,5.4
+16,3,CO,Colombia,Tier 3,70.0,0.015,6.2
+17,3,CL,Chile,Tier 2,88.0,0.01,8.6
+18,4,JP,Japan,Tier 1,93.0,0.04,11.2
+19,4,KR,South Korea,Tier 1,97.0,0.035,10.4
+20,4,IN,India,Tier 3,55.0,0.05,3.6
+21,4,AU,Australia,Tier 1,91.0,0.025,13.9
+22,4,ID,Indonesia,Tier 3,62.0,0.015,4.5
+23,4,TH,Thailand,Tier 3,74.0,0.01,5.8
+24,4,PH,Philippines,Tier 3,65.0,0.01,4.9

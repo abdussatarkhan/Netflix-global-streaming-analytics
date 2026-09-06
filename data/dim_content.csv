@@ -1,0 +1,401 @@
+content_id,title_name,content_type,genre,original_language,release_year,production_budget_m_usd,imdb_rating,episodes_count,is_netflix_original,content_tier
+1,Squid Game,TV Series,Sci-Fi & Fantasy,Korean,2021,21.4,8.0,9,1,Core Catalog
+2,Stranger Things (Season 4),TV Series,Sci-Fi & Fantasy,English,2022,270.0,8.7,9,1,Blockbuster Tentpole
+3,Wednesday,TV Series,Comedy,English,2022,35.0,8.1,8,1,Mid-Tier Hit
+4,Red Notice,Movie,Action & Adventure,English,2021,200.0,6.3,1,1,Blockbuster Tentpole
+5,Glass Onion: A Knives Out Mystery,Movie,Thriller & Mystery,English,2022,40.0,7.1,1,1,Mid-Tier Hit
+6,The Crown (Season 5-6),TV Series,Drama,English,2022,130.0,8.6,20,1,Blockbuster Tentpole
+7,Bridgerton (Season 2-3),TV Series,Romance,English,2022,140.0,7.4,16,1,Blockbuster Tentpole
+8,Money Heist: Korea,TV Series,Crime & Docuseries,Korean,2022,45.0,6.8,12,1,Mid-Tier Hit
+9,Lupin (Part 3),TV Series,Thriller & Mystery,French,2023,30.0,7.5,7,1,Mid-Tier Hit
+10,One Piece (Live Action),TV Series,Action & Adventure,English,2023,138.0,8.3,8,1,Blockbuster Tentpole
+11,Baby Reindeer,TV Series,Drama,English,2024,15.0,7.8,7,1,Core Catalog
+12,The Night Agent,TV Series,Thriller & Mystery,English,2023,25.0,7.5,10,1,Core Catalog
+13,Extraction 2,Movie,Action & Adventure,English,2023,70.0,7.0,1,1,Mid-Tier Hit
+14,Leave the World Behind,Movie,Thriller & Mystery,English,2023,40.0,6.5,1,1,Mid-Tier Hit
+15,Fool Me Once,TV Series,Thriller & Mystery,English,2024,20.0,6.8,8,1,Core Catalog
+16,Society of the Snow,Movie,Drama,Spanish,2023,65.0,7.8,1,1,Mid-Tier Hit
+17,Avatar: The Last Airbender,TV Series,Action & Adventure,English,2024,120.0,7.2,8,1,Blockbuster Tentpole
+18,3 Body Problem,TV Series,Sci-Fi & Fantasy,English,2024,160.0,7.6,8,1,Blockbuster Tentpole
+19,Formula 1: Drive to Survive,Docuseries,Crime & Docuseries,English,2021,28.0,8.5,30,1,Mid-Tier Hit
+20,Beef,TV Series,Comedy,English,2023,35.0,8.0,10,1,Mid-Tier Hit
+21,Culinary Class Wars,Reality TV & Lifestyle,Reality TV & Lifestyle,Korean,2024,18.0,8.4,12,1,Core Catalog
+22,Jake Paul vs. Mike Tyson (Live),Live Event,Action & Adventure,English,2024,50.0,6.2,1,1,Mid-Tier Hit
+23,Beverly Hills Cop: Axel F,Movie,Comedy,English,2024,150.0,6.5,1,1,Blockbuster Tentpole
+24,Squid Game (Season 2),TV Series,Sci-Fi & Fantasy,Korean,2024,100.0,8.2,7,1,Blockbuster Tentpole
+25,The Diplomat (Season 2),TV Series,Drama,English,2024,45.0,8.0,6,1,Mid-Tier Hit
+26,Neon Chronicles,TV Series,Animation & Anime,Spanish,2022,10.3,6.6,13,1,Core Catalog
+27,Wild Echoes,TV Series,Reality TV & Lifestyle,Spanish,2023,18.4,7.1,8,1,Core Catalog
+28,Crimson Island: Chapter 3,Movie,Action & Adventure,Korean,2022,10.2,6.8,1,1,Core Catalog
+29,Golden Detective,Movie,Romance,Korean,2024,11.5,8.5,1,0,Core Catalog
+30,Eternal Empire,TV Series,Comedy,English,2025,30.8,9.4,13,1,Mid-Tier Hit
+31,Shattered Syndicate,Stand-up Comedy,Action & Adventure,English,2022,15.9,6.9,1,0,Core Catalog
+32,Wild Horizon: Chapter 2,TV Series,Animation & Anime,English,2024,8.4,6.8,15,1,Core Catalog
+33,Infinite Legacy,Docuseries,Animation & Anime,English,2021,7.2,7.0,8,0,Core Catalog
+34,Quantum Code,Movie,Drama,Japanese,2022,14.6,6.2,1,1,Core Catalog
+35,Hidden Kingdom,TV Series,Romance,Spanish,2023,60.2,7.8,16,1,Mid-Tier Hit
+36,Midnight Game,Animation,Reality TV & Lifestyle,French,2024,8.9,6.8,16,1,Core Catalog
+37,Last Project: Chapter 4,TV Series,Drama,English,2024,5.3,6.7,16,0,Core Catalog
+38,Electric Frontier,TV Series,Animation & Anime,Portuguese,2022,31.6,6.2,9,1,Mid-Tier Hit
+39,Wild Empire,Movie,Action & Adventure,English,2021,24.1,6.9,1,0,Core Catalog
+40,Midnight Heist,TV Series,Sci-Fi & Fantasy,Spanish,2023,8.7,8.3,6,1,Core Catalog
+41,Royal Mirror,Movie,Crime & Docuseries,English,2024,30.9,7.5,1,1,Mid-Tier Hit
+42,Neon Frontier: Chapter 2,TV Series,Comedy,English,2023,8.8,6.8,12,1,Core Catalog
+43,Royal Frontier,Animation,Reality TV & Lifestyle,English,2024,36.6,7.2,17,0,Mid-Tier Hit
+44,Golden Frontier: Chapter 2,TV Series,Horror,English,2024,32.6,8.7,16,1,Mid-Tier Hit
+45,Quantum Island,TV Series,Horror,Korean,2021,5.7,7.1,14,1,Core Catalog
+46,Dark Signal,TV Series,Animation & Anime,French,2024,25.3,5.8,12,1,Mid-Tier Hit
+47,Silent Mirror,Stand-up Comedy,Thriller & Mystery,Hindi,2024,27.1,6.3,1,1,Mid-Tier Hit
+48,Eternal Detective: Chapter 4,TV Series,Thriller & Mystery,Japanese,2021,14.9,7.8,10,1,Core Catalog
+49,Dark Legacy,Stand-up Comedy,Thriller & Mystery,Arabic,2021,18.9,7.4,1,1,Core Catalog
+50,Silent Echoes: Chapter 2,Movie,Animation & Anime,English,2024,23.0,6.4,1,1,Core Catalog
+51,Shattered Code,Movie,Reality TV & Lifestyle,French,2024,47.7,8.0,1,1,Mid-Tier Hit
+52,Silent Voyage,Docuseries,Thriller & Mystery,English,2023,11.8,7.2,11,1,Core Catalog
+53,Infinite Mirror: Chapter 2,TV Series,Crime & Docuseries,English,2023,17.1,6.5,11,1,Core Catalog
+54,Shadow Echoes,Movie,Romance,English,2021,11.5,5.6,1,1,Core Catalog
+55,Electric Game,TV Series,Action & Adventure,English,2021,4.8,6.8,6,0,Core Catalog
+56,Royal Code: Chapter 2,TV Series,Horror,Korean,2022,17.6,6.6,12,1,Core Catalog
+57,Infinite City,TV Series,Crime & Docuseries,English,2021,28.8,7.6,9,1,Mid-Tier Hit
+58,Infinite Heist,TV Series,Action & Adventure,English,2024,16.5,7.8,15,1,Core Catalog
+59,Silent Dynasty: Chapter 4,Movie,Comedy,Korean,2025,29.9,8.7,1,1,Mid-Tier Hit
+60,Dark Mirror: Chapter 4,TV Series,Thriller & Mystery,French,2024,20.6,6.5,17,0,Core Catalog
+61,Silent Voyage,TV Series,Animation & Anime,English,2024,25.1,6.9,10,0,Mid-Tier Hit
+62,Dangerous Kingdom: Chapter 4,TV Series,Horror,French,2022,45.7,6.6,9,1,Mid-Tier Hit
+63,Golden Syndicate,TV Series,Action & Adventure,English,2024,10.8,8.0,9,1,Core Catalog
+64,Neon Game,Animation,Drama,English,2025,75.9,8.1,9,1,Mid-Tier Hit
+65,Hidden Signal: Chapter 2,TV Series,Thriller & Mystery,Korean,2023,17.5,6.5,15,1,Core Catalog
+66,Forbidden Game: Chapter 3,TV Series,Romance,Spanish,2024,20.0,6.6,11,1,Core Catalog
+67,Infinite Protocol: Chapter 2,TV Series,Sci-Fi & Fantasy,Hindi,2021,20.7,6.9,9,1,Core Catalog
+68,Eternal Code,Movie,Comedy,English,2021,16.2,6.2,1,1,Core Catalog
+69,Electric Code: Chapter 2,TV Series,Reality TV & Lifestyle,Japanese,2024,5.2,6.3,14,0,Core Catalog
+70,Shattered Project,Docuseries,Crime & Docuseries,English,2024,32.3,6.1,11,1,Mid-Tier Hit
+71,Dark Legacy: Chapter 2,TV Series,Horror,English,2022,94.8,6.4,15,1,Blockbuster Tentpole
+72,Shadow Kingdom: Chapter 4,TV Series,Comedy,Spanish,2023,9.8,5.7,6,1,Core Catalog
+73,Infinite City: Chapter 3,Movie,Thriller & Mystery,French,2025,15.5,6.8,1,1,Core Catalog
+74,Wild Project,Docuseries,Drama,English,2024,21.6,8.8,6,0,Core Catalog
+75,Infinite Echoes: Chapter 2,Movie,Thriller & Mystery,Spanish,2024,9.7,6.4,1,0,Core Catalog
+76,Silent Horizon,TV Series,Comedy,English,2024,18.0,8.5,11,1,Core Catalog
+77,Wild Signal,Docuseries,Crime & Docuseries,Portuguese,2021,54.1,7.9,10,1,Mid-Tier Hit
+78,Shadow Empire: Chapter 4,TV Series,Crime & Docuseries,Korean,2025,19.3,5.1,7,1,Core Catalog
+79,Hidden Echoes: Chapter 3,Docuseries,Romance,Spanish,2024,22.4,7.1,9,1,Core Catalog
+80,Royal Chronicles,Movie,Thriller & Mystery,Spanish,2023,10.9,6.1,1,1,Core Catalog
+81,Neon Voyage: Chapter 3,Animation,Thriller & Mystery,Spanish,2025,5.2,6.9,11,0,Core Catalog
+82,Forbidden City,TV Series,Reality TV & Lifestyle,Korean,2021,32.5,6.5,6,0,Mid-Tier Hit
+83,Quantum Detective,Movie,Comedy,English,2023,26.1,7.4,1,1,Mid-Tier Hit
+84,Forbidden Kingdom,Movie,Sci-Fi & Fantasy,English,2023,4.7,7.3,1,1,Core Catalog
+85,Shattered Island,TV Series,Horror,Korean,2024,87.1,8.4,7,1,Blockbuster Tentpole
+86,Silent Project,Movie,Reality TV & Lifestyle,English,2023,13.9,5.0,1,1,Core Catalog
+87,Neon Horizon: Chapter 4,Docuseries,Animation & Anime,Hindi,2021,10.4,7.8,9,1,Core Catalog
+88,Secret Horizon,TV Series,Thriller & Mystery,French,2024,10.5,6.2,10,1,Core Catalog
+89,Dark Detective,TV Series,Drama,Japanese,2023,14.0,7.5,16,1,Core Catalog
+90,Dangerous Game,Movie,Crime & Docuseries,English,2021,111.3,6.6,1,1,Blockbuster Tentpole
+91,Shadow Detective: Chapter 4,Docuseries,Drama,Hindi,2024,28.1,6.9,17,1,Mid-Tier Hit
+92,Golden Kingdom: Chapter 4,Movie,Animation & Anime,French,2024,13.2,7.6,1,1,Core Catalog
+93,Quantum Voyage: Chapter 2,Movie,Sci-Fi & Fantasy,French,2023,4.6,7.1,1,1,Core Catalog
+94,Lost Voyage,Animation,Romance,Spanish,2021,5.0,8.1,8,1,Core Catalog
+95,Hidden Protocol: Chapter 2,TV Series,Drama,Spanish,2025,12.4,6.7,12,0,Core Catalog
+96,Midnight Project,Movie,Action & Adventure,Hindi,2022,13.3,6.2,1,1,Core Catalog
+97,Shattered Empire,Docuseries,Action & Adventure,Spanish,2023,4.5,7.4,9,1,Core Catalog
+98,Forbidden Detective: Chapter 3,TV Series,Reality TV & Lifestyle,English,2022,14.0,7.1,7,1,Core Catalog
+99,Infinite Horizon: Chapter 2,Animation,Comedy,German,2024,10.0,6.7,15,1,Core Catalog
+100,Neon Horizon: Chapter 4,TV Series,Romance,German,2025,26.9,6.5,14,0,Mid-Tier Hit
+101,Secret Protocol,Movie,Thriller & Mystery,English,2023,12.6,8.6,1,1,Core Catalog
+102,Last Protocol,TV Series,Thriller & Mystery,English,2023,7.3,7.6,16,1,Core Catalog
+103,Lost Dynasty,Stand-up Comedy,Drama,Spanish,2025,5.5,5.4,1,1,Core Catalog
+104,Lost Voyage,Docuseries,Drama,English,2023,2.0,8.1,7,1,Core Catalog
+105,Lost Code: Chapter 3,TV Series,Crime & Docuseries,Japanese,2021,12.3,7.0,7,0,Core Catalog
+106,Golden Horizon,TV Series,Sci-Fi & Fantasy,Hindi,2023,18.4,8.0,8,1,Core Catalog
+107,Quantum Chronicles: Chapter 2,Movie,Thriller & Mystery,English,2024,4.2,6.3,1,0,Core Catalog
+108,Neon Signal,TV Series,Reality TV & Lifestyle,English,2022,25.1,7.3,17,1,Mid-Tier Hit
+109,Eternal Frontier: Chapter 3,Movie,Reality TV & Lifestyle,French,2023,35.2,6.8,1,1,Mid-Tier Hit
+110,Dangerous Detective,TV Series,Reality TV & Lifestyle,Japanese,2021,92.2,7.7,7,0,Blockbuster Tentpole
+111,Shattered Empire,TV Series,Crime & Docuseries,Korean,2023,48.3,7.2,7,0,Mid-Tier Hit
+112,Eternal Echoes,Movie,Sci-Fi & Fantasy,Spanish,2024,34.1,6.3,1,0,Mid-Tier Hit
+113,Wild Detective,TV Series,Horror,Spanish,2023,13.7,8.2,16,0,Core Catalog
+114,Forbidden Kingdom,Animation,Romance,Korean,2025,20.6,6.8,9,0,Core Catalog
+115,Electric Syndicate,Docuseries,Sci-Fi & Fantasy,Korean,2023,7.7,9.2,16,1,Core Catalog
+116,Midnight Empire,TV Series,Sci-Fi & Fantasy,Japanese,2024,15.5,7.7,16,1,Core Catalog
+117,Wild Kingdom: Chapter 3,TV Series,Animation & Anime,Japanese,2024,4.8,7.0,7,1,Core Catalog
+118,Crimson Dynasty,Live Event,Reality TV & Lifestyle,English,2024,6.9,8.0,1,1,Core Catalog
+119,Last Code,Animation,Sci-Fi & Fantasy,English,2024,17.8,6.7,12,1,Core Catalog
+120,Eternal Code,TV Series,Sci-Fi & Fantasy,Hindi,2023,37.5,5.8,11,1,Mid-Tier Hit
+121,Golden Echoes: Chapter 4,Animation,Reality TV & Lifestyle,Hindi,2023,10.9,8.4,7,1,Core Catalog
+122,Dangerous Code,Movie,Horror,Spanish,2022,16.3,7.0,1,1,Core Catalog
+123,Royal Mirror: Chapter 4,TV Series,Sci-Fi & Fantasy,English,2022,7.7,6.9,6,1,Core Catalog
+124,Midnight Code: Chapter 3,Stand-up Comedy,Action & Adventure,Japanese,2021,15.2,7.1,1,1,Core Catalog
+125,Dangerous Chronicles,TV Series,Crime & Docuseries,Korean,2023,24.8,8.2,6,0,Core Catalog
+126,Dangerous Legacy: Chapter 3,TV Series,Horror,German,2025,10.6,7.7,8,1,Core Catalog
+127,Silent Chronicles: Chapter 4,TV Series,Horror,Spanish,2023,15.6,6.9,14,0,Core Catalog
+128,Lost Kingdom,Animation,Sci-Fi & Fantasy,English,2023,28.7,6.1,10,1,Mid-Tier Hit
+129,Neon Legacy,TV Series,Drama,English,2025,22.8,7.7,16,1,Core Catalog
+130,Royal Syndicate,Movie,Animation & Anime,English,2022,7.8,7.6,1,0,Core Catalog
+131,Dangerous Echoes: Chapter 2,Animation,Reality TV & Lifestyle,Spanish,2025,23.0,7.5,7,1,Core Catalog
+132,Wild Syndicate: Chapter 4,Movie,Romance,English,2021,12.0,6.5,1,1,Core Catalog
+133,Forbidden Kingdom,TV Series,Horror,Portuguese,2022,14.2,6.7,9,1,Core Catalog
+134,Shadow Island: Chapter 4,Movie,Crime & Docuseries,Korean,2023,10.5,7.4,1,1,Core Catalog
+135,Forbidden City: Chapter 4,Docuseries,Romance,English,2024,15.0,6.0,15,1,Core Catalog
+136,Secret Frontier: Chapter 4,Animation,Thriller & Mystery,Spanish,2022,23.2,7.3,11,1,Core Catalog
+137,Golden Mirror,Docuseries,Comedy,English,2022,6.0,8.4,7,1,Core Catalog
+138,Lost City,Docuseries,Animation & Anime,English,2022,7.7,7.4,12,1,Core Catalog
+139,Quantum Code,TV Series,Reality TV & Lifestyle,Korean,2024,5.0,7.4,9,1,Core Catalog
+140,Lost Chronicles: Chapter 2,TV Series,Crime & Docuseries,Spanish,2022,7.8,8.6,7,0,Core Catalog
+141,Dark Protocol: Chapter 4,Stand-up Comedy,Crime & Docuseries,English,2024,13.3,6.7,1,1,Core Catalog
+142,Dangerous Horizon,Live Event,Crime & Docuseries,Korean,2024,8.2,7.1,1,1,Core Catalog
+143,Crimson Empire: Chapter 3,TV Series,Drama,French,2023,21.8,7.2,7,1,Core Catalog
+144,Electric Island: Chapter 3,TV Series,Crime & Docuseries,Spanish,2024,38.1,6.6,9,1,Mid-Tier Hit
+145,Golden Syndicate,TV Series,Comedy,Spanish,2023,7.2,6.6,7,1,Core Catalog
+146,Midnight Island: Chapter 2,Docuseries,Romance,English,2022,8.4,7.1,14,1,Core Catalog
+147,Eternal Dynasty: Chapter 4,TV Series,Crime & Docuseries,English,2022,3.7,6.3,13,1,Core Catalog
+148,Neon Syndicate,TV Series,Comedy,Spanish,2023,4.5,6.6,9,1,Core Catalog
+149,Shadow Horizon: Chapter 2,Movie,Crime & Docuseries,English,2023,24.4,7.3,1,0,Core Catalog
+150,Shattered Syndicate,TV Series,Sci-Fi & Fantasy,English,2025,70.1,7.9,13,1,Mid-Tier Hit
+151,Silent Legacy: Chapter 4,TV Series,Drama,English,2025,4.7,6.9,17,1,Core Catalog
+152,Electric Mirror,TV Series,Reality TV & Lifestyle,English,2024,8.4,7.6,17,1,Core Catalog
+153,Eternal Kingdom: Chapter 4,TV Series,Horror,Korean,2023,10.9,7.1,17,1,Core Catalog
+154,Dark Legacy,Live Event,Horror,Spanish,2025,17.5,5.3,1,1,Core Catalog
+155,Secret Empire,TV Series,Reality TV & Lifestyle,English,2023,36.5,4.5,12,1,Mid-Tier Hit
+156,Shattered Frontier: Chapter 3,Movie,Crime & Docuseries,English,2021,12.0,6.7,1,1,Core Catalog
+157,Silent Mirror: Chapter 3,Movie,Crime & Docuseries,Hindi,2022,19.0,7.3,1,1,Core Catalog
+158,Dark Voyage: Chapter 3,Docuseries,Animation & Anime,Japanese,2025,3.7,7.9,10,1,Core Catalog
+159,Royal Project: Chapter 2,TV Series,Crime & Docuseries,English,2025,13.5,8.0,16,0,Core Catalog
+160,Shattered Syndicate,TV Series,Crime & Docuseries,English,2025,18.1,6.2,6,1,Core Catalog
+161,Neon Mirror,TV Series,Drama,English,2023,17.0,6.9,17,1,Core Catalog
+162,Lost Signal: Chapter 2,TV Series,Reality TV & Lifestyle,Japanese,2023,5.4,5.6,14,1,Core Catalog
+163,Midnight Detective: Chapter 4,Movie,Comedy,Korean,2024,13.2,8.2,1,1,Core Catalog
+164,Secret Voyage,Animation,Action & Adventure,Hindi,2022,11.3,6.7,11,1,Core Catalog
+165,Forbidden Legacy,Movie,Action & Adventure,English,2022,9.3,8.5,1,0,Core Catalog
+166,Eternal Echoes: Chapter 4,Stand-up Comedy,Reality TV & Lifestyle,English,2022,18.7,6.3,1,1,Core Catalog
+167,Dark Game,TV Series,Comedy,English,2021,126.1,7.5,16,1,Blockbuster Tentpole
+168,Dangerous Horizon: Chapter 2,Docuseries,Reality TV & Lifestyle,English,2023,38.7,6.3,10,0,Mid-Tier Hit
+169,Hidden Echoes,Docuseries,Romance,Korean,2021,27.3,7.5,6,1,Mid-Tier Hit
+170,Golden Code,TV Series,Drama,English,2022,21.1,7.1,14,0,Core Catalog
+171,Crimson Syndicate: Chapter 4,TV Series,Action & Adventure,Korean,2023,4.4,8.0,8,1,Core Catalog
+172,Golden Syndicate,Animation,Comedy,English,2025,7.3,9.0,14,0,Core Catalog
+173,Lost Protocol,Docuseries,Action & Adventure,English,2024,6.4,6.0,17,1,Core Catalog
+174,Golden Empire,Movie,Romance,English,2023,8.5,7.2,1,1,Core Catalog
+175,Royal Game,Stand-up Comedy,Horror,English,2023,10.7,5.8,1,1,Core Catalog
+176,Dark Frontier: Chapter 3,TV Series,Action & Adventure,Japanese,2024,18.6,9.3,6,1,Core Catalog
+177,Silent Syndicate,TV Series,Comedy,English,2022,46.9,7.1,14,1,Mid-Tier Hit
+178,Golden Chronicles,TV Series,Reality TV & Lifestyle,Korean,2023,17.6,7.0,9,1,Core Catalog
+179,Golden Signal,TV Series,Animation & Anime,Spanish,2024,29.1,7.2,10,1,Mid-Tier Hit
+180,Dark Detective: Chapter 3,Movie,Crime & Docuseries,English,2024,2.2,7.2,1,0,Core Catalog
+181,Hidden City: Chapter 2,TV Series,Action & Adventure,English,2023,7.8,7.0,9,1,Core Catalog
+182,Neon Kingdom: Chapter 3,Movie,Sci-Fi & Fantasy,Korean,2022,61.0,7.0,1,0,Mid-Tier Hit
+183,Electric Detective,Movie,Horror,English,2022,16.7,6.4,1,1,Core Catalog
+184,Last Heist,Live Event,Drama,English,2022,5.5,6.9,1,1,Core Catalog
+185,Infinite Empire,TV Series,Crime & Docuseries,French,2024,32.8,6.4,11,1,Mid-Tier Hit
+186,Shadow Project: Chapter 3,TV Series,Romance,Korean,2022,5.4,6.4,9,0,Core Catalog
+187,Hidden Empire,Movie,Action & Adventure,French,2021,2.6,6.7,1,1,Core Catalog
+188,Wild Syndicate,TV Series,Crime & Docuseries,English,2025,10.1,8.7,14,1,Core Catalog
+189,Lost Chronicles,TV Series,Reality TV & Lifestyle,German,2022,46.6,8.5,11,1,Mid-Tier Hit
+190,Eternal Mirror,TV Series,Animation & Anime,Hindi,2021,19.9,6.7,13,0,Core Catalog
+191,Last Horizon,TV Series,Animation & Anime,English,2021,10.1,8.2,16,0,Core Catalog
+192,Dangerous Protocol,TV Series,Action & Adventure,Korean,2024,36.5,6.4,6,1,Mid-Tier Hit
+193,Hidden Heist: Chapter 2,Movie,Sci-Fi & Fantasy,Korean,2021,35.5,7.1,1,1,Mid-Tier Hit
+194,Shattered Signal: Chapter 3,TV Series,Comedy,English,2025,7.1,5.3,6,0,Core Catalog
+195,Last Game,TV Series,Horror,English,2022,29.9,6.8,13,1,Mid-Tier Hit
+196,Lost Detective: Chapter 4,TV Series,Sci-Fi & Fantasy,Korean,2022,40.4,6.4,16,0,Mid-Tier Hit
+197,Last Island,TV Series,Sci-Fi & Fantasy,English,2024,7.5,5.5,13,1,Core Catalog
+198,Neon Code,Docuseries,Drama,Spanish,2022,14.7,6.0,10,1,Core Catalog
+199,Hidden Horizon,TV Series,Drama,Japanese,2025,20.3,5.8,7,1,Core Catalog
+200,Royal Project,Movie,Romance,Korean,2024,19.8,7.3,1,1,Core Catalog
+201,Secret Signal,Docuseries,Horror,Portuguese,2023,7.0,7.1,13,1,Core Catalog
+202,Golden Kingdom: Chapter 3,TV Series,Comedy,Japanese,2025,11.8,6.0,10,1,Core Catalog
+203,Infinite Signal,TV Series,Romance,Spanish,2024,60.6,8.0,13,1,Mid-Tier Hit
+204,Shattered Game: Chapter 3,Docuseries,Thriller & Mystery,Spanish,2021,2.0,7.8,9,0,Core Catalog
+205,Last Dynasty,TV Series,Romance,Japanese,2022,8.0,8.1,16,1,Core Catalog
+206,Forbidden Protocol: Chapter 4,TV Series,Crime & Docuseries,Korean,2024,6.0,7.4,15,1,Core Catalog
+207,Shattered Protocol,TV Series,Sci-Fi & Fantasy,English,2024,10.3,5.9,10,0,Core Catalog
+208,Infinite Heist,Movie,Comedy,French,2023,16.1,8.7,1,0,Core Catalog
+209,Quantum Game,TV Series,Horror,English,2021,12.7,7.1,13,1,Core Catalog
+210,Golden Detective,TV Series,Reality TV & Lifestyle,English,2022,41.6,6.9,11,0,Mid-Tier Hit
+211,Last Island: Chapter 2,TV Series,Horror,Spanish,2021,4.0,6.2,7,1,Core Catalog
+212,Forbidden Signal: Chapter 3,Animation,Sci-Fi & Fantasy,Japanese,2023,33.4,6.3,13,1,Mid-Tier Hit
+213,Infinite Dynasty,Live Event,Sci-Fi & Fantasy,English,2024,4.5,8.1,1,1,Core Catalog
+214,Crimson Mirror,TV Series,Sci-Fi & Fantasy,Japanese,2023,37.0,5.0,7,0,Mid-Tier Hit
+215,Midnight Empire,Docuseries,Drama,Spanish,2021,6.7,7.7,7,0,Core Catalog
+216,Forbidden Horizon,TV Series,Thriller & Mystery,Korean,2023,9.8,6.4,8,1,Core Catalog
+217,Lost City: Chapter 3,TV Series,Comedy,Japanese,2023,58.3,7.4,14,0,Mid-Tier Hit
+218,Lost Game,Movie,Sci-Fi & Fantasy,English,2023,20.9,6.4,1,1,Core Catalog
+219,Secret Game,Docuseries,Sci-Fi & Fantasy,English,2023,8.6,7.9,17,0,Core Catalog
+220,Lost Island,TV Series,Horror,English,2025,22.3,6.1,17,1,Core Catalog
+221,Dark Horizon: Chapter 4,TV Series,Sci-Fi & Fantasy,English,2023,21.6,6.6,11,1,Core Catalog
+222,Shattered Empire,TV Series,Drama,English,2025,42.5,9.4,16,1,Mid-Tier Hit
+223,Golden Syndicate: Chapter 3,Movie,Sci-Fi & Fantasy,English,2023,20.5,7.8,1,0,Core Catalog
+224,Royal Mirror,TV Series,Animation & Anime,Spanish,2024,8.8,7.6,14,0,Core Catalog
+225,Infinite Game,Movie,Romance,Korean,2023,8.0,7.4,1,1,Core Catalog
+226,Forbidden Code,Movie,Sci-Fi & Fantasy,English,2021,13.7,6.6,1,1,Core Catalog
+227,Quantum Frontier: Chapter 2,Docuseries,Crime & Docuseries,English,2021,32.7,7.4,8,1,Mid-Tier Hit
+228,Hidden Horizon,TV Series,Sci-Fi & Fantasy,English,2023,10.7,7.0,16,1,Core Catalog
+229,Neon Detective: Chapter 3,Movie,Reality TV & Lifestyle,Portuguese,2021,36.7,9.0,1,1,Mid-Tier Hit
+230,Quantum Protocol,Movie,Horror,English,2025,4.2,7.6,1,0,Core Catalog
+231,Electric Heist,Docuseries,Action & Adventure,English,2022,35.2,8.6,7,1,Mid-Tier Hit
+232,Royal Game,Animation,Romance,Spanish,2024,72.9,7.9,7,1,Mid-Tier Hit
+233,Electric Syndicate: Chapter 2,TV Series,Action & Adventure,Spanish,2021,6.7,7.0,6,0,Core Catalog
+234,Neon Protocol,TV Series,Comedy,English,2024,8.6,7.4,9,1,Core Catalog
+235,Silent Syndicate,TV Series,Thriller & Mystery,Korean,2025,17.9,6.7,11,1,Core Catalog
+236,Shattered Dynasty: Chapter 3,Animation,Thriller & Mystery,English,2025,17.6,5.8,9,1,Core Catalog
+237,Dark Code: Chapter 2,TV Series,Drama,English,2021,22.2,6.9,15,0,Core Catalog
+238,Neon Code,TV Series,Action & Adventure,English,2024,15.6,6.6,16,0,Core Catalog
+239,Lost Horizon: Chapter 2,Animation,Drama,English,2024,11.2,7.2,6,1,Core Catalog
+240,Shadow Empire: Chapter 2,TV Series,Romance,English,2025,19.2,6.4,7,1,Core Catalog
+241,Forbidden Syndicate: Chapter 4,Movie,Drama,English,2021,31.4,7.4,1,1,Mid-Tier Hit
+242,Crimson Legacy: Chapter 4,Movie,Sci-Fi & Fantasy,English,2021,45.9,7.2,1,1,Mid-Tier Hit
+243,Golden Chronicles,Live Event,Sci-Fi & Fantasy,English,2023,3.4,7.8,1,1,Core Catalog
+244,Secret Island,Movie,Horror,English,2023,40.2,7.2,1,0,Mid-Tier Hit
+245,Eternal City: Chapter 4,Movie,Sci-Fi & Fantasy,English,2023,3.8,8.2,1,1,Core Catalog
+246,Silent Kingdom: Chapter 2,Movie,Comedy,English,2023,7.6,6.7,1,1,Core Catalog
+247,Secret Dynasty,TV Series,Sci-Fi & Fantasy,Korean,2022,6.1,6.6,13,1,Core Catalog
+248,Shadow Kingdom,Live Event,Drama,English,2022,6.7,7.2,1,1,Core Catalog
+249,Neon Island,TV Series,Crime & Docuseries,German,2023,25.8,6.8,10,0,Mid-Tier Hit
+250,Midnight Heist: Chapter 2,TV Series,Reality TV & Lifestyle,English,2023,15.1,7.5,16,1,Core Catalog
+251,Wild Project,TV Series,Crime & Docuseries,Spanish,2022,11.6,8.0,16,1,Core Catalog
+252,Eternal Game: Chapter 4,Docuseries,Thriller & Mystery,English,2023,10.8,7.6,13,0,Core Catalog
+253,Neon Kingdom: Chapter 2,Docuseries,Thriller & Mystery,Hindi,2024,62.3,8.5,9,1,Mid-Tier Hit
+254,Infinite Dynasty: Chapter 2,TV Series,Crime & Docuseries,English,2024,7.9,7.1,17,1,Core Catalog
+255,Midnight Chronicles,Docuseries,Crime & Docuseries,Spanish,2023,3.0,9.4,16,1,Core Catalog
+256,Neon City: Chapter 4,Movie,Thriller & Mystery,Hindi,2023,14.0,7.0,1,1,Core Catalog
+257,Lost Voyage,Docuseries,Drama,Korean,2022,106.3,7.3,10,0,Blockbuster Tentpole
+258,Secret Legacy: Chapter 3,Animation,Sci-Fi & Fantasy,Spanish,2024,41.1,6.6,10,1,Mid-Tier Hit
+259,Golden Voyage,TV Series,Animation & Anime,Spanish,2024,29.4,7.6,13,1,Mid-Tier Hit
+260,Electric Mirror: Chapter 3,Movie,Action & Adventure,English,2025,56.4,6.5,1,0,Mid-Tier Hit
+261,Golden Horizon,TV Series,Comedy,English,2021,22.5,7.8,7,1,Core Catalog
+262,Silent Empire: Chapter 4,TV Series,Sci-Fi & Fantasy,Japanese,2024,33.1,6.5,7,0,Mid-Tier Hit
+263,Crimson Mirror,Animation,Romance,German,2022,11.9,5.9,10,0,Core Catalog
+264,Dangerous Echoes: Chapter 3,Docuseries,Drama,Korean,2025,31.4,6.2,7,0,Mid-Tier Hit
+265,Hidden Project: Chapter 3,Docuseries,Animation & Anime,English,2023,21.5,6.2,7,1,Core Catalog
+266,Shadow Protocol: Chapter 3,TV Series,Drama,English,2021,31.8,6.3,11,1,Mid-Tier Hit
+267,Silent Game,TV Series,Horror,English,2022,32.5,7.0,8,1,Mid-Tier Hit
+268,Dark Echoes,TV Series,Thriller & Mystery,English,2024,19.2,7.2,16,0,Core Catalog
+269,Electric Frontier: Chapter 2,Docuseries,Drama,Korean,2025,2.4,7.1,10,0,Core Catalog
+270,Quantum Legacy,Docuseries,Thriller & Mystery,Spanish,2022,19.6,5.9,14,0,Core Catalog
+271,Secret Mirror: Chapter 4,TV Series,Sci-Fi & Fantasy,English,2024,28.2,7.0,7,1,Mid-Tier Hit
+272,Lost Mirror: Chapter 4,TV Series,Thriller & Mystery,English,2024,24.8,7.6,14,1,Core Catalog
+273,Midnight Empire,Movie,Action & Adventure,Korean,2022,13.8,4.7,1,0,Core Catalog
+274,Secret Heist,TV Series,Drama,German,2022,38.2,6.4,6,1,Mid-Tier Hit
+275,Dangerous City: Chapter 3,Docuseries,Animation & Anime,English,2025,17.8,8.5,12,0,Core Catalog
+276,Forbidden Voyage,TV Series,Action & Adventure,Korean,2025,4.7,7.8,6,1,Core Catalog
+277,Silent Empire,TV Series,Comedy,Hindi,2024,32.4,8.7,12,1,Mid-Tier Hit
+278,Shadow Chronicles: Chapter 3,Live Event,Romance,Japanese,2025,9.7,6.6,1,1,Core Catalog
+279,Neon Chronicles: Chapter 4,TV Series,Reality TV & Lifestyle,French,2022,8.6,6.0,16,0,Core Catalog
+280,Electric Detective,Animation,Animation & Anime,Japanese,2023,4.7,7.1,10,0,Core Catalog
+281,Forbidden Detective,TV Series,Drama,Portuguese,2023,20.6,8.5,11,0,Core Catalog
+282,Eternal Project,TV Series,Thriller & Mystery,English,2023,23.5,7.4,16,1,Core Catalog
+283,Royal Game,TV Series,Crime & Docuseries,English,2024,11.0,6.6,8,1,Core Catalog
+284,Silent Dynasty: Chapter 2,TV Series,Crime & Docuseries,English,2024,9.8,7.5,7,1,Core Catalog
+285,Crimson Dynasty,Movie,Comedy,English,2024,16.4,8.5,1,1,Core Catalog
+286,Dangerous Chronicles,TV Series,Reality TV & Lifestyle,Japanese,2023,23.9,7.7,13,1,Core Catalog
+287,Eternal Project,TV Series,Action & Adventure,English,2023,29.8,6.9,11,1,Mid-Tier Hit
+288,Last Frontier: Chapter 4,Live Event,Horror,Japanese,2023,4.2,6.7,1,0,Core Catalog
+289,Shadow Heist: Chapter 2,Movie,Comedy,English,2023,4.9,7.1,1,0,Core Catalog
+290,Shattered Syndicate: Chapter 2,TV Series,Reality TV & Lifestyle,Portuguese,2021,25.5,9.4,13,1,Mid-Tier Hit
+291,Crimson Horizon,Docuseries,Thriller & Mystery,English,2023,12.3,4.2,12,1,Core Catalog
+292,Crimson Detective,TV Series,Animation & Anime,English,2022,28.3,6.8,9,0,Mid-Tier Hit
+293,Hidden Empire: Chapter 3,Movie,Animation & Anime,French,2021,2.0,8.2,1,1,Core Catalog
+294,Electric Protocol,TV Series,Comedy,English,2021,36.5,7.0,12,1,Mid-Tier Hit
+295,Hidden City,TV Series,Comedy,Portuguese,2022,7.0,6.0,15,1,Core Catalog
+296,Forbidden Heist: Chapter 3,Movie,Thriller & Mystery,English,2023,66.1,8.0,1,1,Mid-Tier Hit
+297,Electric Dynasty: Chapter 3,TV Series,Reality TV & Lifestyle,Korean,2022,4.6,7.8,6,1,Core Catalog
+298,Neon Heist: Chapter 4,Movie,Action & Adventure,Spanish,2024,39.1,8.0,1,1,Mid-Tier Hit
+299,Wild Empire: Chapter 2,Movie,Drama,English,2021,27.5,6.1,1,0,Mid-Tier Hit
+300,Forbidden Project: Chapter 2,TV Series,Drama,Korean,2024,23.6,6.6,15,1,Core Catalog
+301,Golden Horizon: Chapter 2,Movie,Sci-Fi & Fantasy,English,2024,4.9,6.8,1,1,Core Catalog
+302,Lost Voyage,Movie,Thriller & Mystery,Korean,2023,7.2,7.1,1,1,Core Catalog
+303,Secret Echoes: Chapter 4,Stand-up Comedy,Thriller & Mystery,Portuguese,2022,28.6,6.7,1,1,Mid-Tier Hit
+304,Golden Island: Chapter 4,Movie,Action & Adventure,English,2022,9.7,6.7,1,1,Core Catalog
+305,Wild Protocol,TV Series,Action & Adventure,English,2023,10.7,5.6,10,1,Core Catalog
+306,Crimson Heist: Chapter 3,Movie,Action & Adventure,English,2022,20.3,6.8,1,1,Core Catalog
+307,Dangerous Syndicate: Chapter 3,Docuseries,Animation & Anime,Arabic,2022,13.7,6.3,15,1,Core Catalog
+308,Wild Game,Movie,Reality TV & Lifestyle,Spanish,2022,64.4,7.2,1,1,Mid-Tier Hit
+309,Secret Code,Movie,Animation & Anime,Korean,2025,15.0,6.4,1,1,Core Catalog
+310,Silent Legacy,Movie,Thriller & Mystery,Korean,2024,78.2,6.6,1,1,Mid-Tier Hit
+311,Hidden Mirror,Movie,Comedy,English,2021,5.8,7.6,1,1,Core Catalog
+312,Silent Project,Animation,Action & Adventure,English,2023,17.4,7.8,9,0,Core Catalog
+313,Dangerous Protocol: Chapter 2,Animation,Reality TV & Lifestyle,English,2024,8.2,7.0,16,1,Core Catalog
+314,Electric Voyage,Movie,Horror,English,2022,5.8,7.7,1,1,Core Catalog
+315,Forbidden Frontier,Movie,Animation & Anime,Korean,2024,9.4,6.3,1,0,Core Catalog
+316,Dark Chronicles,TV Series,Animation & Anime,English,2023,22.8,7.5,12,1,Core Catalog
+317,Dark Detective,Docuseries,Animation & Anime,English,2024,18.6,7.8,6,1,Core Catalog
+318,Infinite Syndicate,Movie,Drama,Hindi,2025,36.6,6.9,1,1,Mid-Tier Hit
+319,Secret Kingdom: Chapter 3,Movie,Crime & Docuseries,English,2023,11.2,5.5,1,1,Core Catalog
+320,Secret Heist,TV Series,Comedy,Spanish,2023,66.6,6.2,8,0,Mid-Tier Hit
+321,Wild Echoes: Chapter 3,TV Series,Crime & Docuseries,English,2023,48.8,6.9,9,1,Mid-Tier Hit
+322,Last Project,TV Series,Animation & Anime,Spanish,2022,6.6,5.9,10,1,Core Catalog
+323,Electric Protocol,Movie,Romance,English,2022,22.1,6.8,1,1,Core Catalog
+324,Electric City: Chapter 2,Movie,Drama,English,2023,13.8,4.9,1,1,Core Catalog
+325,Midnight Game,TV Series,Romance,English,2024,7.5,5.5,6,0,Core Catalog
+326,Neon Heist,Movie,Thriller & Mystery,English,2023,8.0,6.6,1,0,Core Catalog
+327,Lost Chronicles,TV Series,Thriller & Mystery,English,2024,73.5,7.5,6,1,Mid-Tier Hit
+328,Shattered Mirror: Chapter 4,Movie,Drama,English,2022,7.8,7.3,1,0,Core Catalog
+329,Infinite Dynasty: Chapter 3,TV Series,Animation & Anime,Korean,2022,25.3,8.3,10,1,Mid-Tier Hit
+330,Royal Syndicate,Docuseries,Thriller & Mystery,Spanish,2024,13.3,7.4,14,1,Core Catalog
+331,Neon Voyage: Chapter 2,TV Series,Crime & Docuseries,Japanese,2023,14.2,6.5,16,1,Core Catalog
+332,Lost Protocol,Docuseries,Thriller & Mystery,English,2022,18.6,8.2,9,1,Core Catalog
+333,Forbidden Frontier: Chapter 4,Live Event,Sci-Fi & Fantasy,English,2024,9.0,7.0,1,0,Core Catalog
+334,Last Chronicles: Chapter 4,Movie,Animation & Anime,English,2023,40.0,6.7,1,1,Mid-Tier Hit
+335,Forbidden Signal,Docuseries,Horror,English,2024,43.2,9.4,15,1,Mid-Tier Hit
+336,Neon Game: Chapter 4,TV Series,Reality TV & Lifestyle,Japanese,2021,6.8,6.8,17,1,Core Catalog
+337,Dangerous Kingdom,TV Series,Thriller & Mystery,English,2024,69.9,6.9,17,1,Mid-Tier Hit
+338,Shattered Empire,TV Series,Animation & Anime,Spanish,2022,22.3,8.5,17,1,Core Catalog
+339,Shadow Dynasty,Movie,Sci-Fi & Fantasy,English,2024,17.8,7.1,1,1,Core Catalog
+340,Quantum Project: Chapter 4,Movie,Drama,Spanish,2024,37.9,7.6,1,0,Mid-Tier Hit
+341,Infinite Frontier,Docuseries,Romance,Arabic,2024,4.2,6.9,6,1,Core Catalog
+342,Quantum Island: Chapter 2,TV Series,Thriller & Mystery,French,2024,65.5,7.2,16,1,Mid-Tier Hit
+343,Dark Protocol,TV Series,Crime & Docuseries,English,2024,116.7,6.0,16,1,Blockbuster Tentpole
+344,Neon Chronicles,TV Series,Drama,Portuguese,2025,27.0,8.3,10,0,Mid-Tier Hit
+345,Golden Legacy: Chapter 2,Docuseries,Romance,French,2024,18.5,7.1,8,1,Core Catalog
+346,Last Signal,Docuseries,Sci-Fi & Fantasy,Korean,2023,22.1,5.2,7,1,Core Catalog
+347,Wild Echoes: Chapter 2,TV Series,Thriller & Mystery,English,2023,11.6,8.1,16,1,Core Catalog
+348,Infinite Syndicate: Chapter 2,Docuseries,Animation & Anime,Portuguese,2022,59.5,7.4,15,1,Mid-Tier Hit
+349,Shadow City,Docuseries,Drama,English,2024,57.0,7.9,7,1,Mid-Tier Hit
+350,Shattered Project,Docuseries,Crime & Docuseries,Korean,2025,18.6,7.8,7,1,Core Catalog
+351,Lost Dynasty: Chapter 4,Movie,Animation & Anime,Spanish,2024,6.7,7.7,1,1,Core Catalog
+352,Electric Legacy,Docuseries,Animation & Anime,English,2024,20.7,7.2,6,0,Core Catalog
+353,Crimson Game: Chapter 3,Movie,Action & Adventure,English,2022,13.9,6.4,1,1,Core Catalog
+354,Midnight Echoes,TV Series,Reality TV & Lifestyle,English,2023,15.7,7.5,9,1,Core Catalog
+355,Dangerous Code,TV Series,Animation & Anime,English,2024,26.5,6.6,9,1,Mid-Tier Hit
+356,Silent Chronicles,TV Series,Crime & Docuseries,Hindi,2022,55.1,7.0,10,1,Mid-Tier Hit
+357,Wild Mirror,TV Series,Animation & Anime,Korean,2022,7.4,8.0,14,1,Core Catalog
+358,Neon Game: Chapter 4,TV Series,Crime & Docuseries,Japanese,2023,13.2,7.9,12,0,Core Catalog
+359,Eternal Game: Chapter 4,TV Series,Sci-Fi & Fantasy,Spanish,2024,22.2,6.5,7,0,Core Catalog
+360,Infinite Protocol,TV Series,Animation & Anime,English,2025,13.3,8.0,15,1,Core Catalog
+361,Midnight Protocol: Chapter 2,Stand-up Comedy,Animation & Anime,English,2024,10.1,6.6,1,0,Core Catalog
+362,Lost Protocol,Docuseries,Crime & Docuseries,Korean,2023,12.9,7.8,8,1,Core Catalog
+363,Electric Frontier,Movie,Action & Adventure,English,2024,25.2,8.2,1,0,Mid-Tier Hit
+364,Shattered Dynasty,Docuseries,Crime & Docuseries,English,2023,9.7,6.4,16,0,Core Catalog
+365,Royal Empire: Chapter 4,Animation,Romance,English,2024,14.3,7.6,12,1,Core Catalog
+366,Royal Dynasty,Movie,Sci-Fi & Fantasy,English,2021,16.7,7.9,1,1,Core Catalog
+367,Last Syndicate: Chapter 2,Movie,Romance,Korean,2022,8.8,7.7,1,1,Core Catalog
+368,Lost Horizon: Chapter 2,TV Series,Drama,Japanese,2025,51.6,6.5,15,1,Mid-Tier Hit
+369,Lost Protocol,TV Series,Drama,English,2023,56.1,7.2,8,1,Mid-Tier Hit
+370,Lost Voyage: Chapter 4,TV Series,Animation & Anime,English,2025,10.1,6.3,8,1,Core Catalog
+371,Wild Chronicles,Movie,Action & Adventure,Hindi,2024,24.0,8.9,1,1,Core Catalog
+372,Lost Mirror,TV Series,Thriller & Mystery,English,2022,27.5,6.9,6,1,Mid-Tier Hit
+373,Quantum Project,TV Series,Horror,English,2024,20.3,7.8,15,1,Core Catalog
+374,Royal Dynasty,TV Series,Thriller & Mystery,German,2024,32.2,6.2,10,0,Mid-Tier Hit
+375,Royal Signal,Docuseries,Sci-Fi & Fantasy,Hindi,2025,8.4,5.4,8,0,Core Catalog
+376,Last Protocol: Chapter 3,Docuseries,Crime & Docuseries,English,2023,30.6,8.3,9,0,Mid-Tier Hit
+377,Royal Game: Chapter 4,Movie,Reality TV & Lifestyle,Spanish,2025,20.3,8.2,1,1,Core Catalog
+378,Last Dynasty,Movie,Thriller & Mystery,English,2023,13.6,7.3,1,0,Core Catalog
+379,Infinite Syndicate: Chapter 3,TV Series,Action & Adventure,English,2025,36.3,7.4,17,1,Mid-Tier Hit
+380,Electric Code: Chapter 2,TV Series,Romance,English,2023,11.8,8.8,7,0,Core Catalog
+381,Dangerous City: Chapter 3,TV Series,Drama,English,2023,6.4,7.3,13,1,Core Catalog
+382,Lost City: Chapter 4,Docuseries,Crime & Docuseries,Spanish,2022,10.7,7.3,10,1,Core Catalog
+383,Last Protocol,TV Series,Sci-Fi & Fantasy,English,2023,25.3,6.9,7,1,Mid-Tier Hit
+384,Neon Chronicles,Docuseries,Romance,English,2021,29.1,5.3,8,1,Mid-Tier Hit
+385,Crimson Chronicles: Chapter 4,TV Series,Animation & Anime,English,2023,41.5,8.3,11,1,Mid-Tier Hit
+386,Royal Heist,TV Series,Comedy,Spanish,2021,4.9,7.4,7,0,Core Catalog
+387,Crimson Game: Chapter 3,Movie,Horror,English,2024,11.0,6.9,1,1,Core Catalog
+388,Silent Chronicles: Chapter 4,TV Series,Sci-Fi & Fantasy,Korean,2023,20.2,6.8,11,1,Core Catalog
+389,Electric Kingdom: Chapter 3,Movie,Reality TV & Lifestyle,French,2023,15.2,7.5,1,1,Core Catalog
+390,Golden Mirror,Movie,Action & Adventure,Hindi,2024,17.4,6.8,1,1,Core Catalog
+391,Electric Echoes: Chapter 4,Movie,Drama,English,2022,32.5,7.1,1,1,Mid-Tier Hit
+392,Dangerous Detective: Chapter 3,Docuseries,Sci-Fi & Fantasy,English,2023,11.4,6.2,12,1,Core Catalog
+393,Wild Empire: Chapter 3,TV Series,Action & Adventure,French,2025,17.6,6.6,16,1,Core Catalog
+394,Eternal Chronicles,TV Series,Action & Adventure,Japanese,2025,35.4,5.3,17,0,Mid-Tier Hit
+395,Lost Code,TV Series,Reality TV & Lifestyle,English,2024,14.2,6.3,13,1,Core Catalog
+396,Infinite Signal,TV Series,Drama,English,2024,7.3,6.2,17,0,Core Catalog
+397,Infinite Legacy,TV Series,Romance,English,2023,20.1,6.0,9,1,Core Catalog
+398,Midnight Heist,Docuseries,Romance,English,2021,57.6,6.3,7,0,Mid-Tier Hit
+399,Last City,TV Series,Crime & Docuseries,English,2025,32.8,7.4,8,0,Mid-Tier Hit
+400,Shadow Kingdom,Docuseries,Comedy,Korean,2024,20.0,4.4,10,1,Core Catalog

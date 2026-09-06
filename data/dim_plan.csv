@@ -1,0 +1,6 @@
+plan_id,plan_code,plan_name,monthly_price_usd,simultaneous_streams,max_resolution,is_ad_supported,has_downloads,allows_extra_members,launched_year
+1,MOBILE,Mobile-Only Plan,4.99,1,480p SD,0,1,0,2019
+2,BASIC,Basic Standard Def,9.99,1,720p HD,0,1,0,2014
+3,STD_ADS,Standard with Ads,6.99,2,1080p FHD,1,1,0,2022
+4,STANDARD,Standard Ad-Free,15.49,2,1080p FHD,0,1,1,2014
+5,PREMIUM,Premium 4K HDR + Spatial,22.99,4,4K UHD + HDR,0,1,2,2015

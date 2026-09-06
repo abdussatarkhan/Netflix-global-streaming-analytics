@@ -1,0 +1,7 @@
+device_id,device_type,device_category,stream_share_pct,avg_bitrate_mbps
+1,Smart TV,Living Room,48.0,14.5
+2,Connected TV (Roku/Apple TV/FireTV),Living Room,22.0,12.8
+3,Mobile Phone (iOS/Android),Handheld,16.0,4.5
+4,Tablet (iPad/Android Tab),Handheld,6.0,6.2
+5,Web Browser (PC/Mac/Chromebook),Desktop,5.0,8.0
+6,Gaming Console (PS5/Xbox),Living Room,3.0,11.5

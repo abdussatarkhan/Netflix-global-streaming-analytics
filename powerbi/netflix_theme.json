@@ -1,0 +1,69 @@
+﻿{
+  "name": "Netflix Executive Dark",
+  "dataColors": [
+    "#E50914",
+    "#F5C518",
+    "#00D2D3",
+    "#B81D24",
+    "#54a0ff",
+    "#5f27cd",
+    "#1dd1a1",
+    "#ff9f43",
+    "#ee5253",
+    "#0abde3"
+  ],
+  "background": "#0F0F0F",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#E50914",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#181818" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#2A2A2A" } },
+            "radius": 8
+          }
+        ],
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#A0A0A0" } }
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#A0A0A0" } },
+            "gridlineColor": { "solid": { "color": "#282828" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "cardTitle": [
+          {
+            "color": { "solid": { "color": "#A0A0A0" } }
+          }
+        ],
+        "cardData": [
+          {
+            "color": { "solid": { "color": "#E50914" } }
+          }
+        ]
+      }
+    }
+  }
+}

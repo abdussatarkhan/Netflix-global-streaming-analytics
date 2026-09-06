@@ -1,0 +1,1731 @@
+{
+  "generated_at": "2026-09-06T18:00:00Z",
+  "project_title": "Netflix Global Streaming & Content Performance Analytics (2021-2025)",
+  "kpis": {
+    "total_paid_subscribers_m": 436.6,
+    "subscriber_growth_5yr_pct": 114.3,
+    "annual_revenue_b_usd": 75.46,
+    "revenue_growth_5yr_pct": 148.0,
+    "global_avg_arm_usd": 12.47,
+    "ad_supported_memberships_m": 165.91,
+    "operating_margin_pct": 35.1,
+    "annual_free_cash_flow_b_usd": 16.79,
+    "avg_monthly_churn_pct": 2.15,
+    "total_catalog_titles": 400,
+    "avg_daily_stream_hours_m": 648.5
+  },
+  "monthly_trajectory": [
+    {
+      "year_month": "2021-01",
+      "paid_subscribers_m": 206.14,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2382.7,
+      "subscription_revenue_m": 2382.7,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 648.1,
+      "operating_margin_pct": 27.2,
+      "free_cash_flow_m": 99.1
+    },
+    {
+      "year_month": "2021-02",
+      "paid_subscribers_m": 208.62,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2411.3,
+      "subscription_revenue_m": 2411.3,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 655.9,
+      "operating_margin_pct": 27.2,
+      "free_cash_flow_m": 93.1
+    },
+    {
+      "year_month": "2021-03",
+      "paid_subscribers_m": 211.12,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2440.2,
+      "subscription_revenue_m": 2440.2,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 663.8,
+      "operating_margin_pct": 27.2,
+      "free_cash_flow_m": 98.4
+    },
+    {
+      "year_month": "2021-04",
+      "paid_subscribers_m": 212.81,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2459.8,
+      "subscription_revenue_m": 2459.8,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 669.1,
+      "operating_margin_pct": 27.2,
+      "free_cash_flow_m": 103.3
+    },
+    {
+      "year_month": "2021-05",
+      "paid_subscribers_m": 214.51,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2479.5,
+      "subscription_revenue_m": 2479.5,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 674.4,
+      "operating_margin_pct": 27.2,
+      "free_cash_flow_m": 101.1
+    },
+    {
+      "year_month": "2021-06",
+      "paid_subscribers_m": 217.09,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2509.2,
+      "subscription_revenue_m": 2509.2,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 682.5,
+      "operating_margin_pct": 27.2,
+      "free_cash_flow_m": 99.3
+    },
+    {
+      "year_month": "2021-07",
+      "paid_subscribers_m": 219.69,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2539.3,
+      "subscription_revenue_m": 2539.3,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 690.7,
+      "operating_margin_pct": 27.2,
+      "free_cash_flow_m": 96.5
+    },
+    {
+      "year_month": "2021-08",
+      "paid_subscribers_m": 222.33,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2569.8,
+      "subscription_revenue_m": 2569.8,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 699.0,
+      "operating_margin_pct": 27.2,
+      "free_cash_flow_m": 100.5
+    },
+    {
+      "year_month": "2021-09",
+      "paid_subscribers_m": 225.0,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2600.6,
+      "subscription_revenue_m": 2600.6,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 707.4,
+      "operating_margin_pct": 27.2,
+      "free_cash_flow_m": 100.5
+    },
+    {
+      "year_month": "2021-10",
+      "paid_subscribers_m": 227.7,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2631.8,
+      "subscription_revenue_m": 2631.8,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 671.1,
+      "operating_margin_pct": 25.5,
+      "free_cash_flow_m": 106.8
+    },
+    {
+      "year_month": "2021-11",
+      "paid_subscribers_m": 231.8,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2679.2,
+      "subscription_revenue_m": 2679.2,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 683.2,
+      "operating_margin_pct": 25.5,
+      "free_cash_flow_m": 109.8
+    },
+    {
+      "year_month": "2021-12",
+      "paid_subscribers_m": 235.97,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2727.4,
+      "subscription_revenue_m": 2727.4,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 695.5,
+      "operating_margin_pct": 25.5,
+      "free_cash_flow_m": 180.1
+    },
+    {
+      "year_month": "2022-01",
+      "paid_subscribers_m": 235.86,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2861.3,
+      "subscription_revenue_m": 2861.3,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 847.0,
+      "operating_margin_pct": 29.6,
+      "free_cash_flow_m": 227.6
+    },
+    {
+      "year_month": "2022-02",
+      "paid_subscribers_m": 235.76,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2858.9,
+      "subscription_revenue_m": 2858.9,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 846.2,
+      "operating_margin_pct": 29.6,
+      "free_cash_flow_m": 245.1
+    },
+    {
+      "year_month": "2022-03",
+      "paid_subscribers_m": 235.65,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2856.4,
+      "subscription_revenue_m": 2856.4,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 845.5,
+      "operating_margin_pct": 29.6,
+      "free_cash_flow_m": 249.4
+    },
+    {
+      "year_month": "2022-04",
+      "paid_subscribers_m": 234.61,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2842.6,
+      "subscription_revenue_m": 2842.6,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 841.4,
+      "operating_margin_pct": 29.6,
+      "free_cash_flow_m": 230.8
+    },
+    {
+      "year_month": "2022-05",
+      "paid_subscribers_m": 233.57,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2828.8,
+      "subscription_revenue_m": 2828.8,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 837.3,
+      "operating_margin_pct": 29.6,
+      "free_cash_flow_m": 222.1
+    },
+    {
+      "year_month": "2022-06",
+      "paid_subscribers_m": 233.47,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2826.4,
+      "subscription_revenue_m": 2826.4,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 836.6,
+      "operating_margin_pct": 29.6,
+      "free_cash_flow_m": 225.9
+    },
+    {
+      "year_month": "2022-07",
+      "paid_subscribers_m": 236.27,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2860.4,
+      "subscription_revenue_m": 2860.4,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 846.7,
+      "operating_margin_pct": 29.6,
+      "free_cash_flow_m": 252.6
+    },
+    {
+      "year_month": "2022-08",
+      "paid_subscribers_m": 239.1,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2894.7,
+      "subscription_revenue_m": 2894.7,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 856.8,
+      "operating_margin_pct": 29.6,
+      "free_cash_flow_m": 247.6
+    },
+    {
+      "year_month": "2022-09",
+      "paid_subscribers_m": 241.98,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2929.4,
+      "subscription_revenue_m": 2929.4,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 867.1,
+      "operating_margin_pct": 29.6,
+      "free_cash_flow_m": 232.4
+    },
+    {
+      "year_month": "2022-10",
+      "paid_subscribers_m": 244.88,
+      "ad_subscribers_m": 0.0,
+      "monthly_revenue_m": 2964.6,
+      "subscription_revenue_m": 2964.6,
+      "ad_revenue_m": 0.0,
+      "operating_income_m": 827.1,
+      "operating_margin_pct": 27.9,
+      "free_cash_flow_m": 262.4
+    },
+    {
+      "year_month": "2022-11",
+      "paid_subscribers_m": 249.29,
+      "ad_subscribers_m": 12.71,
+      "monthly_revenue_m": 3096.0,
+      "subscription_revenue_m": 3017.9,
+      "ad_revenue_m": 78.1,
+      "operating_income_m": 863.8,
+      "operating_margin_pct": 27.9,
+      "free_cash_flow_m": 243.4
+    },
+    {
+      "year_month": "2022-12",
+      "paid_subscribers_m": 253.77,
+      "ad_subscribers_m": 15.74,
+      "monthly_revenue_m": 3168.9,
+      "subscription_revenue_m": 3072.3,
+      "ad_revenue_m": 96.6,
+      "operating_income_m": 884.1,
+      "operating_margin_pct": 27.9,
+      "free_cash_flow_m": 366.7
+    },
+    {
+      "year_month": "2023-01",
+      "paid_subscribers_m": 256.82,
+      "ad_subscribers_m": 18.75,
+      "monthly_revenue_m": 3224.2,
+      "subscription_revenue_m": 3109.1,
+      "ad_revenue_m": 115.1,
+      "operating_income_m": 1031.8,
+      "operating_margin_pct": 32.0,
+      "free_cash_flow_m": 452.6
+    },
+    {
+      "year_month": "2023-02",
+      "paid_subscribers_m": 259.9,
+      "ad_subscribers_m": 21.83,
+      "monthly_revenue_m": 3280.5,
+      "subscription_revenue_m": 3146.4,
+      "ad_revenue_m": 134.0,
+      "operating_income_m": 1049.8,
+      "operating_margin_pct": 32.0,
+      "free_cash_flow_m": 393.1
+    },
+    {
+      "year_month": "2023-03",
+      "paid_subscribers_m": 263.02,
+      "ad_subscribers_m": 24.99,
+      "monthly_revenue_m": 3337.6,
+      "subscription_revenue_m": 3184.2,
+      "ad_revenue_m": 153.4,
+      "operating_income_m": 1068.0,
+      "operating_margin_pct": 32.0,
+      "free_cash_flow_m": 465.3
+    },
+    {
+      "year_month": "2023-04",
+      "paid_subscribers_m": 265.12,
+      "ad_subscribers_m": 28.1,
+      "monthly_revenue_m": 3382.2,
+      "subscription_revenue_m": 3209.7,
+      "ad_revenue_m": 172.6,
+      "operating_income_m": 1082.3,
+      "operating_margin_pct": 32.0,
+      "free_cash_flow_m": 409.1
+    },
+    {
+      "year_month": "2023-05",
+      "paid_subscribers_m": 270.43,
+      "ad_subscribers_m": 31.64,
+      "monthly_revenue_m": 3468.1,
+      "subscription_revenue_m": 3273.8,
+      "ad_revenue_m": 194.3,
+      "operating_income_m": 1109.8,
+      "operating_margin_pct": 32.0,
+      "free_cash_flow_m": 444.1
+    },
+    {
+      "year_month": "2023-06",
+      "paid_subscribers_m": 276.92,
+      "ad_subscribers_m": 35.44,
+      "monthly_revenue_m": 3570.1,
+      "subscription_revenue_m": 3352.4,
+      "ad_revenue_m": 217.6,
+      "operating_income_m": 1142.4,
+      "operating_margin_pct": 32.0,
+      "free_cash_flow_m": 465.0
+    },
+    {
+      "year_month": "2023-07",
+      "paid_subscribers_m": 283.56,
+      "ad_subscribers_m": 39.42,
+      "monthly_revenue_m": 3674.9,
+      "subscription_revenue_m": 3432.9,
+      "ad_revenue_m": 242.0,
+      "operating_income_m": 1176.0,
+      "operating_margin_pct": 32.0,
+      "free_cash_flow_m": 463.2
+    },
+    {
+      "year_month": "2023-08",
+      "paid_subscribers_m": 290.37,
+      "ad_subscribers_m": 43.55,
+      "monthly_revenue_m": 3782.7,
+      "subscription_revenue_m": 3515.3,
+      "ad_revenue_m": 267.4,
+      "operating_income_m": 1210.5,
+      "operating_margin_pct": 32.0,
+      "free_cash_flow_m": 505.0
+    },
+    {
+      "year_month": "2023-09",
+      "paid_subscribers_m": 297.34,
+      "ad_subscribers_m": 47.87,
+      "monthly_revenue_m": 3893.6,
+      "subscription_revenue_m": 3599.6,
+      "ad_revenue_m": 293.9,
+      "operating_income_m": 1246.0,
+      "operating_margin_pct": 32.0,
+      "free_cash_flow_m": 506.7
+    },
+    {
+      "year_month": "2023-10",
+      "paid_subscribers_m": 304.47,
+      "ad_subscribers_m": 52.37,
+      "monthly_revenue_m": 4228.8,
+      "subscription_revenue_m": 3907.2,
+      "ad_revenue_m": 321.6,
+      "operating_income_m": 1281.3,
+      "operating_margin_pct": 30.3,
+      "free_cash_flow_m": 524.6
+    },
+    {
+      "year_month": "2023-11",
+      "paid_subscribers_m": 313.61,
+      "ad_subscribers_m": 57.39,
+      "monthly_revenue_m": 4376.8,
+      "subscription_revenue_m": 4024.4,
+      "ad_revenue_m": 352.4,
+      "operating_income_m": 1326.2,
+      "operating_margin_pct": 30.3,
+      "free_cash_flow_m": 530.2
+    },
+    {
+      "year_month": "2023-12",
+      "paid_subscribers_m": 323.01,
+      "ad_subscribers_m": 62.66,
+      "monthly_revenue_m": 4529.9,
+      "subscription_revenue_m": 4145.2,
+      "ad_revenue_m": 384.8,
+      "operating_income_m": 1372.6,
+      "operating_margin_pct": 30.3,
+      "free_cash_flow_m": 715.6
+    },
+    {
+      "year_month": "2024-01",
+      "paid_subscribers_m": 326.98,
+      "ad_subscribers_m": 67.03,
+      "monthly_revenue_m": 4606.0,
+      "subscription_revenue_m": 4194.6,
+      "ad_revenue_m": 411.3,
+      "operating_income_m": 1584.4,
+      "operating_margin_pct": 34.4,
+      "free_cash_flow_m": 787.9
+    },
+    {
+      "year_month": "2024-02",
+      "paid_subscribers_m": 330.99,
+      "ad_subscribers_m": 71.49,
+      "monthly_revenue_m": 4683.1,
+      "subscription_revenue_m": 4244.7,
+      "ad_revenue_m": 438.5,
+      "operating_income_m": 1611.0,
+      "operating_margin_pct": 34.4,
+      "free_cash_flow_m": 781.1
+    },
+    {
+      "year_month": "2024-03",
+      "paid_subscribers_m": 335.05,
+      "ad_subscribers_m": 76.06,
+      "monthly_revenue_m": 4761.5,
+      "subscription_revenue_m": 4295.3,
+      "ad_revenue_m": 466.2,
+      "operating_income_m": 1638.0,
+      "operating_margin_pct": 34.4,
+      "free_cash_flow_m": 807.2
+    },
+    {
+      "year_month": "2024-04",
+      "paid_subscribers_m": 337.82,
+      "ad_subscribers_m": 80.4,
+      "monthly_revenue_m": 4822.0,
+      "subscription_revenue_m": 4329.4,
+      "ad_revenue_m": 492.5,
+      "operating_income_m": 1658.8,
+      "operating_margin_pct": 34.4,
+      "free_cash_flow_m": 872.0
+    },
+    {
+      "year_month": "2024-05",
+      "paid_subscribers_m": 340.62,
+      "ad_subscribers_m": 84.81,
+      "monthly_revenue_m": 4883.0,
+      "subscription_revenue_m": 4363.8,
+      "ad_revenue_m": 519.2,
+      "operating_income_m": 1679.8,
+      "operating_margin_pct": 34.4,
+      "free_cash_flow_m": 914.4
+    },
+    {
+      "year_month": "2024-06",
+      "paid_subscribers_m": 344.8,
+      "ad_subscribers_m": 89.65,
+      "monthly_revenue_m": 4964.4,
+      "subscription_revenue_m": 4416.0,
+      "ad_revenue_m": 548.5,
+      "operating_income_m": 1707.8,
+      "operating_margin_pct": 34.4,
+      "free_cash_flow_m": 925.5
+    },
+    {
+      "year_month": "2024-07",
+      "paid_subscribers_m": 349.04,
+      "ad_subscribers_m": 94.59,
+      "monthly_revenue_m": 5047.1,
+      "subscription_revenue_m": 4468.7,
+      "ad_revenue_m": 578.4,
+      "operating_income_m": 1736.2,
+      "operating_margin_pct": 34.4,
+      "free_cash_flow_m": 952.6
+    },
+    {
+      "year_month": "2024-08",
+      "paid_subscribers_m": 353.33,
+      "ad_subscribers_m": 99.64,
+      "monthly_revenue_m": 5131.0,
+      "subscription_revenue_m": 4522.1,
+      "ad_revenue_m": 608.9,
+      "operating_income_m": 1765.1,
+      "operating_margin_pct": 34.4,
+      "free_cash_flow_m": 937.4
+    },
+    {
+      "year_month": "2024-09",
+      "paid_subscribers_m": 357.67,
+      "ad_subscribers_m": 104.8,
+      "monthly_revenue_m": 5216.2,
+      "subscription_revenue_m": 4576.2,
+      "ad_revenue_m": 640.0,
+      "operating_income_m": 1794.4,
+      "operating_margin_pct": 34.4,
+      "free_cash_flow_m": 939.6
+    },
+    {
+      "year_month": "2024-10",
+      "paid_subscribers_m": 362.07,
+      "ad_subscribers_m": 110.07,
+      "monthly_revenue_m": 5302.7,
+      "subscription_revenue_m": 4630.9,
+      "ad_revenue_m": 671.8,
+      "operating_income_m": 1734.0,
+      "operating_margin_pct": 32.7,
+      "free_cash_flow_m": 975.4
+    },
+    {
+      "year_month": "2024-11",
+      "paid_subscribers_m": 368.7,
+      "ad_subscribers_m": 116.14,
+      "monthly_revenue_m": 5611.0,
+      "subscription_revenue_m": 4902.7,
+      "ad_revenue_m": 708.4,
+      "operating_income_m": 1834.8,
+      "operating_margin_pct": 32.7,
+      "free_cash_flow_m": 1049.7
+    },
+    {
+      "year_month": "2024-12",
+      "paid_subscribers_m": 375.44,
+      "ad_subscribers_m": 122.39,
+      "monthly_revenue_m": 5736.8,
+      "subscription_revenue_m": 4990.7,
+      "ad_revenue_m": 746.1,
+      "operating_income_m": 1875.9,
+      "operating_margin_pct": 32.7,
+      "free_cash_flow_m": 1236.6
+    },
+    {
+      "year_month": "2025-01",
+      "paid_subscribers_m": 380.06,
+      "ad_subscribers_m": 128.08,
+      "monthly_revenue_m": 5830.7,
+      "subscription_revenue_m": 5050.4,
+      "ad_revenue_m": 780.3,
+      "operating_income_m": 2145.7,
+      "operating_margin_pct": 36.8,
+      "free_cash_flow_m": 1235.5
+    },
+    {
+      "year_month": "2025-02",
+      "paid_subscribers_m": 384.74,
+      "ad_subscribers_m": 133.89,
+      "monthly_revenue_m": 5926.1,
+      "subscription_revenue_m": 5110.9,
+      "ad_revenue_m": 815.2,
+      "operating_income_m": 2180.8,
+      "operating_margin_pct": 36.8,
+      "free_cash_flow_m": 1371.0
+    },
+    {
+      "year_month": "2025-03",
+      "paid_subscribers_m": 389.48,
+      "ad_subscribers_m": 139.82,
+      "monthly_revenue_m": 6022.8,
+      "subscription_revenue_m": 5172.1,
+      "ad_revenue_m": 850.8,
+      "operating_income_m": 2216.4,
+      "operating_margin_pct": 36.8,
+      "free_cash_flow_m": 1409.8
+    },
+    {
+      "year_month": "2025-04",
+      "paid_subscribers_m": 392.72,
+      "ad_subscribers_m": 145.31,
+      "monthly_revenue_m": 6096.9,
+      "subscription_revenue_m": 5213.3,
+      "ad_revenue_m": 883.6,
+      "operating_income_m": 2243.6,
+      "operating_margin_pct": 36.8,
+      "free_cash_flow_m": 1264.5
+    },
+    {
+      "year_month": "2025-05",
+      "paid_subscribers_m": 395.98,
+      "ad_subscribers_m": 150.48,
+      "monthly_revenue_m": 6169.4,
+      "subscription_revenue_m": 5254.9,
+      "ad_revenue_m": 914.4,
+      "operating_income_m": 2270.3,
+      "operating_margin_pct": 36.8,
+      "free_cash_flow_m": 1448.8
+    },
+    {
+      "year_month": "2025-06",
+      "paid_subscribers_m": 400.87,
+      "ad_subscribers_m": 152.33,
+      "monthly_revenue_m": 6243.0,
+      "subscription_revenue_m": 5317.9,
+      "ad_revenue_m": 925.1,
+      "operating_income_m": 2297.4,
+      "operating_margin_pct": 36.8,
+      "free_cash_flow_m": 1304.5
+    },
+    {
+      "year_month": "2025-07",
+      "paid_subscribers_m": 405.81,
+      "ad_subscribers_m": 154.21,
+      "monthly_revenue_m": 6317.6,
+      "subscription_revenue_m": 5381.6,
+      "ad_revenue_m": 936.0,
+      "operating_income_m": 2324.9,
+      "operating_margin_pct": 36.8,
+      "free_cash_flow_m": 1437.0
+    },
+    {
+      "year_month": "2025-08",
+      "paid_subscribers_m": 410.81,
+      "ad_subscribers_m": 156.11,
+      "monthly_revenue_m": 6393.0,
+      "subscription_revenue_m": 5446.1,
+      "ad_revenue_m": 946.9,
+      "operating_income_m": 2352.6,
+      "operating_margin_pct": 36.8,
+      "free_cash_flow_m": 1313.2
+    },
+    {
+      "year_month": "2025-09",
+      "paid_subscribers_m": 415.88,
+      "ad_subscribers_m": 158.03,
+      "monthly_revenue_m": 6469.4,
+      "subscription_revenue_m": 5511.4,
+      "ad_revenue_m": 958.0,
+      "operating_income_m": 2380.7,
+      "operating_margin_pct": 36.8,
+      "free_cash_flow_m": 1469.5
+    },
+    {
+      "year_month": "2025-10",
+      "paid_subscribers_m": 421.01,
+      "ad_subscribers_m": 159.98,
+      "monthly_revenue_m": 6546.7,
+      "subscription_revenue_m": 5577.5,
+      "ad_revenue_m": 969.2,
+      "operating_income_m": 2297.9,
+      "operating_margin_pct": 35.1,
+      "free_cash_flow_m": 1371.4
+    },
+    {
+      "year_month": "2025-11",
+      "paid_subscribers_m": 428.73,
+      "ad_subscribers_m": 162.92,
+      "monthly_revenue_m": 6664.2,
+      "subscription_revenue_m": 5677.9,
+      "ad_revenue_m": 986.4,
+      "operating_income_m": 2339.1,
+      "operating_margin_pct": 35.1,
+      "free_cash_flow_m": 1539.0
+    },
+    {
+      "year_month": "2025-12",
+      "paid_subscribers_m": 436.6,
+      "ad_subscribers_m": 165.91,
+      "monthly_revenue_m": 6783.9,
+      "subscription_revenue_m": 5780.0,
+      "ad_revenue_m": 1003.8,
+      "operating_income_m": 2381.1,
+      "operating_margin_pct": 35.1,
+      "free_cash_flow_m": 1621.9
+    }
+  ],
+  "regional_breakdown": [
+    {
+      "region_id": 1,
+      "region_code": "UCAN",
+      "region_name": "United States and Canada",
+      "hq_location": "Los Gatos, CA",
+      "subscribers_2021_m": 73.9,
+      "subscribers_2025_m": 152.1,
+      "growth_pct": 105.9,
+      "arpu_2025_usd": 16.78,
+      "ad_tier_share_pct": 38.0,
+      "countries_count": 2,
+      "key_countries": [
+        {
+          "country_name": "United States",
+          "country_code": "US",
+          "tier": "Tier 1",
+          "avg_arpu_base": 16.5
+        },
+        {
+          "country_name": "Canada",
+          "country_code": "CA",
+          "tier": "Tier 1",
+          "avg_arpu_base": 14.8
+        }
+      ]
+    },
+    {
+      "region_id": 2,
+      "region_code": "EMEA",
+      "region_name": "Europe, Middle East and Africa",
+      "hq_location": "Amsterdam, Netherlands",
+      "subscribers_2021_m": 66.7,
+      "subscribers_2025_m": 137.3,
+      "growth_pct": 105.9,
+      "arpu_2025_usd": 12.96,
+      "ad_tier_share_pct": 38.0,
+      "countries_count": 10,
+      "key_countries": [
+        {
+          "country_name": "United Kingdom",
+          "country_code": "GB",
+          "tier": "Tier 1",
+          "avg_arpu_base": 12.8
+        },
+        {
+          "country_name": "Germany",
+          "country_code": "DE",
+          "tier": "Tier 1",
+          "avg_arpu_base": 12.2
+        },
+        {
+          "country_name": "France",
+          "country_code": "FR",
+          "tier": "Tier 1",
+          "avg_arpu_base": 12.0
+        },
+        {
+          "country_name": "Spain",
+          "country_code": "ES",
+          "tier": "Tier 2",
+          "avg_arpu_base": 10.9
+        },
+        {
+          "country_name": "Italy",
+          "country_code": "IT",
+          "tier": "Tier 2",
+          "avg_arpu_base": 10.5
+        },
+        {
+          "country_name": "Netherlands",
+          "country_code": "NL",
+          "tier": "Tier 1",
+          "avg_arpu_base": 13.1
+        },
+        {
+          "country_name": "Poland",
+          "country_code": "PL",
+          "tier": "Tier 2",
+          "avg_arpu_base": 8.5
+        },
+        {
+          "country_name": "Saudi Arabia",
+          "country_code": "SA",
+          "tier": "Tier 2",
+          "avg_arpu_base": 11.5
+        },
+        {
+          "country_name": "United Arab Emirates",
+          "country_code": "AE",
+          "tier": "Tier 1",
+          "avg_arpu_base": 12.5
+        },
+        {
+          "country_name": "South Africa",
+          "country_code": "ZA",
+          "tier": "Tier 3",
+          "avg_arpu_base": 6.8
+        }
+      ]
+    },
+    {
+      "region_id": 3,
+      "region_code": "LATAM",
+      "region_name": "Latin America",
+      "hq_location": "Sao Paulo, Brazil",
+      "subscribers_2021_m": 37.5,
+      "subscribers_2025_m": 87.5,
+      "growth_pct": 133.2,
+      "arpu_2025_usd": 8.8,
+      "ad_tier_share_pct": 38.0,
+      "countries_count": 5,
+      "key_countries": [
+        {
+          "country_name": "Brazil",
+          "country_code": "BR",
+          "tier": "Tier 2",
+          "avg_arpu_base": 7.8
+        },
+        {
+          "country_name": "Mexico",
+          "country_code": "MX",
+          "tier": "Tier 2",
+          "avg_arpu_base": 8.2
+        },
+        {
+          "country_name": "Argentina",
+          "country_code": "AR",
+          "tier": "Tier 3",
+          "avg_arpu_base": 5.4
+        },
+        {
+          "country_name": "Colombia",
+          "country_code": "CO",
+          "tier": "Tier 3",
+          "avg_arpu_base": 6.2
+        },
+        {
+          "country_name": "Chile",
+          "country_code": "CL",
+          "tier": "Tier 2",
+          "avg_arpu_base": 8.6
+        }
+      ]
+    },
+    {
+      "region_id": 4,
+      "region_code": "APAC",
+      "region_name": "Asia Pacific",
+      "hq_location": "Singapore",
+      "subscribers_2021_m": 25.6,
+      "subscribers_2025_m": 59.7,
+      "growth_pct": 133.2,
+      "arpu_2025_usd": 11.34,
+      "ad_tier_share_pct": 38.0,
+      "countries_count": 7,
+      "key_countries": [
+        {
+          "country_name": "Japan",
+          "country_code": "JP",
+          "tier": "Tier 1",
+          "avg_arpu_base": 11.2
+        },
+        {
+          "country_name": "South Korea",
+          "country_code": "KR",
+          "tier": "Tier 1",
+          "avg_arpu_base": 10.4
+        },
+        {
+          "country_name": "India",
+          "country_code": "IN",
+          "tier": "Tier 3",
+          "avg_arpu_base": 3.6
+        },
+        {
+          "country_name": "Australia",
+          "country_code": "AU",
+          "tier": "Tier 1",
+          "avg_arpu_base": 13.9
+        },
+        {
+          "country_name": "Indonesia",
+          "country_code": "ID",
+          "tier": "Tier 3",
+          "avg_arpu_base": 4.5
+        },
+        {
+          "country_name": "Thailand",
+          "country_code": "TH",
+          "tier": "Tier 3",
+          "avg_arpu_base": 5.8
+        },
+        {
+          "country_name": "Philippines",
+          "country_code": "PH",
+          "tier": "Tier 3",
+          "avg_arpu_base": 4.9
+        }
+      ]
+    }
+  ],
+  "top_content_leaderboard": [
+    {
+      "content_id": 2,
+      "title_name": "Stranger Things (Season 4)",
+      "content_type": "TV Series",
+      "genre": "Sci-Fi & Fantasy",
+      "original_language": "English",
+      "release_year": 2022,
+      "budget_m_usd": 270.0,
+      "imdb_rating": 8.7,
+      "total_hours_viewed_m": 12563.0,
+      "total_views_m": 1744.9,
+      "avg_completion_rate_pct": 74.4,
+      "content_roi_multiplier": 8.38,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 6,
+      "title_name": "The Crown (Season 5-6)",
+      "content_type": "TV Series",
+      "genre": "Drama",
+      "original_language": "English",
+      "release_year": 2022,
+      "budget_m_usd": 130.0,
+      "imdb_rating": 8.6,
+      "total_hours_viewed_m": 5877.9,
+      "total_views_m": 367.4,
+      "avg_completion_rate_pct": 74.3,
+      "content_roi_multiplier": 8.14,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 167,
+      "title_name": "Dark Game",
+      "content_type": "TV Series",
+      "genre": "Comedy",
+      "original_language": "English",
+      "release_year": 2021,
+      "budget_m_usd": 126.1,
+      "imdb_rating": 7.5,
+      "total_hours_viewed_m": 4406.7,
+      "total_views_m": 344.2,
+      "avg_completion_rate_pct": 72.2,
+      "content_roi_multiplier": 6.29,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 7,
+      "title_name": "Bridgerton (Season 2-3)",
+      "content_type": "TV Series",
+      "genre": "Romance",
+      "original_language": "English",
+      "release_year": 2022,
+      "budget_m_usd": 140.0,
+      "imdb_rating": 7.4,
+      "total_hours_viewed_m": 4373.8,
+      "total_views_m": 341.7,
+      "avg_completion_rate_pct": 72.2,
+      "content_roi_multiplier": 5.62,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 10,
+      "title_name": "One Piece (Live Action)",
+      "content_type": "TV Series",
+      "genre": "Action & Adventure",
+      "original_language": "English",
+      "release_year": 2023,
+      "budget_m_usd": 138.0,
+      "imdb_rating": 8.3,
+      "total_hours_viewed_m": 4358.9,
+      "total_views_m": 681.0,
+      "avg_completion_rate_pct": 74.8,
+      "content_roi_multiplier": 5.69,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 4,
+      "title_name": "Red Notice",
+      "content_type": "Movie",
+      "genre": "Action & Adventure",
+      "original_language": "English",
+      "release_year": 2021,
+      "budget_m_usd": 200.0,
+      "imdb_rating": 6.3,
+      "total_hours_viewed_m": 4021.6,
+      "total_views_m": 2234.2,
+      "avg_completion_rate_pct": 70.5,
+      "content_roi_multiplier": 3.62,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 18,
+      "title_name": "3 Body Problem",
+      "content_type": "TV Series",
+      "genre": "Sci-Fi & Fantasy",
+      "original_language": "English",
+      "release_year": 2024,
+      "budget_m_usd": 160.0,
+      "imdb_rating": 7.6,
+      "total_hours_viewed_m": 3616.7,
+      "total_views_m": 565.1,
+      "avg_completion_rate_pct": 75.3,
+      "content_roi_multiplier": 4.07,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 110,
+      "title_name": "Dangerous Detective",
+      "content_type": "TV Series",
+      "genre": "Reality TV & Lifestyle",
+      "original_language": "Japanese",
+      "release_year": 2021,
+      "budget_m_usd": 92.2,
+      "imdb_rating": 7.7,
+      "total_hours_viewed_m": 2748.4,
+      "total_views_m": 490.8,
+      "avg_completion_rate_pct": 72.4,
+      "content_roi_multiplier": 5.37,
+      "is_netflix_original": 0,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 24,
+      "title_name": "Squid Game (Season 2)",
+      "content_type": "TV Series",
+      "genre": "Sci-Fi & Fantasy",
+      "original_language": "Korean",
+      "release_year": 2024,
+      "budget_m_usd": 100.0,
+      "imdb_rating": 8.2,
+      "total_hours_viewed_m": 2640.4,
+      "total_views_m": 471.5,
+      "avg_completion_rate_pct": 75.4,
+      "content_roi_multiplier": 4.75,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 90,
+      "title_name": "Dangerous Game",
+      "content_type": "Movie",
+      "genre": "Crime & Docuseries",
+      "original_language": "English",
+      "release_year": 2021,
+      "budget_m_usd": 111.3,
+      "imdb_rating": 6.6,
+      "total_hours_viewed_m": 2531.3,
+      "total_views_m": 1406.3,
+      "avg_completion_rate_pct": 71.0,
+      "content_roi_multiplier": 4.09,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 17,
+      "title_name": "Avatar: The Last Airbender",
+      "content_type": "TV Series",
+      "genre": "Action & Adventure",
+      "original_language": "English",
+      "release_year": 2024,
+      "budget_m_usd": 120.0,
+      "imdb_rating": 7.2,
+      "total_hours_viewed_m": 2438.5,
+      "total_views_m": 381.0,
+      "avg_completion_rate_pct": 74.1,
+      "content_roi_multiplier": 3.66,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 85,
+      "title_name": "Shattered Island",
+      "content_type": "TV Series",
+      "genre": "Horror",
+      "original_language": "Korean",
+      "release_year": 2024,
+      "budget_m_usd": 87.1,
+      "imdb_rating": 8.4,
+      "total_hours_viewed_m": 2365.4,
+      "total_views_m": 422.4,
+      "avg_completion_rate_pct": 75.5,
+      "content_roi_multiplier": 4.89,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 23,
+      "title_name": "Beverly Hills Cop: Axel F",
+      "content_type": "Movie",
+      "genre": "Comedy",
+      "original_language": "English",
+      "release_year": 2024,
+      "budget_m_usd": 150.0,
+      "imdb_rating": 6.5,
+      "total_hours_viewed_m": 2174.3,
+      "total_views_m": 1208.0,
+      "avg_completion_rate_pct": 73.3,
+      "content_roi_multiplier": 2.61,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 257,
+      "title_name": "Lost Voyage",
+      "content_type": "Docuseries",
+      "genre": "Drama",
+      "original_language": "Korean",
+      "release_year": 2022,
+      "budget_m_usd": 106.3,
+      "imdb_rating": 7.3,
+      "total_hours_viewed_m": 2140.4,
+      "total_views_m": 267.5,
+      "avg_completion_rate_pct": 72.4,
+      "content_roi_multiplier": 3.62,
+      "is_netflix_original": 0,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 296,
+      "title_name": "Forbidden Heist: Chapter 3",
+      "content_type": "Movie",
+      "genre": "Thriller & Mystery",
+      "original_language": "English",
+      "release_year": 2023,
+      "budget_m_usd": 66.1,
+      "imdb_rating": 8.0,
+      "total_hours_viewed_m": 2134.5,
+      "total_views_m": 1185.8,
+      "avg_completion_rate_pct": 73.4,
+      "content_roi_multiplier": 5.81,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 77,
+      "title_name": "Wild Signal",
+      "content_type": "Docuseries",
+      "genre": "Crime & Docuseries",
+      "original_language": "Portuguese",
+      "release_year": 2021,
+      "budget_m_usd": 54.1,
+      "imdb_rating": 7.9,
+      "total_hours_viewed_m": 2113.8,
+      "total_views_m": 264.2,
+      "avg_completion_rate_pct": 72.8,
+      "content_roi_multiplier": 7.03,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 16,
+      "title_name": "Society of the Snow",
+      "content_type": "Movie",
+      "genre": "Drama",
+      "original_language": "Spanish",
+      "release_year": 2023,
+      "budget_m_usd": 65.0,
+      "imdb_rating": 7.8,
+      "total_hours_viewed_m": 2048.2,
+      "total_views_m": 1137.9,
+      "avg_completion_rate_pct": 73.4,
+      "content_roi_multiplier": 5.67,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 232,
+      "title_name": "Royal Game",
+      "content_type": "Animation",
+      "genre": "Romance",
+      "original_language": "Spanish",
+      "release_year": 2024,
+      "budget_m_usd": 72.9,
+      "imdb_rating": 7.9,
+      "total_hours_viewed_m": 1995.0,
+      "total_views_m": 356.2,
+      "avg_completion_rate_pct": 74.1,
+      "content_roi_multiplier": 4.93,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 229,
+      "title_name": "Neon Detective: Chapter 3",
+      "content_type": "Movie",
+      "genre": "Reality TV & Lifestyle",
+      "original_language": "Portuguese",
+      "release_year": 2021,
+      "budget_m_usd": 36.7,
+      "imdb_rating": 9.0,
+      "total_hours_viewed_m": 1991.8,
+      "total_views_m": 1106.6,
+      "avg_completion_rate_pct": 74.8,
+      "content_roi_multiplier": 9.77,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 253,
+      "title_name": "Neon Kingdom: Chapter 2",
+      "content_type": "Docuseries",
+      "genre": "Thriller & Mystery",
+      "original_language": "Hindi",
+      "release_year": 2024,
+      "budget_m_usd": 62.3,
+      "imdb_rating": 8.5,
+      "total_hours_viewed_m": 1937.1,
+      "total_views_m": 269.0,
+      "avg_completion_rate_pct": 75.4,
+      "content_roi_multiplier": 5.6,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 189,
+      "title_name": "Lost Chronicles",
+      "content_type": "TV Series",
+      "genre": "Reality TV & Lifestyle",
+      "original_language": "German",
+      "release_year": 2022,
+      "budget_m_usd": 46.6,
+      "imdb_rating": 8.5,
+      "total_hours_viewed_m": 1902.2,
+      "total_views_m": 216.1,
+      "avg_completion_rate_pct": 74.3,
+      "content_roi_multiplier": 7.35,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 35,
+      "title_name": "Hidden Kingdom",
+      "content_type": "TV Series",
+      "genre": "Romance",
+      "original_language": "Spanish",
+      "release_year": 2023,
+      "budget_m_usd": 60.2,
+      "imdb_rating": 7.8,
+      "total_hours_viewed_m": 1798.1,
+      "total_views_m": 140.5,
+      "avg_completion_rate_pct": 73.2,
+      "content_roi_multiplier": 5.38,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 348,
+      "title_name": "Infinite Syndicate: Chapter 2",
+      "content_type": "Docuseries",
+      "genre": "Animation & Anime",
+      "original_language": "Portuguese",
+      "release_year": 2022,
+      "budget_m_usd": 59.5,
+      "imdb_rating": 7.4,
+      "total_hours_viewed_m": 1745.9,
+      "total_views_m": 145.5,
+      "avg_completion_rate_pct": 72.1,
+      "content_roi_multiplier": 5.28,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 71,
+      "title_name": "Dark Legacy: Chapter 2",
+      "content_type": "TV Series",
+      "genre": "Horror",
+      "original_language": "English",
+      "release_year": 2022,
+      "budget_m_usd": 94.8,
+      "imdb_rating": 6.4,
+      "total_hours_viewed_m": 1727.4,
+      "total_views_m": 143.9,
+      "avg_completion_rate_pct": 70.8,
+      "content_roi_multiplier": 3.28,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 308,
+      "title_name": "Wild Game",
+      "content_type": "Movie",
+      "genre": "Reality TV & Lifestyle",
+      "original_language": "Spanish",
+      "release_year": 2022,
+      "budget_m_usd": 64.4,
+      "imdb_rating": 7.2,
+      "total_hours_viewed_m": 1699.1,
+      "total_views_m": 944.0,
+      "avg_completion_rate_pct": 72.2,
+      "content_roi_multiplier": 4.75,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 290,
+      "title_name": "Shattered Syndicate: Chapter 2",
+      "content_type": "TV Series",
+      "genre": "Reality TV & Lifestyle",
+      "original_language": "Portuguese",
+      "release_year": 2021,
+      "budget_m_usd": 25.5,
+      "imdb_rating": 9.4,
+      "total_hours_viewed_m": 1676.1,
+      "total_views_m": 161.1,
+      "avg_completion_rate_pct": 75.3,
+      "content_roi_multiplier": 11.83,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 231,
+      "title_name": "Electric Heist",
+      "content_type": "Docuseries",
+      "genre": "Action & Adventure",
+      "original_language": "English",
+      "release_year": 2022,
+      "budget_m_usd": 35.2,
+      "imdb_rating": 8.6,
+      "total_hours_viewed_m": 1671.1,
+      "total_views_m": 298.4,
+      "avg_completion_rate_pct": 74.1,
+      "content_roi_multiplier": 8.55,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 335,
+      "title_name": "Forbidden Signal",
+      "content_type": "Docuseries",
+      "genre": "Horror",
+      "original_language": "English",
+      "release_year": 2024,
+      "budget_m_usd": 43.2,
+      "imdb_rating": 9.4,
+      "total_hours_viewed_m": 1666.1,
+      "total_views_m": 138.8,
+      "avg_completion_rate_pct": 77.0,
+      "content_roi_multiplier": 6.94,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 327,
+      "title_name": "Lost Chronicles",
+      "content_type": "TV Series",
+      "genre": "Thriller & Mystery",
+      "original_language": "English",
+      "release_year": 2024,
+      "budget_m_usd": 73.5,
+      "imdb_rating": 7.5,
+      "total_hours_viewed_m": 1600.1,
+      "total_views_m": 333.3,
+      "avg_completion_rate_pct": 74.2,
+      "content_roi_multiplier": 3.92,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 13,
+      "title_name": "Extraction 2",
+      "content_type": "Movie",
+      "genre": "Action & Adventure",
+      "original_language": "English",
+      "release_year": 2023,
+      "budget_m_usd": 70.0,
+      "imdb_rating": 7.0,
+      "total_hours_viewed_m": 1586.0,
+      "total_views_m": 881.1,
+      "avg_completion_rate_pct": 72.0,
+      "content_roi_multiplier": 4.08,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 385,
+      "title_name": "Crimson Chronicles: Chapter 4",
+      "content_type": "TV Series",
+      "genre": "Animation & Anime",
+      "original_language": "English",
+      "release_year": 2023,
+      "budget_m_usd": 41.5,
+      "imdb_rating": 8.3,
+      "total_hours_viewed_m": 1501.3,
+      "total_views_m": 170.6,
+      "avg_completion_rate_pct": 74.0,
+      "content_roi_multiplier": 6.51,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 203,
+      "title_name": "Infinite Signal",
+      "content_type": "TV Series",
+      "genre": "Romance",
+      "original_language": "Spanish",
+      "release_year": 2024,
+      "budget_m_usd": 60.6,
+      "imdb_rating": 8.0,
+      "total_hours_viewed_m": 1494.0,
+      "total_views_m": 143.7,
+      "avg_completion_rate_pct": 75.5,
+      "content_roi_multiplier": 4.44,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 343,
+      "title_name": "Dark Protocol",
+      "content_type": "TV Series",
+      "genre": "Crime & Docuseries",
+      "original_language": "English",
+      "release_year": 2024,
+      "budget_m_usd": 116.7,
+      "imdb_rating": 6.0,
+      "total_hours_viewed_m": 1491.0,
+      "total_views_m": 116.5,
+      "avg_completion_rate_pct": 71.2,
+      "content_roi_multiplier": 2.3,
+      "is_netflix_original": 1,
+      "content_tier": "Blockbuster Tentpole"
+    },
+    {
+      "content_id": 64,
+      "title_name": "Neon Game",
+      "content_type": "Animation",
+      "genre": "Drama",
+      "original_language": "English",
+      "release_year": 2025,
+      "budget_m_usd": 75.9,
+      "imdb_rating": 8.1,
+      "total_hours_viewed_m": 1488.5,
+      "total_views_m": 206.7,
+      "avg_completion_rate_pct": 80.7,
+      "content_roi_multiplier": 3.53,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    },
+    {
+      "content_id": 356,
+      "title_name": "Silent Chronicles",
+      "content_type": "TV Series",
+      "genre": "Crime & Docuseries",
+      "original_language": "Hindi",
+      "release_year": 2022,
+      "budget_m_usd": 55.1,
+      "imdb_rating": 7.0,
+      "total_hours_viewed_m": 1445.7,
+      "total_views_m": 180.7,
+      "avg_completion_rate_pct": 71.6,
+      "content_roi_multiplier": 4.72,
+      "is_netflix_original": 1,
+      "content_tier": "Mid-Tier Hit"
+    }
+  ],
+  "genre_distribution": [
+    {
+      "genre": "Sci-Fi & Fantasy",
+      "total_hours_m": 37150.2,
+      "title_count": 48,
+      "avg_imdb": 7.0
+    },
+    {
+      "genre": "Drama",
+      "total_hours_m": 29551.7,
+      "title_count": 46,
+      "avg_imdb": 7.14
+    },
+    {
+      "genre": "Action & Adventure",
+      "total_hours_m": 26079.5,
+      "title_count": 41,
+      "avg_imdb": 7.08
+    },
+    {
+      "genre": "Crime & Docuseries",
+      "total_hours_m": 25100.6,
+      "title_count": 46,
+      "avg_imdb": 7.18
+    },
+    {
+      "genre": "Thriller & Mystery",
+      "total_hours_m": 23736.7,
+      "title_count": 46,
+      "avg_imdb": 7.0
+    },
+    {
+      "genre": "Reality TV & Lifestyle",
+      "total_hours_m": 22215.9,
+      "title_count": 37,
+      "avg_imdb": 7.19
+    },
+    {
+      "genre": "Comedy",
+      "total_hours_m": 21704.4,
+      "title_count": 34,
+      "avg_imdb": 7.28
+    },
+    {
+      "genre": "Romance",
+      "total_hours_m": 18018.5,
+      "title_count": 33,
+      "avg_imdb": 6.99
+    },
+    {
+      "genre": "Animation & Anime",
+      "total_hours_m": 16271.1,
+      "title_count": 41,
+      "avg_imdb": 7.19
+    },
+    {
+      "genre": "Horror",
+      "total_hours_m": 14727.7,
+      "title_count": 28,
+      "avg_imdb": 7.09
+    }
+  ],
+  "cohort_retention_matrix": [
+    {
+      "cohort_month": "2021-01",
+      "initial_subscribers": 2931653,
+      "retention_rates": {
+        "M0": 100.0,
+        "M1": 94.8,
+        "M3": 89.4,
+        "M6": 82.9,
+        "M9": 77.1,
+        "M12": 70.6,
+        "M18": 60.3,
+        "M24": 52.0
+      }
+    },
+    {
+      "cohort_month": "2021-07",
+      "initial_subscribers": 2684834,
+      "retention_rates": {
+        "M0": 100.0,
+        "M1": 94.5,
+        "M3": 89.4,
+        "M6": 82.4,
+        "M9": 76.1,
+        "M12": 70.6,
+        "M18": 59.9,
+        "M24": 51.6
+      }
+    },
+    {
+      "cohort_month": "2022-01",
+      "initial_subscribers": 3629929,
+      "retention_rates": {
+        "M0": 100.0,
+        "M1": 95.4,
+        "M3": 89.4,
+        "M6": 82.8,
+        "M9": 76.5,
+        "M12": 70.8,
+        "M18": 60.4,
+        "M24": 52.3
+      }
+    },
+    {
+      "cohort_month": "2022-07",
+      "initial_subscribers": 3360393,
+      "retention_rates": {
+        "M0": 100.0,
+        "M1": 94.0,
+        "M3": 89.2,
+        "M6": 82.6,
+        "M9": 76.7,
+        "M12": 71.2,
+        "M18": 60.2,
+        "M24": 51.9
+      }
+    },
+    {
+      "cohort_month": "2022-11",
+      "initial_subscribers": 3650887,
+      "retention_rates": {
+        "M0": 100.0,
+        "M1": 94.3,
+        "M3": 89.2,
+        "M6": 82.9,
+        "M9": 76.4,
+        "M12": 70.9,
+        "M18": 60.7,
+        "M24": 51.5
+      }
+    },
+    {
+      "cohort_month": "2023-01",
+      "initial_subscribers": 3049086,
+      "retention_rates": {
+        "M0": 100.0,
+        "M1": 94.3,
+        "M3": 89.5,
+        "M6": 83.0,
+        "M9": 76.9,
+        "M12": 71.6,
+        "M18": 61.6,
+        "M24": 51.8
+      }
+    },
+    {
+      "cohort_month": "2023-06",
+      "initial_subscribers": 3626260,
+      "retention_rates": {
+        "M0": 100.0,
+        "M1": 94.1,
+        "M3": 90.0,
+        "M6": 82.0,
+        "M9": 76.8,
+        "M12": 70.8,
+        "M18": 60.4,
+        "M24": 53.0
+      }
+    },
+    {
+      "cohort_month": "2023-11",
+      "initial_subscribers": 3091092,
+      "retention_rates": {
+        "M0": 100.0,
+        "M1": 94.9,
+        "M3": 89.5,
+        "M6": 83.2,
+        "M9": 76.1,
+        "M12": 71.7,
+        "M18": 61.4,
+        "M24": 52.4
+      }
+    },
+    {
+      "cohort_month": "2024-01",
+      "initial_subscribers": 3204467,
+      "retention_rates": {
+        "M0": 100.0,
+        "M1": 94.8,
+        "M3": 90.1,
+        "M6": 82.6,
+        "M9": 76.6,
+        "M12": 70.2,
+        "M18": 60.8,
+        "M24": null
+      }
+    },
+    {
+      "cohort_month": "2024-06",
+      "initial_subscribers": 2995952,
+      "retention_rates": {
+        "M0": 100.0,
+        "M1": 95.2,
+        "M3": 89.0,
+        "M6": 82.5,
+        "M9": 76.4,
+        "M12": 70.5,
+        "M18": 60.5,
+        "M24": null
+      }
+    },
+    {
+      "cohort_month": "2025-01",
+      "initial_subscribers": 3303538,
+      "retention_rates": {
+        "M0": 100.0,
+        "M1": 94.4,
+        "M3": 89.8,
+        "M6": 82.6,
+        "M9": 75.9,
+        "M12": null,
+        "M18": null,
+        "M24": null
+      }
+    }
+  ],
+  "plans_mix": [
+    {
+      "plan_name": "Mobile-Only Plan",
+      "plan_code": "MOBILE",
+      "price_usd": 4.99,
+      "sub_share_pct": 5.5
+    },
+    {
+      "plan_name": "Basic Standard Def",
+      "plan_code": "BASIC",
+      "price_usd": 9.99,
+      "sub_share_pct": 2.5
+    },
+    {
+      "plan_name": "Standard with Ads",
+      "plan_code": "STD_ADS",
+      "price_usd": 6.99,
+      "sub_share_pct": 28.5
+    },
+    {
+      "plan_name": "Standard Ad-Free",
+      "plan_code": "STANDARD",
+      "price_usd": 15.49,
+      "sub_share_pct": 41.0
+    },
+    {
+      "plan_name": "Premium 4K HDR + Spatial",
+      "plan_code": "PREMIUM",
+      "price_usd": 22.99,
+      "sub_share_pct": 22.5
+    }
+  ],
+  "devices_mix": [
+    {
+      "device_type": "Smart TV",
+      "device_category": "Living Room",
+      "stream_share_pct": 48.0,
+      "avg_bitrate_mbps": 14.5
+    },
+    {
+      "device_type": "Connected TV (Roku/Apple TV/FireTV)",
+      "device_category": "Living Room",
+      "stream_share_pct": 22.0,
+      "avg_bitrate_mbps": 12.8
+    },
+    {
+      "device_type": "Mobile Phone (iOS/Android)",
+      "device_category": "Handheld",
+      "stream_share_pct": 16.0,
+      "avg_bitrate_mbps": 4.5
+    },
+    {
+      "device_type": "Tablet (iPad/Android Tab)",
+      "device_category": "Handheld",
+      "stream_share_pct": 6.0,
+      "avg_bitrate_mbps": 6.2
+    },
+    {
+      "device_type": "Web Browser (PC/Mac/Chromebook)",
+      "device_category": "Desktop",
+      "stream_share_pct": 5.0,
+      "avg_bitrate_mbps": 8.0
+    },
+    {
+      "device_type": "Gaming Console (PS5/Xbox)",
+      "device_category": "Living Room",
+      "stream_share_pct": 3.0,
+      "avg_bitrate_mbps": 11.5
+    }
+  ]
+}
