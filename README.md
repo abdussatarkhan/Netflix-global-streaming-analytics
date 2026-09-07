@@ -45,7 +45,8 @@ graph TD
    - *Cold User:* Recommends high-engagement, diverse global trending catalog.
    - *Cold Item:* Matches newly ingested titles via latent semantic nearest neighbors and genre clustering.
 5. **REST API Gateway (`api/main.py`):** Validated Pydantic V2 endpoints for health checks, aggregate analytics, natural language search, personalized feeds, and clickstream ingestion.
-6. **Academic Defense Guide ([docs/ACADEMIC_DEFENSE_GUIDE.md](docs/ACADEMIC_DEFENSE_GUIDE.md)):** Comprehensive mathematical formulations, algorithmic complexity analysis, and viva defense Q&A.
+6. **Academic FYP Thesis ([docs/FINAL_YEAR_PROJECT_THESIS.md](docs/FINAL_YEAR_PROJECT_THESIS.md)):** Complete 6-chapter undergraduate degree dissertation, theoretical foundations, mathematical formulations, algorithmic pseudocode, and benchmark results.
+7. **Academic Defense Guide ([docs/ACADEMIC_DEFENSE_GUIDE.md](docs/ACADEMIC_DEFENSE_GUIDE.md)):** Comprehensive mathematical formulations, algorithmic complexity analysis, and viva defense Q&A.
 
 ---
 
