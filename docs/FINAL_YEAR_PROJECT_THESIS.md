@@ -1,6 +1,110 @@
-# STREAMING INTELLIGENCE & PERSONALIZATION PLATFORM: AN END-TO-END DISTRIBUTED DATA ENGINEERING AND HYBRID VECTOR-RELATIONAL RECOMMENDATION SYSTEM
+# STREAMING INTELLIGENCE AND PERSONALIZATION PLATFORM: AN END-TO-END DISTRIBUTED DATA ENGINEERING AND HYBRID VECTOR-RELATIONAL RECOMMENDATION SYSTEM
 
-**A Final Year Project Dissertation Submitted in Partial Fulfillment of the Requirements for the Degree of Bachelor of Science in Computer Science**
+**A Final Year Project Dissertation Submitted in Partial Fulfillment of the Requirements for the Degree of Bachelor of Science in Computer Science (BSCS)**
+
+---
+
+**Author:** Student Candidate  
+**Registration / Roll No:** BSCS-2022-XXXX  
+**Project Supervisor:** Internal Faculty Advisor, Ph.D.  
+**Department:** Department of Computer Science  
+**Faculty:** Faculty of Information Technology and Computer Science  
+**Institution:** University Faculty of Computer Science  
+**Date of Submission:** September 2026  
+
+---
+
+## DECLARATION OF ORIGINALITY
+
+I hereby declare that this dissertation entitled **"Streaming Intelligence and Personalization Platform: An End-to-End Distributed Data Engineering and Hybrid Vector-Relational Recommendation System"** is my own authentic work carried out under the academic supervision of my project advisor. 
+
+I further declare that this work contains no material previously published or written by another person, except where due reference and citation is made in the text. No part of this project has been submitted previously for any degree, diploma, or qualification at any university or institution.
+
+**Student Signature:** ___________________________  
+**Date:** September 2026  
+
+---
+
+## CERTIFICATE OF EXAMINATION AND APPROVAL
+
+This is to certify that the Final Year Project dissertation titled **"Streaming Intelligence and Personalization Platform: An End-to-End Distributed Data Engineering and Hybrid Vector-Relational Recommendation System"** submitted by **[Student Candidate]** (Roll No: **BSCS-2022-XXXX**) has been evaluated and approved by the Examination Board as satisfying the dissertation requirements for the award of the degree of **Bachelor of Science in Computer Science**.
+
+### Examination Committee:
+
+1. **Project Supervisor / Internal Examiner:**  
+   Signature: ___________________________ Date: ______________  
+   Name: Dr. ___________________________  
+
+2. **External Examiner / Industry Reviewer:**  
+   Signature: ___________________________ Date: ______________  
+   Name: Prof. / Dr. _____________________  
+
+3. **Head of Department (Computer Science):**  
+   Signature: ___________________________ Date: ______________  
+   Name: Prof. Dr. ______________________  
+
+---
+
+## DEDICATION
+
+*This dissertation is dedicated to my parents, whose continuous sacrifices, unconditional love, and prayers have guided me through every step of my academic journey, and to my mentors who inspired my curiosity for computer science and applied machine learning.*
+
+---
+
+## ACKNOWLEDGMENTS
+
+I express my deepest gratitude to my project supervisor for their invaluable guidance, constructive critiques, and continuous encouragement throughout the conception, architecture, and execution of this Final Year Project. 
+
+I also extend my sincere appreciation to the faculty members of the Department of Computer Science for providing a rigorous academic foundation. Finally, I am grateful to my peers and fellow researchers for their insightful discussions on distributed systems, vector retrieval, and machine learning infrastructure.
+
+---
+
+## LIST OF FIGURES
+
+* **Figure 3.1:** Four-Tier Streaming Platform System Architecture
+* **Figure 3.2:** Relational and Vector Entity-Relationship Diagram (ERD)
+* **Figure 5.1:** Comparative Recommendation Performance across Baselines (Precision, Recall, NDCG)
+* **Figure 5.2:** Ablation Study — Component Impact on Recommendation Ranking (NDCG@10)
+* **Figure 5.3:** API Endpoint Execution Latency Percentiles (p50, p95, p99 vs. 30ms SLA)
+* **Figure 5.4:** User Cold-Start Catalog Discovery Shannon Entropy Comparison
+
+---
+
+## LIST OF TABLES
+
+* **Table 2.1:** Evolution and Methodological Comparison of Recommendation Paradigms
+* **Table 3.1:** Latency and Throughput Engineering Specifications by Platform Tier
+* **Table 5.1:** Information Retrieval Ranking Benchmark Results (Precision@K, Recall@K, NDCG@K)
+* **Table 5.2:** Component Ablation Analysis on Test Query Sets
+* **Table 5.3:** End-to-End API Response Latency Percentiles under Load
+
+---
+
+## LIST OF ABBREVIATIONS AND ACRONYMS
+
+* **ANN:** Approximate Nearest Neighbor
+* **API:** Application Programming Interface
+* **BERT:** Bidirectional Encoder Representations from Transformers
+* **CORS:** Cross-Origin Resource Sharing
+* **CRUD:** Create, Read, Update, Delete
+* **DDL:** Data Definition Language
+* **DLRM:** Deep Learning Recommendation Model
+* **EDA:** Exploratory Data Analysis
+* **ERD:** Entity-Relationship Diagram
+* **ETL:** Extract, Transform, Load
+* **FYP:** Final Year Project
+* **HNSW:** Hierarchical Navigable Small World
+* **ISO:** International Organization for Standardization
+* **JSON:** JavaScript Object Notation
+* **NDCG:** Normalized Discounted Cumulative Gain
+* **NLP:** Natural Language Processing
+* **REST:** Representational State Transfer
+* **SBERT:** Sentence-BERT
+* **SLA:** Service Level Agreement
+* **SQL:** Structured Query Language
+* **SVOD:** Subscription Video-on-Demand
+* **TF-IDF:** Term Frequency-Inverse Document Frequency
+* **VOD:** Video-on-Demand
 
 ---
 
@@ -160,6 +264,8 @@ Our system resolves this asymmetry through dynamic hybridization: evaluating den
 ### 3.1 Four-Tier Architectural Topology
 The platform is designed across four modular tiers to enforce clean separation of concerns:
 
+![Figure 3.1: Four-Tier Streaming Platform System Architecture](figures/fig1_system_architecture.png)
+
 ```
 +=================================================================================+
 |                            TIER 4: API & SERVICE LAYER                          |
@@ -204,6 +310,8 @@ The storage layer is hosted within PostgreSQL 16. The relational schema enforces
   - `titles`: Master catalog metadata with B-tree indexes on `release_year`, `type`, `country`, and `rating`.
   - `title_embeddings`: Foreign key to `titles.show_id` (`ON DELETE CASCADE`), storing dense vectors $\vec{v} \in \mathbb{R}^{384}$ using the `vector(384)` data type.
   - `user_interactions`: Records telemetry events with composite index on `(user_id, timestamp DESC)` for rapid chronological retrieval of user histories.
+
+![Figure 3.2: Relational and Vector Entity-Relationship Diagram (ERD)](figures/fig2_database_erd.png)
 
 * **HNSW Index Configuration:**
   ```sql
@@ -388,6 +496,8 @@ Ranking performance was measured using three standard Information Retrieval metr
 | **Baseline 3: Pure Dense Semantic (SBERT)**| 0.618 | 0.412 | 0.655 | 0.547 | 0.521 | 0.598 |
 | **Our System: Hybrid Multi-Signal Engine** | **0.784** | **0.548** | **0.812** | **0.712** | **0.674** | **0.765** |
 
+![Figure 5.1: Comparative Recommendation Performance across Baselines](figures/fig3_evaluation_metrics.png)
+
 The results indicate that our hybrid model achieves an NDCG@10 of **0.765**, representing a **27.9% improvement** over pure semantic search and a **75.8% improvement** over traditional metadata matching.
 
 ### 5.3 Ablation Study: Dissecting Hybrid Scoring Components
@@ -406,6 +516,8 @@ To evaluate the contribution of individual scoring signals, an ablation study wa
 +---------------------------------------------------------------------------------+
 ```
 
+![Figure 5.2: Ablation Study - Component Impact on Recommendation Ranking](figures/fig4_ablation_study.png)
+
 The ablation demonstrates that semantic embeddings provide the largest individual performance gain ($+0.253$ NDCG), followed by genre Jaccard overlap ($+0.117$ NDCG) and temporal decay weighting ($+0.067$ NDCG).
 
 ### 5.4 Latency and Query Execution Benchmarks
@@ -419,10 +531,14 @@ Query execution times were benchmarked under concurrent load (100 sequential req
 | **User Hybrid Personalization (`GET /recommendations/user/{id}`)** | 8.6 ms | 12.8 ms | 19.5 ms | 24.2 ms |
 | **Clickstream Stream Ingestion (`POST /pipeline/simulate-stream`)** | 2.4 ms | 3.9 ms | 7.1 ms | 9.5 ms |
 
+![Figure 5.3: API Endpoint Latency Distribution Benchmarks](figures/fig5_latency_distribution.png)
+
 All endpoints operated well within the target SLA threshold of 30 ms.
 
 ### 5.5 Cold-Start Mitigation Performance
 When tested on synthetic users with $|\mathcal{H}_u| = 0$, our genre-diversified popularity fallback achieved a **catalog discovery entropy score of 3.82 bits** (compared to 1.14 bits for unconstrained top-popularity ranking), confirming that the cold-start algorithm successfully prevents recommendation homogenization.
+
+![Figure 5.4: User Cold-Start Catalog Discovery Diversity Comparison](figures/fig6_cold_start_comparison.png)
 
 ---
 
@@ -462,3 +578,152 @@ This dissertation presented the design, implementation, and empirical validation
 
 
 
+
+
+---
+
+## APPENDICES
+
+### APPENDIX A: REST API ENDPOINT SPECIFICATIONS AND SCHEMAS
+
+The platform exposes five core REST endpoints adhering to the OpenAPI 3.0 specification:
+
+1. **`GET /health`**
+   - **Summary:** Database connection, vector extension status, table counts.
+   - **Response Payload:**
+     ```json
+     {
+       "status": "operational",
+       "service": "Netflix Streaming Intelligence API",
+       "database": {
+         "status": "healthy",
+         "database_type": "PostgreSQL (pgvector)",
+         "vector_extension_active": true,
+         "total_titles": 100,
+         "total_interactions": 1937
+       },
+       "embedder_model": "sentence-transformers/all-MiniLM-L6-v2",
+       "timestamp": "2026-09-07T18:00:00Z"
+     }
+     ```
+
+2. **`POST /recommendations/semantic`**
+   - **Summary:** Natural language semantic search query.
+   - **Request Payload:**
+     ```json
+     {
+       "query": "dark psychological thriller set in Europe",
+       "top_k": 5,
+       "type_filter": "Movie",
+       "min_year": 2015
+     }
+     ```
+   - **Response Payload:** Ranked array of matching titles with similarity score and explanation.
+
+3. **`GET /recommendations/user/{user_id}`**
+   - **Summary:** Personalized hybrid recommendation feed with automatic cold-start handling.
+   - **Query Parameters:** `top_k` (default: 10), `include_history` (default: false).
+
+4. **`POST /pipeline/simulate-stream`**
+   - **Summary:** Ingestion of user clickstream telemetry batch.
+   - **Request Payload:** Array of interaction events (`user_id`, `show_id`, `interaction_type`, `watch_duration_pct`).
+
+---
+
+### APPENDIX B: SQL DATABASE SCHEMA DDL
+
+```sql
+-- PostgreSQL 16 + pgvector Schema
+CREATE EXTENSION IF NOT EXISTS vector;
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+CREATE TABLE titles (
+    show_id VARCHAR(32) PRIMARY KEY,
+    type VARCHAR(32) NOT NULL DEFAULT 'Movie',
+    title VARCHAR(512) NOT NULL,
+    director TEXT,
+    cast_members TEXT,
+    country VARCHAR(256),
+    date_added DATE,
+    release_year INTEGER NOT NULL CHECK (release_year >= 1900 AND release_year <= 2100),
+    rating VARCHAR(32) DEFAULT 'TV-MA',
+    duration VARCHAR(64),
+    listed_in TEXT NOT NULL,
+    description TEXT NOT NULL,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_titles_release_year ON titles (release_year);
+CREATE INDEX idx_titles_type ON titles (type);
+
+CREATE TABLE title_embeddings (
+    show_id VARCHAR(32) PRIMARY KEY REFERENCES titles(show_id) ON DELETE CASCADE,
+    embedding vector(384) NOT NULL,
+    model_version VARCHAR(64) NOT NULL DEFAULT 'all-MiniLM-L6-v2',
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_title_embeddings_hnsw ON title_embeddings 
+USING hnsw (embedding vector_cosine_ops)
+WITH (m = 16, ef_construction = 64);
+
+CREATE TABLE user_interactions (
+    interaction_id BIGSERIAL PRIMARY KEY,
+    user_id VARCHAR(64) NOT NULL,
+    show_id VARCHAR(32) NOT NULL REFERENCES titles(show_id) ON DELETE CASCADE,
+    interaction_type VARCHAR(32) NOT NULL CHECK (interaction_type IN ('watch', 'like', 'save', 'skip')),
+    watch_duration_pct NUMERIC(5, 2) NOT NULL CHECK (watch_duration_pct >= 0.00 AND watch_duration_pct <= 100.00),
+    timestamp TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_user_interactions_user_time ON user_interactions (user_id, timestamp DESC);
+```
+
+---
+
+### APPENDIX C: AUTOMATED PYTEST SUITE VERIFICATION LOGS
+
+```
+============================= test session starts =============================
+platform win32 -- Python 3.13.14, pytest-9.1.1, pluggy-1.6.0
+rootdir: C:\Users\Windows\Downloads\p
+plugins: anyio-4.14.2, Faker-40.38.0
+collected 12 items
+
+tests/test_api.py::test_health_endpoint PASSED                           [  8%]
+tests/test_api.py::test_analytics_summary_endpoint PASSED                [ 16%]
+tests/test_api.py::test_semantic_recommendation_endpoint PASSED          [ 25%]
+tests/test_api.py::test_user_recommendation_endpoint_cold_start PASSED   [ 33%]
+tests/test_api.py::test_simulate_stream_endpoint PASSED                  [ 41%]
+tests/test_etl.py::test_date_parser PASSED                               [ 50%]
+tests/test_etl.py::test_clean_titles_deduplication_and_imputation PASSED [ 58%]
+tests/test_etl.py::test_generate_synthetic_interactions PASSED           [ 66%]
+tests/test_recommender.py::test_embedder_dimension_and_norm PASSED       [ 75%]
+tests/test_recommender.py::test_semantic_recommendation_ranking PASSED   [ 83%]
+tests/test_recommender.py::test_personalized_hybrid_recommendation_and_metadata_boost PASSED [ 91%]
+tests/test_recommender.py::test_cold_start_new_user_fallback PASSED      [100%]
+
+======================= 12 passed in 2.07s =======================
+```
+
+---
+
+### APPENDIX D: SYSTEM DEPLOYMENT AND USER INSTRUCTIONS
+
+1. **Prerequisites:**
+   - Docker Engine v24.0+ and Docker Compose v2.20+
+   - Alternatively: Python 3.11+ with PostgreSQL 16 server.
+
+2. **Docker Compose Launch:**
+   ```bash
+   # Navigate to repository root
+   cd Netflix-global-streaming-analytics
+   
+   # Build and launch containers
+   docker-compose -f docker/docker-compose.yml up --build
+   ```
+
+3. **Accessing Interactive Documentation:**
+   - Swagger UI: `http://localhost:8000/docs`
+   - ReDoc: `http://localhost:8000/redoc`
