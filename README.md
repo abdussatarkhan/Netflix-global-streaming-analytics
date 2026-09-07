@@ -1,15 +1,96 @@
-﻿# Netflix — Global Streaming & Content Performance Analytics (2021–2025)
+# Netflix Streaming Intelligence & Personalization Platform
 
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=for-the-badge&logo=postgresql&logoColor=white)](sql/01_schema.sql)
-[![Power BI](https://img.shields.io/badge/Power_BI-Semantic_Model-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](powerbi/01_setup_guide.md)
-[![Python Data Engine](https://img.shields.io/badge/Python-NumPy_%7C_Pandas-3776AB?style=for-the-badge&logo=python&logoColor=white)](scripts/)
-[![Interactive Dashboard](https://img.shields.io/badge/D3.js_%26_Chart.js-Executive_Portal-E50914?style=for-the-badge)](netflix_dashboard.html)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](api/main.py)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)](data/schema.sql)
+[![Sentence Transformers](https://img.shields.io/badge/Sentence_Transformers-all--MiniLM--L6--v2-FFA800?style=for-the-badge&logo=huggingface&logoColor=white)](models/embedder.py)
+[![Docker](https://img.shields.io/badge/Docker-Multi--Container-2496ED?style=for-the-badge&logo=docker&logoColor=white)](docker/docker-compose.yml)
+[![Pytest](https://img.shields.io/badge/Pytest-Passing-brightgreen?style=for-the-badge&logo=pytest&logoColor=white)](tests/)
 
-**An enterprise-grade, full-stack streaming analytics project:** synthetic data engineering → PostgreSQL 16 star-schema data warehouse → Power BI semantic layer (35+ DAX measures) → custom interactive executive web dashboard.
-
-> Built around Netflix's 5-year macro transformation (2021–2025): the post-pandemic subscriber plateau, the late-2022 Ad-Supported Tier rollout, the 2023 Paid Sharing monetization initiative, non-English global localization, and a \$7B+ Free Cash Flow turnaround.
+**A production-grade, end-to-end Final Year Project (FYP) for Bachelor of Science in Computer Science** — spanning automated ETL data engineering, vector storage with PostgreSQL + pgvector, hybrid machine learning personalization with cold-start mitigation, and a high-performance FastAPI microservice layer.
 
 ---
+
+## 🏛️ 4-Tier Platform Architecture
+
+```mermaid
+graph TD
+    subgraph Tier 1: Ingestion & ETL
+        RawCSV[Raw Netflix Catalog & Stream Telemetry] --> ETL[pipeline/etl.py Data Cleaning Engine]
+        ETL --> Embedder[models/embedder.py SentenceTransformers]
+    end
+
+    subgraph Tier 2: Storage & Vector Database
+        ETL --> PG_Rel[(PostgreSQL 16 Relational Schema)]
+        Embedder --> PG_Vec[(pgvector HNSW Cosine Index - 384 Dim)]
+    end
+
+    subgraph Tier 3: ML & Recommendation Engine
+        PG_Vec --> HybridEngine[models/recommender.py Hybrid Engine]
+        PG_Rel --> HybridEngine
+        HybridEngine --> ColdStart[Dual-Mode Cold-Start Mitigation]
+    end
+
+    subgraph Tier 4: Service & API Layer
+        HybridEngine --> FastAPI[api/main.py FastAPI Gateway]
+        FastAPI --> REST_Endpoints["/health, /analytics, /recommendations, /pipeline"]
+        FastAPI --> Dashboards[Interactive Dashboards & Clients]
+    end
+```
+
+### Key Technical Capabilities:
+1. **Automated ETL Pipeline (`pipeline/etl.py`):** Cleans missing values, normalizes date strings to ISO-8601, deduplicates catalogs, and ingests telemetry streams with batch upserts.
+2. **Dense Vector Database (`data/schema.sql`):** PostgreSQL 16 + `pgvector` with HNSW vector index (`m=16, ef_construction=64`) for sub-millisecond approximate nearest neighbor semantic search.
+3. **Hybrid Personalization (`models/recommender.py`):** Combines semantic embedding similarity, genre Jaccard overlap, director affinity, and cast overlap with dynamic temporal decay weighting.
+4. **Cold Start Mitigation:** Dual-mode handling:
+   - *Cold User:* Recommends high-engagement, diverse global trending catalog.
+   - *Cold Item:* Matches newly ingested titles via latent semantic nearest neighbors and genre clustering.
+5. **REST API Gateway (`api/main.py`):** Validated Pydantic V2 endpoints for health checks, aggregate analytics, natural language search, personalized feeds, and clickstream ingestion.
+6. **Academic Defense Guide ([docs/ACADEMIC_DEFENSE_GUIDE.md](docs/ACADEMIC_DEFENSE_GUIDE.md)):** Comprehensive mathematical formulations, algorithmic complexity analysis, and viva defense Q&A.
+
+---
+
+## 🚀 Quickstart & Execution
+
+### Option A: Run via Docker Compose (Recommended)
+```bash
+# 1. Clone & navigate to project
+cd Netflix-global-streaming-analytics
+
+# 2. Launch PostgreSQL with pgvector and FastAPI API
+docker-compose -f docker/docker-compose.yml up --build
+```
+* Interactive API Documentation (Swagger UI): `http://localhost:8000/docs`
+* System Health Endpoint: `http://localhost:8000/health`
+
+### Option B: Local Python Environment
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Run end-to-end ETL & Indexing Orchestration
+python -m pipeline.orchestrator
+
+# 3. Start the FastAPI microservice
+uvicorn api.main:app --host 0.0.0.0 --port 8000 --reload
+
+# 4. Run automated test suite
+pytest tests/ -v
+```
+
+---
+
+## 📡 REST API Reference
+
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| `GET` | `/health` | Verifies DB connectivity, pgvector extension, catalog & interaction counts |
+| `GET` | `/analytics/summary` | Aggregate analytics: content type ratio, top genres, country distribution |
+| `POST` | `/recommendations/semantic` | Natural language prompt search (e.g. *"dark mind-bending sci-fi mystery"*) |
+| `GET` | `/recommendations/user/{user_id}` | Personalized hybrid recommendations (with automatic cold-start handling) |
+| `POST` | `/pipeline/simulate-stream` | Push new telemetry clickstream events (`watch`, `like`, `save`, `skip`) |
+
+---
+
 
 ## 📊 Dashboard Preview
 

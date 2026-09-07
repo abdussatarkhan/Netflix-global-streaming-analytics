@@ -1,0 +1,65 @@
+# ====================================================================
+# Netflix Streaming Intelligence Platform - Multi-Tier Orchestration
+# Services:
+#   1. db: PostgreSQL 16 with pgvector extension
+#   2. web: FastAPI REST Service & ML Recommender
+# ====================================================================
+
+version: '3.8'
+
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: netflix_pgvector_db
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-netflix_admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-netflix_secure_pass}
+      POSTGRES_DB: ${POSTGRES_DB:-netflix_platform}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ../data/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-netflix_admin} -d ${POSTGRES_DB:-netflix_platform}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - netflix_net
+
+  web:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: netflix_api_service
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      - DATABASE_URL=postgresql+psycopg2://${POSTGRES_USER:-netflix_admin}:${POSTGRES_PASSWORD:-netflix_secure_pass}@db:5432/${POSTGRES_DB:-netflix_platform}
+      - EMBEDDING_MODEL_NAME=sentence-transformers/all-MiniLM-L6-v2
+      - EMBEDDING_DIMENSION=384
+      - WEIGHT_SEMANTIC=0.40
+      - WEIGHT_GENRE=0.30
+      - WEIGHT_DIRECTOR=0.15
+      - WEIGHT_CAST=0.15
+    ports:
+      - "${API_PORT:-8000}:8000"
+    volumes:
+      - ../data:/app/data
+      - ../pipeline:/app/pipeline
+      - ../models:/app/models
+      - ../api:/app/api
+    networks:
+      - netflix_net
+
+volumes:
+  pgdata:
+    driver: local
+
+networks:
+  netflix_net:
+    driver: bridge
