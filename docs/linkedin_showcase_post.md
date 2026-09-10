@@ -1,69 +1,68 @@
-# 🚀 LinkedIn Showcase Post Draft
+# 🚀 LinkedIn Industry Showcase Post Draft
 
 > **Instructions for Posting:**
 > 1. Copy the text below.
 > 2. Paste it into a new post on **[LinkedIn](https://www.linkedin.com)**.
-> 3. Attach the recommended screenshots/pictures (listed at the bottom of this file) to maximize engagement!
+> 3. Attach the recommended pictures (listed at the bottom) to maximize engagement!
 
 ---
 
-🎬 **How does a streaming platform scale to 282M+ members, launch an Ad-Tier, and deliver sub-15ms AI recommendations?**
+🎬 **How do modern streaming platforms scale to 280M+ members and deliver sub-15ms personalized AI recommendations?**
 
-Over the past several months, I designed and engineered an end-to-end streaming intelligence and personalization platform for my Bachelor of Science in Computer Science Final Year Project (FYP):
+Over the past few weeks, I built an end-to-end, production-grade streaming analytics and hybrid recommendation platform:
 
-🚀 **"StreamIQ: Smart Streaming Intelligence & Personalization Platform"**
+🚀 **"StreamIQ: Enterprise Streaming Intelligence & AI Personalization Engine"**
 
-From raw telemetry clickstreams and PostgreSQL vector storage to hybrid multi-factor machine learning and an asynchronous FastAPI microservice layer.
-
----
-
-### 🔍 5 Key Architecture & Business Insights Uncovered:
-
-1️⃣ **Hybrid Semantic Personalization (`pgvector` + HNSW):**
-Utilizing 384-dimensional dense vector embeddings (`SentenceTransformers all-MiniLM-L6-v2`) indexed with Hierarchical Navigable Small World (HNSW) graphs in PostgreSQL 16 to achieve sub-15ms semantic content discovery.
-
-2️⃣ **Dual-Mode Cold-Start Mitigation:**
-- *Cold User:* Engagement-weighted trending fallback ensuring zero-friction onboarding.
-- *Cold Item:* Latent semantic projection into embedding vector spaces without requiring prior interaction history.
-
-3️⃣ **The AVOD Ad-Tier Scaling Engine:**
-Modeled the multi-phase monetization turnaround (2021–2025), capturing how the Ad-Supported plan scaled to **74.2M paid members** (26.2% of the global base) while boosting blended ARM to **$11.82 / member**.
-
-4️⃣ **Content ROI vs Production Budget Matrix:**
-Blockbuster tentpoles like *Stranger Things 4* and *Squid Game* generated over **4.8x–5.2x ROI** in member retention elasticity, while localized hits (*Lupin*, *Society of the Snow*) delivered peak viewing-hours-per-dollar efficiency.
-
-5️⃣ **Free Cash Flow & Operating Leverage:**
-Operating margins expanded by **+780 bps** to **26.8%**, powering annual Free Cash Flow conversion from \$0.4B (2021) to **\$7.2B (2025)** through disciplined content spend amortization.
+This system bridges the gap between deep dimensional business intelligence and real-time semantic machine learning.
 
 ---
 
-### 🛠️ The Full Technical Stack:
+### 🔍 5 Key Architecture & Engineering Highlights:
 
-- **AI / ML & NLP:** PyTorch, Sentence-Transformers, pgvector (HNSW Cosine Index), Scikit-Learn
-- **Backend & APIs:** Python 3.12, FastAPI (Asynchronous REST Gateway), Pydantic V2, SQLAlchemy, Uvicorn
-- **Data Engineering & Storage:** PostgreSQL 16 (Star Schema: 6 Dimensions, 5 Fact Tables, 8 BI Views), NumPy, Pandas
-- **Business Intelligence & Dashboards:** Power BI (35+ DAX Measures), D3.js, Chart.js, HTML5/CSS3 Glassmorphism
-- **DevOps & Testing:** Docker Multi-Container Compose, GitHub Actions CI/CD, Pytest (100% test pass rate)
+1️⃣ **Dense Vector Search with `pgvector` & HNSW:**
+Generated 384-dimensional semantic embeddings using `SentenceTransformers (all-MiniLM-L6-v2)` and indexed them inside PostgreSQL 16 using Hierarchical Navigable Small World (HNSW) graphs (`m=16, ef_construction=64`) to achieve sub-15ms cosine similarity search.
+
+2️⃣ **Multi-Factor Hybrid Personalization Engine:**
+Combines latent semantic similarity, genre Jaccard overlap, director affinity, and cast overlap with dynamic temporal decay weighting:
+$$\text{Score}(u, i) = w_1 \cdot \text{Sim}_{\text{semantic}} + w_2 \cdot \text{Jaccard}_{\text{genre}} + w_3 \cdot \text{Affinity}_{\text{cast}} + w_4 \cdot \text{Decay}_{\text{temporal}}$$
+
+3️⃣ **Dual-Mode Cold-Start Mitigation:**
+- *Cold User:* Engagement-weighted trending fallback with diversity filtering.
+- *Cold Item:* Latent projection into vector space immediately upon catalog ingestion.
+
+4️⃣ **Asynchronous FastAPI Microservice Gateway:**
+High-throughput REST API with Pydantic V2 validation exposing endpoints for natural language semantic search, personalized hybrid feeds, and real-time clickstream event ingestion (`watch`, `like`, `save`, `skip`).
+
+5️⃣ **Executive Business Intelligence Suite:**
+- **PostgreSQL 16 Star Schema**: 6 dimensions, 5 fact tables, and 8 production SQL BI views.
+- **Power BI Semantic Model**: 35+ custom DAX measures for YoY growth, churn decay, and ARM yield.
+- **Interactive Web Dashboards**: Standalone zero-dependency portal built with D3.js and Chart.js featuring live vector query simulation and 24-month cohort retention heatmaps.
 
 ---
 
-🔗 **GitHub Profile:** https://github.com/abdussatarkhan  
-📂 **Project Repository:** https://github.com/abdussatarkhan/Netflix-global-streaming-analytics  
-📖 **Academic FYP Thesis:** https://github.com/abdussatarkhan/Netflix-global-streaming-analytics/blob/main/docs/FINAL_YEAR_PROJECT_THESIS.md  
-📊 **Interactive Dashboard:** Double-click `stream_iq_insights.html` or `netflix_dashboard.html`!
+### 🛠️ The Tech Stack:
 
-Huge thanks to my supervisor **Mian Fazal Sabooh** and the faculty at the Department of Computer Science, University of Swat for their continuous guidance! 🎓
-
-Thoughts and feedback from the data science & engineering community are always welcome! 🚀
-
-#MachineLearning #AI #DataEngineering #FastAPI #PostgreSQL #pgvector #PowerBI #DataAnalytics #Python #Docker #DataScience #RecommendationSystems #Portfolio #FinalYearProject #UniversityOfSwat
+- **AI / ML & Vector Search:** Python 3.12, PyTorch, Sentence-Transformers, PostgreSQL 16, pgvector (HNSW), Scikit-Learn
+- **Microservices & Backend:** FastAPI, Pydantic V2, SQLAlchemy, Uvicorn
+- **Data Warehousing & BI:** PostgreSQL (Star Schema), Power BI (DAX), NumPy, Pandas
+- **Frontend Analytics:** D3.js, Chart.js, HTML5/CSS3 Glassmorphism
+- **DevOps & QA:** Docker Multi-Container, GitHub Actions CI/CD, Pytest (100% test coverage)
 
 ---
 
-### 📸 Recommended Images to Attach to Your LinkedIn Post:
+🔗 **GitHub Repository:** https://github.com/abdussatarkhan/Netflix-global-streaming-analytics  
+📊 **Live Dashboard Preview:** Open `stream_iq_insights.html` or `netflix_dashboard.html` in your browser!
 
-To get the highest engagement, attach these 4 pictures from your repository:
-1. `screenshots/01_dashboard_hero.png` (Executive KPI Hero Section)
-2. `docs/figures/fig1_system_architecture.png` (4-Tier Microservice Architecture Diagram)
-3. `docs/figures/fig3_evaluation_metrics.png` (Precision/Recall/NDCG Model Evaluation)
-4. `screenshots/04_growth_trajectory.png` (5-Year Subscriber & Ad-Tier Scaling Trajectory)
+I'd love to hear your thoughts and feedback on the architecture and data model! 🚀
+
+#SoftwareEngineering #MachineLearning #ArtificialIntelligence #DataEngineering #FastAPI #PostgreSQL #pgvector #Python #PowerBI #DataAnalytics #RecommendationSystems #Docker #FullStack #Portfolio
+
+---
+
+### 📸 Recommended Images to Attach to Your Post:
+
+Attach these 4 pictures from the project repository:
+1. `screenshots/01_dashboard_hero.png` (Command Center KPI Hero Section)
+2. `docs/figures/fig1_system_architecture.png` (4-Tier Microservice Pipeline Diagram)
+3. `screenshots/04_growth_trajectory.png` (5-Year Growth & Ad-Tier Scaling Trajectory)
+4. `screenshots/05_content_roi.png` (Content ROI Multiplier vs IMDb Quality Scatter Plot)
