@@ -474,7 +474,7 @@ StreamIQ requires Python 3.11+ and PostgreSQL 16 with `pgvector`, or Docker and 
 
 ```bash
 # Clone repository
-git clone https://github.com/satarabdus692-bot/Netflix-global-streaming-analytics.git
+git clone https://github.com/abdussatarkhan/Netflix-global-streaming-analytics.git
 cd Netflix-global-streaming-analytics
 
 # Option 1: Docker Compose Launch

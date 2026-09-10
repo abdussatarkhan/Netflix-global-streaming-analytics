@@ -1,16 +1,16 @@
 <div align="center">
 
-# 👨‍💻 Hi there, I'm Abdussatar ([@satarabdus692-bot](https://github.com/satarabdus692-bot)) 🚀
+# 👨‍💻 Hi there, I'm Abdussatar ([@abdussatarkhan](https://github.com/abdussatarkhan)) 🚀
 
 <p align="center">
-  <a href="https://github.com/satarabdus692-bot">
+  <a href="https://github.com/abdussatarkhan">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=E50914&center=true&vCenter=true&width=650&lines=AI+Engineer+%7C+Data+Analyst+%7C+Full-Stack+Developer;Building+Production-Grade+AI+%26+Data+Systems;Machine+Learning+%7C+pgvector+%7C+FastAPI+%7C+Power+BI;Committed+to+100%25+Daily+GitHub+Streak+%F0%9F%94%A5" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=satarabdus692-bot&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/satarabdus692-bot?label=Followers&logo=github&style=flat-square&color=24292e" alt="Followers" />
+  <img src="https://komarev.com/ghpvc/?username=abdussatarkhan&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/abdussatarkhan?label=Followers&logo=github&style=flat-square&color=24292e" alt="Followers" />
   <img src="https://img.shields.io/badge/Daily%20Streak-Active%20%F0%9F%94%A5-brightgreen?style=flat-square&logo=github" alt="Streak Status" />
   <img src="https://img.shields.io/badge/Status-Available%20for%20Opportunities-blue?style=flat-square" alt="Status" />
 </p>
@@ -25,7 +25,7 @@ BS Computer Science student building practical software across **web, desktop, m
 
 ```yaml
 Name: Abdussatar
-Handle: satarabdus692-bot
+Handle: abdussatarkhan
 Degree: BS Computer Science
 Specialization: AI Engineering, Data Analytics, High-Throughput Distributed Systems
 Core_Stack: Python, SQL, PostgreSQL (pgvector), FastAPI, Power BI, C#/.NET, Kotlin, Docker
@@ -39,22 +39,22 @@ Mindset: "Learn → Build → Break → Debug → Improve → Repeat."
 
 <div align="center">
 
-<a href="https://github.com/satarabdus692-bot">
-  <img src="https://streak-stats.demolab.com?user=satarabdus692-bot&theme=tokyonight&hide_border=true&card_width=500&stroke=E50914" alt="GitHub Streak" />
+<a href="https://github.com/abdussatarkhan">
+  <img src="https://streak-stats.demolab.com?user=abdussatarkhan&theme=tokyonight&hide_border=true&card_width=500&stroke=E50914" alt="GitHub Streak" />
 </a>
 
 <br/><br/>
 
-<a href="https://github.com/satarabdus692-bot">
-  <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=satarabdus692-bot&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=satarabdus692-bot&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
+<a href="https://github.com/abdussatarkhan">
+  <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=abdussatarkhan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=abdussatarkhan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
 </a>
 
 <br/><br/>
 
-<a href="https://github.com/satarabdus692-bot">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=satarabdus692-bot&theme=tokyonight" alt="Profile Summary" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=satarabdus692-bot&theme=tokyonight" alt="Repos Per Language" width="48%" />
+<a href="https://github.com/abdussatarkhan">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abdussatarkhan&theme=tokyonight" alt="Profile Summary" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=abdussatarkhan&theme=tokyonight" alt="Repos Per Language" width="48%" />
 </a>
 
 </div>
@@ -115,14 +115,14 @@ Mindset: "Learn → Build → Break → Debug → Improve → Repeat."
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
-| 🎬 **[Netflix Streaming Intelligence & Personalization Platform](https://github.com/satarabdus692-bot/Netflix-global-streaming-analytics)** | End-to-end 4-tier streaming personalization platform with dense vector search (pgvector HNSW), multi-factor hybrid recommender, cold-start mitigation, and asynchronous FastAPI gateway. | `Python`, `FastAPI`, `PostgreSQL 16`, `pgvector`, `SentenceTransformers`, `Docker` |
-| 🏦 **[Amarco Bank Performance Analytics](https://github.com/satarabdus692-bot/Amarco-bank-performance-till-2025)** | Full-stack banking analytics platform: synthetic data engine, PostgreSQL star schema, Power BI semantic model, and interactive D3.js dashboard. | `D3.js`, `PostgreSQL`, `Power BI`, `Python` |
-| 🎬 **[MediaGrab](https://github.com/satarabdus692-bot/media-grab)** | ASP.NET Core web app for analyzing and downloading media from authorized sources with Clean Architecture. | `C#`, `ASP.NET Core`, `EF Core`, `PostgreSQL` |
-| ⛽ **[Petrol Pump Management System](https://github.com/satarabdus692-bot/petrol-pump-Farooq)** | WPF (.NET 8) desktop app with PostgreSQL, EF Core, and MVVM — handles sales, fuel/tank stock, credit accounts, and reporting. | `C#`, `WPF`, `.NET 8`, `PostgreSQL`, `MVVM` |
-| 📚 **[StudentToolkit](https://github.com/satarabdus692-bot/student-toolkit)** | Android student productivity app with an on-device AI academic advisor, Pomodoro timer, and GPA calculator. | `Kotlin`, `Jetpack Compose`, `Android` |
-| 🧾 **[Point of Sale System](https://github.com/satarabdus692-bot/point-of-sale-)** | Full-stack Flask + MySQL POS system with barcode scanner support, split-tender payments, and admin analytics dashboard. | `Python`, `Flask`, `MySQL` |
-| 📶 **[WiFi Diagnostic Tool](https://github.com/satarabdus692-bot/WIFI-Diagnostic-Tool)** | Flask WiFi dashboard for Windows with live signal diagnostics, speed testing, and experimental RF presence detection. | `Python`, `Flask`, `JavaScript` |
-| ⌨️ **[Typing Master](https://github.com/satarabdus692-bot/typing-master)** | Desktop typing tutor built with Python/Tkinter tracking WPM, accuracy, and finger-placement ergonomics. | `Python`, `Tkinter` |
+| 🎬 **[Netflix Streaming Intelligence & Personalization Platform](https://github.com/abdussatarkhan/Netflix-global-streaming-analytics)** | End-to-end 4-tier streaming personalization platform with dense vector search (pgvector HNSW), multi-factor hybrid recommender, cold-start mitigation, and asynchronous FastAPI gateway. | `Python`, `FastAPI`, `PostgreSQL 16`, `pgvector`, `SentenceTransformers`, `Docker` |
+| 🏦 **[Amarco Bank Performance Analytics](https://github.com/abdussatarkhan/Amarco-bank-performance-till-2025)** | Full-stack banking analytics platform: synthetic data engine, PostgreSQL star schema, Power BI semantic model, and interactive D3.js dashboard. | `D3.js`, `PostgreSQL`, `Power BI`, `Python` |
+| 🎬 **[MediaGrab](https://github.com/abdussatarkhan/media-grab)** | ASP.NET Core web app for analyzing and downloading media from authorized sources with Clean Architecture. | `C#`, `ASP.NET Core`, `EF Core`, `PostgreSQL` |
+| ⛽ **[Petrol Pump Management System](https://github.com/abdussatarkhan/petrol-pump-Farooq)** | WPF (.NET 8) desktop app with PostgreSQL, EF Core, and MVVM — handles sales, fuel/tank stock, credit accounts, and reporting. | `C#`, `WPF`, `.NET 8`, `PostgreSQL`, `MVVM` |
+| 📚 **[StudentToolkit](https://github.com/abdussatarkhan/student-toolkit)** | Android student productivity app with an on-device AI academic advisor, Pomodoro timer, and GPA calculator. | `Kotlin`, `Jetpack Compose`, `Android` |
+| 🧾 **[Point of Sale System](https://github.com/abdussatarkhan/point-of-sale-)** | Full-stack Flask + MySQL POS system with barcode scanner support, split-tender payments, and admin analytics dashboard. | `Python`, `Flask`, `MySQL` |
+| 📶 **[WiFi Diagnostic Tool](https://github.com/abdussatarkhan/WIFI-Diagnostic-Tool)** | Flask WiFi dashboard for Windows with live signal diagnostics, speed testing, and experimental RF presence detection. | `Python`, `Flask`, `JavaScript` |
+| ⌨️ **[Typing Master](https://github.com/abdussatarkhan/typing-master)** | Desktop typing tutor built with Python/Tkinter tracking WPM, accuracy, and finger-placement ergonomics. | `Python`, `Tkinter` |
 
 ---
 
@@ -155,7 +155,7 @@ Mindset: "Learn → Build → Break → Debug → Improve → Repeat."
 <a href="https://www.linkedin.com/in/abdus-satar-5150813b5/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="https://github.com/satarabdus692-bot" target="_blank">
+<a href="https://github.com/abdussatarkhan" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 <a href="mailto:satarabdus692@gmail.com">

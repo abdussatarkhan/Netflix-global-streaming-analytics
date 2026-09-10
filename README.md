@@ -1,6 +1,6 @@
 # Smart Streaming Intelligence & Personalization Platform (StreamIQ)
 
-[![Author](https://img.shields.io/badge/Author-Abdussatar-E50914?style=for-the-badge&logo=github&logoColor=white)](https://github.com/satarabdus692-bot)
+[![Author](https://img.shields.io/badge/Author-Abdussatar-E50914?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdussatarkhan)
 [![Degree](https://img.shields.io/badge/BS--CS-University_of_Swat-0056B3?style=for-the-badge&logo=academia&logoColor=white)](docs/FINAL_YEAR_PROJECT_THESIS.md)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](api/main.py)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)](data/schema.sql)
@@ -176,7 +176,7 @@ curl -X POST "http://localhost:8000/recommendations/semantic" \
 ### Option A: Run via Docker Compose (Recommended)
 ```bash
 # 1. Clone the repository
-git clone https://github.com/satarabdus692-bot/Netflix-global-streaming-analytics.git
+git clone https://github.com/abdussatarkhan/Netflix-global-streaming-analytics.git
 cd Netflix-global-streaming-analytics
 
 # 2. Launch PostgreSQL with pgvector and FastAPI Gateway
@@ -332,8 +332,8 @@ This repository serves as the official artifact and implementation for the under
 | **Department** | Department of Computer Science |
 | **Institution** | Government College Madyan Swat |
 | **Affiliation** | **University of Swat**, Khyber Pakhtunkhwa, Pakistan |
-| **GitHub** | [@Abdussatar](https://github.com/satarabdus692-bot) |
-| **Repository** | [Netflix-global-streaming-analytics](https://github.com/satarabdus692-bot/Netflix-global-streaming-analytics) |
+| **GitHub** | [@Abdussatar](https://github.com/abdussatarkhan) |
+| **Repository** | [Netflix-global-streaming-analytics](https://github.com/abdussatarkhan/Netflix-global-streaming-analytics) |
 
 ---
 
