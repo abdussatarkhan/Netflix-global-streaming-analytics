@@ -1,5 +1,14 @@
 # Smart Streaming Intelligence & Personalization Platform (StreamIQ)
 
+<div align="center">
+
+[![Daily Streak](https://img.shields.io/badge/Daily%20Streak-Active%20%F0%9F%94%A5-brightgreen?style=flat-square&logo=github)](https://github.com/abdussatarkhan)
+[![Master Portfolio](https://img.shields.io/badge/Portfolio-50%2B%20Enterprise%20Projects-0e75b6?style=flat-square&logo=github)](https://github.com/abdussatarkhan/abdussatarkhan)
+[![Author: Abdussatar](https://img.shields.io/badge/Author-Abdussatar-24292e?style=flat-square&logo=github)](https://github.com/abdussatarkhan)
+
+</div>
+
+
 [![CI](https://github.com/abdussatarkhan/p/actions/workflows/ci.yml/badge.svg)](https://github.com/abdussatarkhan/p/actions)
 [![Author](https://img.shields.io/badge/Author-Abdussatar-E50914?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdussatarkhan)
 [![Degree](https://img.shields.io/badge/BS--CS-University_of_Swat-0056B3?style=for-the-badge&logo=academia&logoColor=white)](docs/FINAL_YEAR_PROJECT_THESIS.md)
@@ -344,3 +353,15 @@ This repository serves as the official artifact and implementation for the under
 ## 📜 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details. Built for technical demonstration, portfolio showcase, and academic evaluation.
+
+
+---
+
+<div align="center">
+
+### 👨‍💻 Maintained by [Abdussatar (@abdussatarkhan)](https://github.com/abdussatarkhan)
+Part of the **[Master Enterprise Data Analytics & AI Portfolio](https://github.com/abdussatarkhan/abdussatarkhan)**.
+
+⭐ If you find this repository valuable, consider dropping a star! ⭐
+
+</div>
