@@ -103,16 +103,19 @@ $$\text{Score}(u, i) = w_1 \cdot \text{Sim}_{\text{semantic}}(u, i) + w_2 \cdot 
 - Endpoints for natural language semantic search, personalized hybrid feeds, aggregate metrics, and real-time clickstream ingestion.
 
 ### 5. 📊 Executive BI & Interactive Visual Analytics
-- **Live Standalone Dashboard (`netflix_dashboard.html` / `dashboard/index.html`):** Zero-build, responsive D3.js and Chart.js executive portal.
+- **Live StreamIQ Insights Dashboard (`stream_iq_insights.html`):** Modern glassmorphism dashboard featuring real-time AI vector simulator, interactive regional slicing, and revenue trajectory curves.
+- **Executive Panoramic Portal (`netflix_dashboard.html` / `dashboard/index.html`):** Zero-build, responsive D3.js and Chart.js deep executive portal.
 - **Power BI Semantic Model (`powerbi/`):** 35+ DAX measures, time-intelligence formulas, and custom dark executive theme.
 
 ---
 
 ## 📊 Interactive Dashboard Showcase
 
-> **[▶ Launch Standalone Dashboard](netflix_dashboard.html)** — Double-click `netflix_dashboard.html` to run locally in any browser with zero dependencies.
+> **[▶ Launch StreamIQ Insights Dashboard](stream_iq_insights.html)** &nbsp;|&nbsp; **[▶ Launch Executive Panoramic Dashboard](netflix_dashboard.html)**  
+> *(Double-click either file to run locally in any browser with zero setup or dependencies!)*
 
 ### Command Center — Executive KPI Benchmarks
+
 ![Executive KPI hero section](screenshots/01_dashboard_hero.png)
 
 ### Global Streaming Footprint (UCAN, EMEA, LATAM, APAC)

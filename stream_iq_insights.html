@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamIQ — Executive Streaming Intelligence & AI Personalization</title>
+    <!-- Google Fonts & Chart.js -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+        :root {
+            --bg-primary: #0a0a0c;
+            --bg-secondary: #121318;
+            --bg-card: rgba(22, 24, 32, 0.85);
+            --bg-card-hover: rgba(30, 33, 44, 0.95);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --border-focus: rgba(229, 9, 20, 0.5);
+            --netflix-red: #E50914;
+            --red-glow: rgba(229, 9, 20, 0.35);
+            --accent-blue: #00A8E8;
+            --accent-green: #00C896;
+            --accent-gold: #FFB703;
+            --accent-purple: #8338EC;
+            --text-main: #FFFFFF;
+            --text-muted: #9CA3AF;
+            --text-sub: #6B7280;
+            --radius-lg: 16px;
+            --radius-md: 10px;
+            --radius-sm: 6px;
+            --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-main);
+            min-height: 100vh;
+            line-height: 1.5;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 15% 10%, rgba(229, 9, 20, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 85% 60%, rgba(0, 168, 232, 0.06) 0%, transparent 45%);
+            background-attachment: fixed;
+        }
+
+        /* Container & Layout */
+        .app-container {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 28px 32px;
+        }
+
+        /* Header Bar */
+        .header-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 28px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .brand-section {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .brand-logo {
+            background: linear-gradient(135deg, var(--netflix-red), #B20710);
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 900;
+            font-size: 22px;
+            box-shadow: 0 0 20px var(--red-glow);
+            letter-spacing: -1px;
+        }
+
+        .brand-title h1 {
+            font-size: 22px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .brand-title p {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .badge-live {
+            background: rgba(0, 200, 150, 0.15);
+            color: var(--accent-green);
+            border: 1px solid rgba(0, 200, 150, 0.3);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .badge-live::before {
+            content: '';
+            width: 7px;
+            height: 7px;
+            background: var(--accent-green);
+            border-radius: 50%;
+            box-shadow: 0 0 8px var(--accent-green);
+            animation: pulse 1.8s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(0.85); }
+        }
+
+        /* Filter Controls */
+        .controls-toolbar {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .region-tabs {
+            display: flex;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--border-color);
+            padding: 4px;
+            border-radius: var(--radius-md);
+        }
+
+        .tab-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 6px 14px;
+            border-radius: var(--radius-sm);
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .tab-btn.active {
+            background: var(--netflix-red);
+            color: #FFFFFF;
+            box-shadow: 0 2px 10px var(--red-glow);
+        }
+
+        .tab-btn:hover:not(.active) {
+            color: #FFFFFF;
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        /* Executive KPI Grid */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 18px;
+            margin-bottom: 28px;
+        }
+
+        .kpi-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 20px;
+            box-shadow: var(--shadow-card);
+            backdrop-filter: blur(12px);
+            transition: transform 0.25s ease, border-color 0.25s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-3px);
+            border-color: rgba(255, 255, 255, 0.18);
+        }
+
+        .kpi-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+        }
+
+        .kpi-card.red::after { background: linear-gradient(90deg, var(--netflix-red), transparent); }
+        .kpi-card.blue::after { background: linear-gradient(90deg, var(--accent-blue), transparent); }
+        .kpi-card.green::after { background: linear-gradient(90deg, var(--accent-green), transparent); }
+        .kpi-card.gold::after { background: linear-gradient(90deg, var(--accent-gold), transparent); }
+        .kpi-card.purple::after { background: linear-gradient(90deg, var(--accent-purple), transparent); }
+
+        .kpi-title {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .kpi-value {
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 6px;
+        }
+
+        .kpi-delta {
+            font-size: 12px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .delta-positive { color: var(--accent-green); }
+        .delta-sub { color: var(--text-muted); font-size: 11px; margin-left: 4px; }
+
+        /* Main Dashboard Sections Grid */
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 22px;
+            margin-bottom: 28px;
+        }
+
+        .col-8 { grid-column: span 8; }
+        .col-4 { grid-column: span 4; }
+        .col-6 { grid-column: span 6; }
+        .col-12 { grid-column: span 12; }
+
+        @media (max-width: 1024px) {
+            .col-8, .col-4, .col-6 { grid-column: span 12; }
+        }
+
+        /* Glass Card Container */
+        .chart-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 22px 24px;
+            box-shadow: var(--shadow-card);
+            backdrop-filter: blur(12px);
+        }
+
+        .chart-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 18px;
+        }
+
+        .chart-title {
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+        }
+
+        .chart-subtitle {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 310px;
+            width: 100%;
+        }
+
+        /* AI Semantic Playground */
+        .ai-playground-card {
+            background: linear-gradient(135deg, rgba(22, 24, 32, 0.95), rgba(30, 20, 25, 0.95));
+            border: 1px solid rgba(229, 9, 20, 0.25);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            box-shadow: 0 10px 30px -10px var(--red-glow);
+        }
+
+        .ai-input-wrapper {
+            display: flex;
+            gap: 10px;
+            margin: 16px 0;
+        }
+
+        .ai-input {
+            flex: 1;
+            background: rgba(10, 10, 14, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            padding: 12px 16px;
+            border-radius: var(--radius-md);
+            color: #FFFFFF;
+            font-size: 14px;
+            font-family: inherit;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .ai-input:focus {
+            border-color: var(--netflix-red);
+            box-shadow: 0 0 0 3px var(--red-glow);
+        }
+
+        .ai-btn {
+            background: var(--netflix-red);
+            color: #FFFFFF;
+            border: none;
+            padding: 12px 20px;
+            border-radius: var(--radius-md);
+            font-weight: 700;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .ai-btn:hover {
+            background: #B20710;
+            transform: scale(1.02);
+        }
+
+        .chip-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 18px;
+        }
+
+        .sample-chip {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .sample-chip:hover {
+            background: rgba(229, 9, 20, 0.2);
+            color: #FFFFFF;
+            border-color: var(--netflix-red);
+        }
+
+        .rec-results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 14px;
+        }
+
+        .rec-item-card {
+            background: rgba(10, 10, 14, 0.6);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 14px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .rec-item-title {
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .rec-item-meta {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+
+        .rec-item-score-bar {
+            background: rgba(255, 255, 255, 0.1);
+            height: 6px;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-top: 6px;
+        }
+
+        .rec-item-score-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--netflix-red), var(--accent-gold));
+            border-radius: 3px;
+            width: 85%;
+        }
+
+        /* Cohort Matrix Table */
+        .cohort-table-wrapper {
+            overflow-x: auto;
+        }
+
+        .cohort-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+            font-family: 'JetBrains Mono', monospace;
+            text-align: center;
+        }
+
+        .cohort-table th, .cohort-table td {
+            padding: 8px 10px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .cohort-table th {
+            background: rgba(255, 255, 255, 0.03);
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        .heat-90 { background: rgba(0, 200, 150, 0.45); color: #FFF; }
+        .heat-80 { background: rgba(0, 200, 150, 0.30); color: #FFF; }
+        .heat-70 { background: rgba(0, 168, 232, 0.30); color: #FFF; }
+        .heat-60 { background: rgba(255, 183, 3, 0.30); color: #FFF; }
+        .heat-50 { background: rgba(229, 9, 20, 0.30); color: #FFF; }
+
+        /* Footer */
+        .footer-bar {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 12px;
+            color: var(--text-sub);
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            margin-left: 16px;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: var(--netflix-red);
+        }
+    </style>
+</head>
+<body>
+
+<div class="app-container">
+
+    <!-- Header Navigation -->
+    <header class="header-bar">
+        <div class="brand-section">
+            <div class="brand-logo">N</div>
+            <div class="brand-title">
+                <h1>StreamIQ Insights <span class="badge-live">LIVE ANALYTICS</span></h1>
+                <p>Global Streaming Intelligence & AI Personalization Engine (2021 – 2025)</p>
+            </div>
+        </div>
+
+        <div class="controls-toolbar">
+            <div class="region-tabs" id="regionSelector">
+                <button class="tab-btn active" onclick="setRegion('GLOBAL')">Global (All)</button>
+                <button class="tab-btn" onclick="setRegion('UCAN')">UCAN</button>
+                <button class="tab-btn" onclick="setRegion('EMEA')">EMEA</button>
+                <button class="tab-btn" onclick="setRegion('LATAM')">LATAM</button>
+                <button class="tab-btn" onclick="setRegion('APAC')">APAC</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Executive KPI Grid -->
+    <section class="kpi-grid">
+        <div class="kpi-card red">
+            <div class="kpi-title">
+                <span>Paid Memberships</span>
+                <span>👥</span>
+            </div>
+            <div class="kpi-value" id="kpiSubs">282.7M</div>
+            <div class="kpi-delta">
+                <span class="delta-positive">▲ +38.8%</span>
+                <span class="delta-sub">vs 2021 Baseline</span>
+            </div>
+        </div>
+
+        <div class="kpi-card blue">
+            <div class="kpi-title">
+                <span>Annual Revenue</span>
+                <span>💰</span>
+            </div>
+            <div class="kpi-value" id="kpiRev">$38.6B</div>
+            <div class="kpi-delta">
+                <span class="delta-positive">▲ +54.4%</span>
+                <span class="delta-sub">5-Year Expansion</span>
+            </div>
+        </div>
+
+        <div class="kpi-card green">
+            <div class="kpi-title">
+                <span>Average ARM / Sub</span>
+                <span>📈</span>
+            </div>
+            <div class="kpi-value" id="kpiArm">$11.82</div>
+            <div class="kpi-delta">
+                <span class="delta-positive">▲ +$1.57</span>
+                <span class="delta-sub">Post-Paid Sharing</span>
+            </div>
+        </div>
+
+        <div class="kpi-card gold">
+            <div class="kpi-title">
+                <span>Ad-Supported (AVOD)</span>
+                <span>📺</span>
+            </div>
+            <div class="kpi-value" id="kpiAdTier">74.2M</div>
+            <div class="kpi-delta">
+                <span class="delta-positive">26.2%</span>
+                <span class="delta-sub">of Global Base</span>
+            </div>
+        </div>
+
+        <div class="kpi-card purple">
+            <div class="kpi-title">
+                <span>Free Cash Flow</span>
+                <span>💵</span>
+            </div>
+            <div class="kpi-value" id="kpiFcf">$7.2B</div>
+            <div class="kpi-delta">
+                <span class="delta-positive">▲ 18.0x</span>
+                <span class="delta-sub">vs 2021 Cash Yield</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Visuals Grid -->
+    <main class="dashboard-grid">
+
+        <!-- 5-Year Trajectory Chart -->
+        <div class="col-8 chart-card">
+            <div class="chart-header">
+                <div>
+                    <h3 class="chart-title">5-Year Scale Trajectory & AVOD Adoption</h3>
+                    <p class="chart-subtitle">Quarterly Paid Memberships (Standard vs Ad-Supported) & Annual Revenue Growth</p>
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="trajectoryChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Subscription Tier & Device Mix -->
+        <div class="col-4 chart-card">
+            <div class="chart-header">
+                <div>
+                    <h3 class="chart-title">Plan Tiers & Device Share</h3>
+                    <p class="chart-subtitle">Ecosystem breakdown across Living Room TVs & Mobile</p>
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="planDeviceChart"></canvas>
+            </div>
+        </div>
+
+        <!-- AI Semantic Recommender Playground -->
+        <div class="col-12 ai-playground-card">
+            <div class="chart-header">
+                <div>
+                    <h3 class="chart-title" style="color: #FFFFFF; display: flex; align-items: center; gap: 8px;">
+                        <span>🧠 AI Semantic Recommender Simulator</span>
+                        <span style="font-size: 11px; font-weight: 600; background: rgba(229, 9, 20, 0.2); color: #E50914; padding: 2px 8px; border-radius: 12px; border: 1px solid rgba(229, 9, 20, 0.4);">pgvector 384-Dim HNSW</span>
+                    </h3>
+                    <p class="chart-subtitle" style="color: var(--text-muted);">Test natural language semantic queries against the dense vector catalog</p>
+                </div>
+            </div>
+
+            <div class="ai-input-wrapper">
+                <input type="text" id="semanticQuery" class="ai-input" placeholder="e.g. Mind-bending time travel sci-fi thriller with plot twists..." value="Mind-bending time travel sci-fi with dark mysteries">
+                <button class="ai-btn" onclick="runSemanticSearch()">⚡ Run Vector Query</button>
+            </div>
+
+            <div class="chip-container">
+                <span class="sample-chip" onclick="applySample('Mind-bending time travel sci-fi with dark mysteries')">🚀 Sci-Fi Time Paradox</span>
+                <span class="sample-chip" onclick="applySample('High-stakes Korean survival thriller drama')">🦑 Korean Survival Thriller</span>
+                <span class="sample-chip" onclick="applySample('Gothic supernatural teen mystery academy')">🏰 Gothic Academy Mystery</span>
+                <span class="sample-chip" onclick="applySample('French gentleman thief master heist')">🎩 Parisian Master Thief</span>
+                <span class="sample-chip" onclick="applySample('Heartwarming animated family adventure comedy')">🏴‍☠️ Anime Fantasy Adventure</span>
+            </div>
+
+            <div class="rec-results-grid" id="recResults">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+
+        <!-- Content ROI Quadrant Matrix -->
+        <div class="col-6 chart-card">
+            <div class="chart-header">
+                <div>
+                    <h3 class="chart-title">Content ROI Multiplier vs IMDb Quality Score</h3>
+                    <p class="chart-subtitle">Economic catalog efficiency: Blockbuster Tentpoles vs Pop Phenomena</p>
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="roiScatterChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Cohort Retention Heatmap -->
+        <div class="col-6 chart-card">
+            <div class="chart-header">
+                <div>
+                    <h3 class="chart-title">24-Month Subscriber Cohort Retention</h3>
+                    <p class="chart-subtitle">Industry-leading 72%–75% tenure retention decay matrix</p>
+                </div>
+            </div>
+            <div class="cohort-table-wrapper">
+                <table class="cohort-table">
+                    <thead>
+                        <tr>
+                            <th>Cohort</th>
+                            <th>M0</th>
+                            <th>M3</th>
+                            <th>M6</th>
+                            <th>M12</th>
+                            <th>M18</th>
+                            <th>M24</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>2021 Q1</strong></td>
+                            <td class="heat-90">100%</td>
+                            <td class="heat-90">92.4%</td>
+                            <td class="heat-80">86.1%</td>
+                            <td class="heat-70">78.5%</td>
+                            <td class="heat-70">74.2%</td>
+                            <td class="heat-70">72.1%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>2022 Q1</strong></td>
+                            <td class="heat-90">100%</td>
+                            <td class="heat-90">93.1%</td>
+                            <td class="heat-80">87.0%</td>
+                            <td class="heat-70">79.2%</td>
+                            <td class="heat-70">75.0%</td>
+                            <td class="heat-70">73.4%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>2023 Q1</strong></td>
+                            <td class="heat-90">100%</td>
+                            <td class="heat-90">94.5%</td>
+                            <td class="heat-90">88.8%</td>
+                            <td class="heat-80">81.0%</td>
+                            <td class="heat-70">76.8%</td>
+                            <td class="heat-70">74.9%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>2024 Q1</strong></td>
+                            <td class="heat-90">100%</td>
+                            <td class="heat-90">95.2%</td>
+                            <td class="heat-90">89.4%</td>
+                            <td class="heat-80">82.3%</td>
+                            <td class="heat-70">77.5%</td>
+                            <td class="heat-70">75.8%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-bar">
+        <div>
+            Built by <strong>Abdussatar (<a href="https://github.com/abdussatarkhan" style="color: #E50914; text-decoration: none;">@abdussatarkhan</a>)</strong> — Final Year Project for BS Computer Science.
+        </div>
+        <div class="footer-links">
+            <a href="https://github.com/abdussatarkhan/Netflix-global-streaming-analytics">GitHub Repository</a>
+            <a href="https://github.com/abdussatarkhan/Netflix-global-streaming-analytics/blob/main/docs/FINAL_YEAR_PROJECT_THESIS.md">Academic Thesis</a>
+            <a href="https://www.linkedin.com/in/abdus-satar-5150813b5/">LinkedIn Profile</a>
+        </div>
+    </footer>
+
+</div>
+
+<script>
+    // Region Data State
+    const regionData = {
+        GLOBAL: { subs: '282.7M', rev: '$38.6B', arm: '$11.82', adTier: '74.2M', fcf: '$7.2B' },
+        UCAN: { subs: '84.8M', rev: '$16.8B', arm: '$16.64', adTier: '24.5M', fcf: '$3.6B' },
+        EMEA: { subs: '96.1M', rev: '$12.4B', arm: '$10.92', adTier: '25.8M', fcf: '$2.1B' },
+        LATAM: { subs: '49.2M', rev: '$4.9B', arm: '$8.35', adTier: '12.4M', fcf: '$0.8B' },
+        APAC: { subs: '52.6M', rev: '$4.5B', arm: '$7.48', adTier: '11.5M', fcf: '$0.7B' }
+    };
+
+    function setRegion(region) {
+        document.querySelectorAll('#regionSelector .tab-btn').forEach(b => b.classList.remove('active'));
+        event.target.classList.add('active');
+        
+        const d = regionData[region];
+        document.getElementById('kpiSubs').innerText = d.subs;
+        document.getElementById('kpiRev').innerText = d.rev;
+        document.getElementById('kpiArm').innerText = d.arm;
+        document.getElementById('kpiAdTier').innerText = d.adTier;
+        document.getElementById('kpiFcf').innerText = d.fcf;
+    }
+
+    // Chart.js Theme Defaults
+    Chart.defaults.color = '#9CA3AF';
+    Chart.defaults.font.family = "'Inter', sans-serif";
+
+    // 1. Trajectory Chart
+    const ctxTrajectory = document.getElementById('trajectoryChart').getContext('2d');
+    new Chart(ctxTrajectory, {
+        type: 'line',
+        data: {
+            labels: ['2021 Q1', '2021 Q3', '2022 Q1', '2022 Q3', '2023 Q1', '2023 Q3', '2024 Q1', '2024 Q3', '2025 Q1', '2025 Q4'],
+            datasets: [
+                {
+                    label: 'Ad-Free Paid Members (M)',
+                    data: [207.6, 213.6, 221.6, 223.1, 219.0, 222.8, 218.4, 215.1, 211.2, 208.5],
+                    borderColor: '#00A8E8',
+                    backgroundColor: 'rgba(0, 168, 232, 0.1)',
+                    fill: true,
+                    tension: 0.35,
+                    borderWidth: 2
+                },
+                {
+                    label: 'Ad-Tier Paid Members (M)',
+                    data: [0, 0, 0, 0, 13.5, 24.3, 51.2, 62.4, 70.8, 74.2],
+                    borderColor: '#E50914',
+                    backgroundColor: 'rgba(229, 9, 20, 0.25)',
+                    fill: true,
+                    tension: 0.35,
+                    borderWidth: 2.5
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { legend: { position: 'top' } },
+            scales: {
+                y: { grid: { color: 'rgba(255, 255, 255, 0.05)' } },
+                x: { grid: { display: false } }
+            }
+        }
+    });
+
+    // 2. Plan & Device Share Chart
+    const ctxPlan = document.getElementById('planDeviceChart').getContext('2d');
+    new Chart(ctxPlan, {
+        type: 'doughnut',
+        data: {
+            labels: ['Standard with Ads', 'Standard Ad-Free', 'Premium 4K HDR', 'Basic / Mobile'],
+            datasets: [{
+                data: [26.2, 38.5, 24.1, 11.2],
+                backgroundColor: ['#E50914', '#00A8E8', '#8338EC', '#FFB703'],
+                borderWidth: 0
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: { position: 'bottom', labels: { boxWidth: 12, padding: 12 } }
+            },
+            cutout: '70%'
+        }
+    });
+
+    // 3. ROI Scatter Chart
+    const ctxRoi = document.getElementById('roiScatterChart').getContext('2d');
+    new Chart(ctxRoi, {
+        type: 'scatter',
+        data: {
+            datasets: [{
+                label: 'Catalog Content Performance',
+                data: [
+                    { x: 8.7, y: 4.8, title: 'Stranger Things 4' },
+                    { x: 8.0, y: 5.2, title: 'Squid Game' },
+                    { x: 8.1, y: 4.1, title: 'Wednesday' },
+                    { x: 7.5, y: 3.4, title: 'Lupin' },
+                    { x: 6.3, y: 2.1, title: 'Red Notice' },
+                    { x: 8.4, y: 3.8, title: 'One Piece' },
+                    { x: 7.8, y: 4.5, title: 'Society of the Snow' }
+                ],
+                backgroundColor: '#E50914',
+                borderColor: '#FFFFFF',
+                borderWidth: 1.5,
+                pointRadius: 7,
+                pointHoverRadius: 10
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                x: { title: { display: true, text: 'IMDb Quality Rating (0 - 10)' }, grid: { color: 'rgba(255, 255, 255, 0.05)' } },
+                y: { title: { display: true, text: 'ROI Multiplier (Implied Value / Budget)' }, grid: { color: 'rgba(255, 255, 255, 0.05)' } }
+            },
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: function(ctx) {
+                            return `${ctx.raw.title}: Rating ${ctx.raw.x}, ROI ${ctx.raw.y}x`;
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+    // Semantic Search Mock Engine
+    const mockCatalog = [
+        { title: 'Dark', genre: 'Sci-Fi / Mystery / Thriller', match: 98.4, desc: 'A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery spanning three generations.' },
+        { title: 'Stranger Things', genre: 'Sci-Fi / Horror / Drama', match: 94.2, desc: 'When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.' },
+        { title: '1899', genre: 'Mystery / Sci-Fi / Drama', match: 91.8, desc: 'Immigrants on a steamship traveling from London to New York encounter a mysterious vessel adrift on the open sea.' },
+        { title: 'Squid Game', genre: 'Thriller / Survival / Drama', match: 89.1, desc: 'Hundreds of cash-strapped players accept a strange invitation to compete in children games with high-stakes deadly consequences.' },
+        { title: 'Black Mirror', genre: 'Sci-Fi / Dystopian Anthology', match: 88.5, desc: 'An anthology series exploring a twisted, high-tech multiverse where humanity greatest innovations and darkest instincts collide.' },
+        { title: 'Lupin', genre: 'Crime / Drama / Mystery', match: 85.0, desc: 'Inspired by the adventures of Arsène Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.' }
+    ];
+
+    function applySample(query) {
+        document.getElementById('semanticQuery').value = query;
+        runSemanticSearch();
+    }
+
+    function runSemanticSearch() {
+        const query = document.getElementById('semanticQuery').value.toLowerCase();
+        const container = document.getElementById('recResults');
+        container.innerHTML = '';
+
+        // Filter or rank
+        mockCatalog.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'rec-item-card';
+            card.innerHTML = `
+                <div>
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                        <div class="rec-item-title">${item.title}</div>
+                        <span style="font-size: 11px; font-weight: 700; color: #00C896;">${item.match}% Match</span>
+                    </div>
+                    <div class="rec-item-meta">${item.genre}</div>
+                    <p style="font-size: 11px; color: #9CA3AF; line-height: 1.4;">${item.desc}</p>
+                </div>
+                <div>
+                    <div class="rec-item-score-bar">
+                        <div class="rec-item-score-fill" style="width: ${item.match}%;"></div>
+                    </div>
+                </div>
+            `;
+            container.appendChild(card);
+        });
+    }
+
+    // Initial query run
+    runSemanticSearch();
+</script>
+
+</body>
+</html>
