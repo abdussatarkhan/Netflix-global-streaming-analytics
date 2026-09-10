@@ -1,5 +1,6 @@
 # Smart Streaming Intelligence & Personalization Platform (StreamIQ)
 
+[![CI](https://github.com/abdussatarkhan/p/actions/workflows/ci.yml/badge.svg)](https://github.com/abdussatarkhan/p/actions)
 [![Author](https://img.shields.io/badge/Author-Abdussatar-E50914?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abdussatarkhan)
 [![Degree](https://img.shields.io/badge/BS--CS-University_of_Swat-0056B3?style=for-the-badge&logo=academia&logoColor=white)](docs/FINAL_YEAR_PROJECT_THESIS.md)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](api/main.py)
