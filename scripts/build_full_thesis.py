@@ -173,7 +173,7 @@ def generate_thesis_docx():
     r_by1.font.name = 'Times New Roman'
     r_by1.font.size = Pt(12)
     r_by1.font.bold = True
-    r_by2 = p_by.add_run("Fasihullah (Reg. No. UOS226500077)\n")
+    r_by2 = p_by.add_run("Abdussatar (Reg. No. UOS226500077)\n")
     r_by2.font.name = 'Times New Roman'
     r_by2.font.size = Pt(12)
 
@@ -208,7 +208,7 @@ def generate_thesis_docx():
     r_app_h.font.size = Pt(16)
     r_app_h.font.bold = True
 
-    add_body_p(doc, "This is to certify that the project report titled \"Smart Streaming Intelligence & Personalization Platform (StreamIQ)\", submitted by Fasihullah (Reg. No. UOS226500077), has been examined and is found to be of an acceptable standard. It is hereby approved for submission to the University of Swat in partial fulfilment of the requirements for the award of the degree of Bachelor of Science in Computer Science (BS-CS).", space_after=24)
+    add_body_p(doc, "This is to certify that the project report titled \"Smart Streaming Intelligence & Personalization Platform (StreamIQ)\", submitted by Abdussatar (Reg. No. UOS226500077), has been examined and is found to be of an acceptable standard. It is hereby approved for submission to the University of Swat in partial fulfilment of the requirements for the award of the degree of Bachelor of Science in Computer Science (BS-CS).", space_after=24)
 
     p_comm = doc.add_paragraph()
     p_comm.alignment = WD_ALIGN_PARAGRAPH.CENTER
@@ -249,7 +249,7 @@ def generate_thesis_docx():
 
     p_sig = doc.add_paragraph()
     p_sig.paragraph_format.space_after = Pt(4)
-    r_sig1 = p_sig.add_run("Fasihullah\n")
+    r_sig1 = p_sig.add_run("Abdussatar\n")
     r_sig1.font.name = 'Times New Roman'
     r_sig1.font.size = Pt(12)
     r_sig1.font.bold = True
@@ -279,7 +279,7 @@ def generate_thesis_docx():
 
     p_asig = doc.add_paragraph()
     p_asig.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-    r_as = p_asig.add_run("Fasihullah\n")
+    r_as = p_asig.add_run("Abdussatar\n")
     r_as.font.name = 'Times New Roman'
     r_as.font.size = Pt(12)
     r_as.font.bold = True
@@ -680,7 +680,7 @@ def generate_thesis_docx():
     add_styled_heading(doc, "Chapter 5: User Guide & System Walkthrough", 1)
     add_styled_heading(doc, "5.1 Installation & Setup", 2)
     add_body_p(doc, "StreamIQ requires Python 3.11+ and PostgreSQL 16 with pgvector, or Docker and Docker Compose:")
-    add_code_block(doc, "git clone https://github.com/Fasihullah/Netflix-global-streaming-analytics.git\ncd Netflix-global-streaming-analytics\n\n# Launch via Docker Compose\ndocker-compose -f docker/docker-compose.yml up --build")
+    add_code_block(doc, "git clone https://github.com/satarabdus692-bot/Netflix-global-streaming-analytics.git\ncd Netflix-global-streaming-analytics\n\n# Launch via Docker Compose\ndocker-compose -f docker/docker-compose.yml up --build")
 
     add_styled_heading(doc, "5.2 Running Locally & Automated Seeding", 2)
     add_code_block(doc, "# Run ETL pipeline & database seeding\npython -m pipeline.orchestrator\n\n# Launch FastAPI microservice\nuvicorn api.main:app --host 0.0.0.0 --port 8000 --reload")
@@ -811,7 +811,7 @@ def generate_thesis_md():
 ---
 
 ### SUBMITTED BY
-**Fasihullah** (Reg. No. UOS226500077)  
+**Abdussatar** (Reg. No. UOS226500077)  
 
 ### SUPERVISED BY
 **FAZLI SABOOH**  
@@ -825,7 +825,7 @@ def generate_thesis_md():
 
 ## Final Approval
 
-This is to certify that the project report titled **"Smart Streaming Intelligence & Personalization Platform (StreamIQ)"**, submitted by **Fasihullah** (Reg. No. **UOS226500077**), has been examined and is found to be of an acceptable standard. It is hereby approved for submission to the University of Swat in partial fulfilment of the requirements for the award of the degree of Bachelor of Science in Computer Science (BS-CS).
+This is to certify that the project report titled **"Smart Streaming Intelligence & Personalization Platform (StreamIQ)"**, submitted by **Abdussatar** (Reg. No. **UOS226500077**), has been examined and is found to be of an acceptable standard. It is hereby approved for submission to the University of Swat in partial fulfilment of the requirements for the award of the degree of Bachelor of Science in Computer Science (BS-CS).
 
 ### Final Project Evaluation Committee
 
@@ -853,7 +853,7 @@ I hereby declare that the work presented in this project report, **"Smart Stream
 
 <br><br>
 
-**Fasihullah**  
+**Abdussatar**  
 Registration No. (UOS226500077)  
 Signature: __________________________________  
 
@@ -871,7 +871,7 @@ Finally, I owe my deepest gratitude to my parents, family, and friends for their
 
 <br>
 
-**Fasihullah**  
+**Abdussatar**  
 
 ---
 
@@ -1280,7 +1280,7 @@ StreamIQ requires Python 3.11+ and PostgreSQL 16 with `pgvector`, or Docker and 
 
 ```bash
 # Clone repository
-git clone https://github.com/Fasihullah/Netflix-global-streaming-analytics.git
+git clone https://github.com/satarabdus692-bot/Netflix-global-streaming-analytics.git
 cd Netflix-global-streaming-analytics
 
 # Option 1: Docker Compose Launch

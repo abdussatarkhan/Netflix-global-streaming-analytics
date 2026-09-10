@@ -1,6 +1,6 @@
 # Smart Streaming Intelligence & Personalization Platform (StreamIQ)
 
-[![Author](https://img.shields.io/badge/Author-Fasihullah-E50914?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Fasihullah)
+[![Author](https://img.shields.io/badge/Author-Abdussatar-E50914?style=for-the-badge&logo=github&logoColor=white)](https://github.com/satarabdus692-bot)
 [![Degree](https://img.shields.io/badge/BS--CS-University_of_Swat-0056B3?style=for-the-badge&logo=academia&logoColor=white)](docs/FINAL_YEAR_PROJECT_THESIS.md)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](api/main.py)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16-pgvector-336791?style=for-the-badge&logo=postgresql&logoColor=white)](data/schema.sql)
@@ -10,7 +10,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > **A Production-Grade, End-to-End Final Year Project (FYP)** for the award of Bachelor of Science in Computer Science (BS-CS), Session 2022–2026.  
-> **Author:** Fasihullah (Reg. No. UOS226500077) &nbsp;|&nbsp; **Supervisor:** Mian Fazal Sabooh  
+> **Author:** Abdussatar (Reg. No. UOS226500077) &nbsp;|&nbsp; **Supervisor:** Mian Fazal Sabooh  
 > **Affiliation:** Department of Computer Science, Government College Madyan Swat, Affiliated with University of Swat.
 
 ---
@@ -176,7 +176,7 @@ curl -X POST "http://localhost:8000/recommendations/semantic" \
 ### Option A: Run via Docker Compose (Recommended)
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Fasihullah/Netflix-global-streaming-analytics.git
+git clone https://github.com/satarabdus692-bot/Netflix-global-streaming-analytics.git
 cd Netflix-global-streaming-analytics
 
 # 2. Launch PostgreSQL with pgvector and FastAPI Gateway
@@ -324,7 +324,7 @@ This repository serves as the official artifact and implementation for the under
 
 | Profile Details | Information |
 | :--- | :--- |
-| **Author / Candidate** | **Fasihullah** |
+| **Author / Candidate** | **Abdussatar** |
 | **Registration Number** | `UOS226500077` |
 | **Degree Program** | Bachelor of Science in Computer Science (BS-CS) |
 | **Academic Session** | 2022 – 2026 |
@@ -332,8 +332,8 @@ This repository serves as the official artifact and implementation for the under
 | **Department** | Department of Computer Science |
 | **Institution** | Government College Madyan Swat |
 | **Affiliation** | **University of Swat**, Khyber Pakhtunkhwa, Pakistan |
-| **GitHub** | [@Fasihullah](https://github.com/Fasihullah) |
-| **Repository** | [Netflix-global-streaming-analytics](https://github.com/Fasihullah/Netflix-global-streaming-analytics) |
+| **GitHub** | [@Abdussatar](https://github.com/satarabdus692-bot) |
+| **Repository** | [Netflix-global-streaming-analytics](https://github.com/satarabdus692-bot/Netflix-global-streaming-analytics) |
 
 ---
 

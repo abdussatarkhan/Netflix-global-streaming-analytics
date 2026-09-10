@@ -5,7 +5,7 @@
 ---
 
 ### SUBMITTED BY
-**Fasihullah** (Reg. No. UOS226500077)  
+**Abdussatar** (Reg. No. UOS226500077)  
 
 ### SUPERVISED BY
 **FAZLI SABOOH**  
@@ -19,7 +19,7 @@
 
 ## Final Approval
 
-This is to certify that the project report titled **"Smart Streaming Intelligence & Personalization Platform (StreamIQ)"**, submitted by **Fasihullah** (Reg. No. **UOS226500077**), has been examined and is found to be of an acceptable standard. It is hereby approved for submission to the University of Swat in partial fulfilment of the requirements for the award of the degree of Bachelor of Science in Computer Science (BS-CS).
+This is to certify that the project report titled **"Smart Streaming Intelligence & Personalization Platform (StreamIQ)"**, submitted by **Abdussatar** (Reg. No. **UOS226500077**), has been examined and is found to be of an acceptable standard. It is hereby approved for submission to the University of Swat in partial fulfilment of the requirements for the award of the degree of Bachelor of Science in Computer Science (BS-CS).
 
 ### Final Project Evaluation Committee
 
@@ -47,7 +47,7 @@ I hereby declare that the work presented in this project report, **"Smart Stream
 
 <br><br>
 
-**Fasihullah**  
+**Abdussatar**  
 Registration No. (UOS226500077)  
 Signature: __________________________________  
 
@@ -65,7 +65,7 @@ Finally, I owe my deepest gratitude to my parents, family, and friends for their
 
 <br>
 
-**Fasihullah**  
+**Abdussatar**  
 
 ---
 
@@ -474,7 +474,7 @@ StreamIQ requires Python 3.11+ and PostgreSQL 16 with `pgvector`, or Docker and 
 
 ```bash
 # Clone repository
-git clone https://github.com/Fasihullah/Netflix-global-streaming-analytics.git
+git clone https://github.com/satarabdus692-bot/Netflix-global-streaming-analytics.git
 cd Netflix-global-streaming-analytics
 
 # Option 1: Docker Compose Launch
