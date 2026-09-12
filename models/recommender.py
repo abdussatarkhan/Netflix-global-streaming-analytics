@@ -55,7 +55,17 @@ class HybridRecommender:
 
     @staticmethod
     def _jaccard_similarity(set_a: Set[str], set_b: Set[str]) -> float:
-        """Calculate Jaccard similarity coefficient between two sets."""
+        """
+        Calculate Jaccard similarity coefficient between two sets.
+        
+        Mathematical Formulation:
+            J(A, B) = |A ∩ B| / |A ∪ B|
+            
+        Where:
+            |A ∩ B|: Intersection cardinality (count of shared categorical tokens)
+            |A ∪ B|: Union cardinality (count of distinct categorical tokens across both)
+            Bounded in [0.0, 1.0], where 1.0 denotes identical categorical metadata.
+        """
         if not set_a or not set_b:
             return 0.0
         intersection = len(set_a & set_b)
@@ -64,7 +74,17 @@ class HybridRecommender:
 
     @staticmethod
     def _cosine_similarity(vec_a: np.ndarray, vec_b: np.ndarray) -> float:
-        """Calculate cosine similarity between two unit-normalized vectors."""
+        """
+        Calculate cosine similarity between two dense semantic embedding vectors.
+        
+        Mathematical Formulation:
+            cos(θ) = (A · B) / (||A||_2 * ||B||_2)
+            
+        Where:
+            (A · B): Inner dot product of 384-dimensional dense vectors
+            ||A||_2, ||B||_2: L2 Euclidean norms
+            Cosine distance metric for pgvector HNSW indexing: D_cos = 1 - cos(θ)
+        """
         norm_a = np.linalg.norm(vec_a)
         norm_b = np.linalg.norm(vec_b)
         if norm_a == 0 or norm_b == 0:
