@@ -4,15 +4,16 @@
 
 <p align="center">
   <a href="https://github.com/abdussatarkhan">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=E50914&center=true&vCenter=true&width=650&lines=AI+Engineer+%7C+Lead+Data+Analyst+%7C+Systems+Architect;50%2B+Production-Grade+Enterprise+Data+Systems;Machine+Learning+%7C+PostgreSQL+16+%7C+Power+BI+%7C+FastAPI;Committed+to+100%25+Daily+GitHub+Streak+%F0%9F%94%A5" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=E50914&center=true&vCenter=true&width=650&lines=AI+Engineer+%7C+Lead+Data+Analyst+%7C+Systems+Architect;60%2B+Production-Grade+Enterprise+Data+Systems;Machine+Learning+%7C+PostgreSQL+16+%7C+Power+BI+%7C+FastAPI;Committed+to+100%25+Daily+GitHub+Streak+%F0%9F%94%A5" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=abdussatarkhan&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/abdussatarkhan?label=Followers&logo=github&style=flat-square&color=24292e" alt="Followers" />
-  <img src="https://img.shields.io/badge/Daily%20Streak-Active%20%F0%9F%94%A5-brightgreen?style=flat-square&logo=github" alt="Streak Status" />
-  <img src="https://img.shields.io/badge/Public%20Repositories-50%2B%20Live-blue?style=flat-square&logo=github" alt="Public Repos" />
+  <img src="https://img.shields.io/badge/Daily%20Streak-Active%20%F0%9F%94%A5%20(Sep%2021)-brightgreen?style=flat-square&logo=github" alt="Streak Status" />
+
+  <img src="https://img.shields.io/badge/Public%20Repositories-60%2B%20Live-blue?style=flat-square&logo=github" alt="Public Repos" />
   <img src="https://img.shields.io/badge/Status-Available%20for%20Opportunities-brightgreen?style=flat-square" alt="Status" />
 </p>
 
@@ -46,16 +47,33 @@ Mindset: "Learn → Build → Break → Debug → Improve → Repeat."
 
 <br/><br/>
 
+<p align="center">
+  <a href="https://github.com/abdussatarkhan">
+    <img src="https://img.shields.io/badge/Total%20Contributions-460%2B%20Commits-brightgreen?style=for-the-badge&logo=git&logoColor=white" alt="Total Contributions" />
+  </a>
+  <a href="https://github.com/abdussatarkhan?tab=repositories">
+    <img src="https://img.shields.io/badge/Public%20Repositories-61%20Live-blue?style=for-the-badge&logo=github&logoColor=white" alt="Public Repositories" />
+  </a>
+  <a href="https://github.com/abdussatarkhan">
+    <img src="https://img.shields.io/badge/Production%20Releases-61%20v1.0.0-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="Production Releases" />
+  </a>
+  <a href="https://github.com/abdussatarkhan">
+    <img src="https://img.shields.io/badge/Automated%20CI%2FCD-100%25%20Passing-success?style=for-the-badge&logo=pytest&logoColor=white" alt="Test Suites" />
+  </a>
+</p>
+
+<br/>
+
 <a href="https://github.com/abdussatarkhan">
-  <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=abdussatarkhan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=abdussatarkhan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
+  <img src="./assets/github-stats.svg" alt="GitHub Stats" width="48%" />
+  <img src="./assets/top-langs.svg" alt="Top Languages" width="48%" />
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/abdussatarkhan">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=abdussatarkhan&theme=tokyonight" alt="Profile Summary" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=abdussatarkhan&theme=tokyonight" alt="Repos Per Language" width="48%" />
+  <img src="./assets/velocity-telemetry.svg" alt="Engineering Velocity Telemetry" width="48%" />
+  <img src="./assets/domain-distribution.svg" alt="Enterprise Domain Distribution" width="48%" />
 </a>
 
 </div>
@@ -89,6 +107,44 @@ Mindset: "Learn → Build → Break → Debug → Improve → Repeat."
 <a href="https://github.com/features/actions" target="_blank"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" /></a>
 
 </div>
+
+---
+
+## 🏛️ Enterprise Data & AI Systems Architecture
+
+```mermaid
+flowchart LR
+    subgraph S1 ["1. Ingestion & Telemetry"]
+        I1["📡 IoT Sensors & GPS"]
+        I2["💳 Financial Feeds & APIs"]
+        I3["🛰️ Satellite Spectral Imagery"]
+    end
+
+    subgraph S2 ["2. Lakehouse & Dimensional DW"]
+        D1[("PostgreSQL 16 Enterprise")]
+        D2[("pgvector HNSW 384d")]
+        D3["📐 Star & Snowflake Schemas"]
+    end
+
+    subgraph S3 ["3. Analytics & ML Engines"]
+        M1["⚡ Rolling Window Stats & Z-Scores"]
+        M2["🤖 Hybrid RecSys & Cosine Sim"]
+        M3["📈 Predictive Hazard & Risk ML"]
+    end
+
+    subgraph S4 ["4. Executive Delivery"]
+        E1["📊 Standalone HTML5 Dashboards"]
+        E2["📈 Power BI Executive BI"]
+        E3["✅ Automated Pytest CI/CD (100%)"]
+    end
+
+    S1 --> S2 --> S3 --> S4
+
+    style S1 fill:#131d31,stroke:#3b82f6,stroke-width:1.5px,color:#fff
+    style S2 fill:#0f2b24,stroke:#10b981,stroke-width:1.5px,color:#fff
+    style S3 fill:#271b38,stroke:#8b5cf6,stroke-width:1.5px,color:#fff
+    style S4 fill:#2d1e15,stroke:#f59e0b,stroke-width:1.5px,color:#fff
+```
 
 ---
 
@@ -154,6 +210,53 @@ Mindset: "Learn → Build → Break → Debug → Improve → Repeat."
 | 🛡️ **[CyberShield-Threat-Intelligence-SOC-Analytics](https://github.com/abdussatarkhan/CyberShield-Threat-Intelligence-SOC-Analytics)** | Enterprise Cybersecurity & SOC Operations | Mean Time to Detect (MTTD 8.4m), MTTR (18.2m), MITRE ATT&CK heatmaps, and false-positive suppression (94.2%). | 🌙 Cyber Crimson |
 | 👥 **[TalentFlow-Enterprise-HR-Workforce-Analytics](https://github.com/abdussatarkhan/TalentFlow-Enterprise-HR-Workforce-Analytics)** | Enterprise People Analytics & Attrition | Voluntary attrition flight risk models (6.8%), time-to-fill / cost-per-hire, and gender pay equity (99.4%). | ☀️ Lavender Light |
 | 📜 **[InsurEdge-Property-Casualty-Actuarial-Analytics](https://github.com/abdussatarkhan/InsurEdge-Property-Casualty-Actuarial-Analytics)** | P&C Insurance Actuarial Reserving | Chain-ladder loss reserving triangles, Combined Ratio (92.4% COR), CAT loss PML, and claims cycle time. | ☀️ Ocean Blue |
+
+---
+
+### 7️⃣ Specialized Senior Analytics Engagements (7-Day Deep-Dive Systems)
+| Project | Domain Focus | Key Architecture & Analytics | Theme |
+| :--- | :--- | :--- | :---: |
+| 🌾 **[AgriYield-Precision-Agriculture-Satellite-Analytics](https://github.com/abdussatarkhan/AgriYield-Precision-Agriculture-Satellite-Analytics)** | Precision Agriculture & Satellite Telemetry | Crop yield forecasting, NDVI/EVI spectral vegetation analytics, root-zone soil moisture, and drought risk. | 🌲 Verdant Emerald |
+| 🚨 **[OmniFraud-Synthetic-Identity-Detection-Analytics](https://github.com/abdussatarkhan/OmniFraud-Synthetic-Identity-Detection-Analytics)** | FinTech & Digital Banking Fraud Risk | Multi-channel synthetic identity fraud clustering, entity graph collision detection, and velocity triggers. | 🔴 Cyber Charcoal & Crimson |
+| ❄️ **[PharmaSupply-ColdChain-Thermal-Integrity-Analytics](https://github.com/abdussatarkhan/PharmaSupply-ColdChain-Thermal-Integrity-Analytics)** | Pharmaceutical Cold Chain & Biologics | Mean kinetic temperature (MKT) modeling, cold chain IoT telemetry, excursion risk, and carrier SLA compliance. | 🧊 Glacial Arctic Ice |
+| ⚓ **[PortLogix-Maritime-Container-Terminal-Congestion](https://github.com/abdussatarkhan/PortLogix-Maritime-Container-Terminal-Congestion)** | Maritime Container Port Operations | Container dwell time optimization, quay crane moves/hr (MPH), berth turnarounds, and demurrage forecasting. | 🌊 Deep Oceanic Navy |
+| 🏛️ **[GovSpend-Public-Procurement-Integrity-Analytics](https://github.com/abdussatarkhan/GovSpend-Public-Procurement-Integrity-Analytics)** | Public Sector Procurement & Governance | Single-bidder collusion flags, Benford's law price anomaly detection, and public contract budget burn-down. | ☀️ Executive Platinum Light |
+| ⚡ **[SportsEdge-Pro-Athlete-Biomechanics-Workload](https://github.com/abdussatarkhan/SportsEdge-Pro-Athlete-Biomechanics-Workload)** | Elite Pro Sports Biomechanics | Acute-to-chronic workload ratio (ACWR), GPS sprint metrics (>25 km/h), player load, and soft-tissue injury risk. | 🔋 Obsidian & Solar Lime |
+| 🌌 **[AeroSpace-Satellite-Constellation-Orbital-Debris-Risk](https://github.com/abdussatarkhan/AeroSpace-Satellite-Constellation-Orbital-Debris-Risk)** | LEO Satellite Constellations & Flight Dynamics | Conjunction data message (CDM) risk analytics, collision probability (Pc), and delta-V propellant budgeting. | 🪐 Cosmos Purple & Violet |
+| 💧 **[CleanH2O-Municipal-Water-Distribution-Telemetry](https://github.com/abdussatarkhan/CleanH2O-Municipal-Water-Distribution-Telemetry)** | Smart Water Utilities & Municipal Infrastructure | Acoustic hydrophone leak detection, hydraulic pressure transients, and non-revenue water (NRW) loss reduction. | 💎 Pure Cerulean Aqua |
+| 🥂 **[LuxuryBrand-Clientele-Retention-Omnichannel-LTV](https://github.com/abdussatarkhan/LuxuryBrand-Clientele-Retention-Omnichannel-LTV)** | Haute Couture & High-Net-Worth Clienteling | VIP salon appointment conversion, cross-category repurchase velocity, and multi-year customer lifetime value (CLV). | ✨ Espresso & Champagne Gold |
+| 🧠 **[NeuroPulse-Brain-Computer-Interface-EEG-Telemetry](https://github.com/abdussatarkhan/NeuroPulse-Brain-Computer-Interface-EEG-Telemetry)** | MedTech & Neurotechnology Telemetry | BCI electroencephalography (EEG) spectral band power (alpha/beta/gamma), cognitive fatigue, and event classification. | ⚡ Synthwave Plum & Cyan |
+
+---
+
+### 8️⃣ Software Engineering, Desktop Systems & Native Applications
+| Project | Architecture & Tech Stack | Scope & Core Capabilities | Platform |
+| :--- | :--- | :--- | :---: |
+| 🎙️ **[....._python-projects_.....](https://github.com/abdussatarkhan/....._python-projects_.....)** | Python, Web Speech API, Canvas HUD | JARVIS voice-activated personal assistant, speech synthesis, system automation, and futuristic HUD. | 🖥️ Desktop / Web |
+| 💼 **[dotnet-freelancer-finance-tracker](https://github.com/abdussatarkhan/dotnet-freelancer-finance-tracker)** | C# (.NET 8), MediatR CQRS, EF Core, PostgreSQL | Clean Architecture Web API, recurring freelance billing workers, multi-currency ledger, and Docker. | 🌐 Web API / Backend |
+| ⛽ **[petrol-pump-Farooq](https://github.com/abdussatarkhan/petrol-pump-Farooq)** | C# (.NET 8), WPF, MVVM, EF Core, PostgreSQL | Fuel dispenser ERP, nozzle meter reading reconciliation, underground tank ATG inventory, and shifts. | 🖥️ Windows Desktop |
+| 📹 **[media-grab](https://github.com/abdussatarkhan/media-grab)** | C# (.NET 8), Clean Architecture, ASP.NET Core | Multi-provider media stream extraction, SSRF security guard, background worker queue, and sanitization. | 🌐 Web Platform |
+| 🏫 **[school-desktop-app](https://github.com/abdussatarkhan/school-desktop-app)** | Electron 31, React 19 (Vite), Node.js, Express, SQLite (Prisma) | Enterprise School Management Suite (SMS) v9.56 — Realized cashflow accounting, automated result gazette PDF generator, master timetable manager, alumni matrix, and hardware license security. | 🖥️ Windows (.exe) / macOS (.dmg) |
+| 🛒 **[point-of-sale-](https://github.com/abdussatarkhan/point-of-sale-)** | Python Flask, MySQL, JavaScript, Bootstrap | Supermarket checkout POS, USB barcode scanning, split-tender payments, and thermal receipt generation. | 🖥️ Retail POS |
+| 📒 **[khatabook](https://github.com/abdussatarkhan/khatabook)** | Python Flask, SQLite, PWA Service Worker | Digital merchant Udhar ledger, customer debit/credit balance tracking, and automated payment reminders. | 📱 Mobile PWA |
+| 📱 **[student-toolkit](https://github.com/abdussatarkhan/student-toolkit)** | Kotlin, Jetpack Compose, Material 3, Room DB | Native Android academic organizer, weighted GPA/CGPA forecasting engine, and Pomodoro focus timer. | 📱 Android Native |
+| ⌨️ **[typing-master](https://github.com/abdussatarkhan/typing-master)** | Python 3.10+, Tkinter Desktop GUI | Touch typing tutor, real-time WPM calculation, keystroke latency profiling, and ergonomic keyboard visualizer. | 🖥️ Desktop GUI |
+| 📡 **[WIFI-Diagnostic-Tool](https://github.com/abdussatarkhan/WIFI-Diagnostic-Tool)** | Python Flask, Windows netsh, Chart.js | Wireless network diagnostic utility, 802.11 signal RSSI telemetry, channel congestion, and RF presence. | 🖥️ Systems Utility |
+| ☕ **[java-projects](https://github.com/abdussatarkhan/java-projects)** | Java 17+, Swing GUI, Apache Ant, Clean OOP | Modular retail shop inventory & cashier billing system with MVC pattern and low-stock alerting. | 🖥️ Desktop Software |
+
+---
+
+### 📅 Daily Engineering Activity & Commit Telemetry
+
+| Date | Portfolio Milestones & Architecture Updates | Streak Status |
+|:---:|---|:---:|
+| **2026-09-21** | Architected & released School Management System v9.56: Implemented realized cash-basis accounting matrix, class & whole-school result gazette PDF generation engine, master timetable signatory administration with revision history, alumni/departed matrix, and un-bypassable hardware license locking. | 🔥 Active (Verified) |
+| **2026-09-20** | Engineered Cash Flow Matrix with advance tuition and past arrears isolation; finalized v9.5 release pipeline. | 🔥 Active (Verified) |
+| **2026-09-18** | Automated multi-platform CI/CD packaging on GitHub Actions for Electron desktop distributions across Windows (.exe) and macOS (.dmg). | 🔥 Active (Verified) |
+| **2026-09-12** | Enriched algorithmic documentation, mathematical formulations, and statistical bounds across streaming intelligence, market manipulation surveillance, and energy forecasting architectures. | 🔥 Active (Verified) |
+| **2026-09-11** | Full portfolio documentation refactor across 11 desktop, .NET 8, Java OOP, and systems utilities repositories. | 🔥 Active (Verified) |
+| **2026-09-10** | Standardized PEP 517/621 pyproject.toml packaging and created official v1.0.0 semantic releases across all 61 portfolio systems. | 🔥 Active (Verified) |
+
 
 ---
 
